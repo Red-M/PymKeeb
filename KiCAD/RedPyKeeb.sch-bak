@@ -253,6 +253,4 @@ F 3 "~" H 2500 1850 50  0001 C CNN
 	1    2500 1850
 	0    -1   -1   0   
 $EndComp
-Text Notes 3850 1550 2    20   ~ 0
-This needs a footprint that will allow me to solder a small 4 pin connector to connect to the C3 daughterboard that will screw into the case.
 $EndSCHEMATC

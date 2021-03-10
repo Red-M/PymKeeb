@@ -10,3 +10,6 @@
 [submodule "KiCAD/Libraries/keyswitch-kicad-library"]
 	path = KiCAD/Libraries/keyswitch-kicad-library
 	url = git@github.com:perigoso/keyswitch-kicad-library.git
+[submodule "KiCAD/Libraries/RP_Silicon_KiCad"]
+	path = KiCAD/Libraries/RP_Silicon_KiCad
+	url = git@github.com:HeadBoffin/RP_Silicon_KiCad.git

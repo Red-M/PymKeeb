@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>S:\git\RedPyKeeb\KiCAD\RedPyKeeb.sch</source>
+    <date>08/03/2021 10:28:08 PM</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>RedPyKeeb.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/key_matrix/" tstamps="/604A5E2C/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>key_matrix.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D0,1">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/key_matrix/" tstamps="/604A5E2C/"/>
+      <tstamp>604BE051</tstamp>
+    </comp>
+    <comp ref="K0,1">
+      <value>KEYSW</value>
+      <footprint>Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/key_matrix/" tstamps="/604A5E2C/"/>
+      <tstamp>604BE057</tstamp>
+    </comp>
+    <comp ref="D0,2">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/key_matrix/" tstamps="/604A5E2C/"/>
+      <tstamp>604E0F33</tstamp>
+    </comp>
+    <comp ref="K0,2">
+      <value>KEYSW</value>
+      <footprint>Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/key_matrix/" tstamps="/604A5E2C/"/>
+      <tstamp>604E0F39</tstamp>
+    </comp>
+    <comp ref="D0,5">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/key_matrix/" tstamps="/604A5E2C/"/>
+      <tstamp>604F91ED</tstamp>
+    </comp>
+    <comp ref="K0,5">
+      <value>KEYSW</value>
+      <footprint>Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/key_matrix/" tstamps="/604A5E2C/"/>
+      <tstamp>604F91F3</tstamp>
+    </comp>
+    <comp ref="D0,4">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/key_matrix/" tstamps="/604A5E2C/"/>
+      <tstamp>604FA8C0</tstamp>
+    </comp>
+    <comp ref="K0,4">
+      <value>KEYSW</value>
+      <footprint>Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/key_matrix/" tstamps="/604A5E2C/"/>
+      <tstamp>604FA8C6</tstamp>
+    </comp>
+    <comp ref="D0,7">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/key_matrix/" tstamps="/604A5E2C/"/>
+      <tstamp>604FCC38</tstamp>
+    </comp>
+    <comp ref="K0,7">
+      <value>KEYSW</value>
+      <footprint>Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/key_matrix/" tstamps="/604A5E2C/"/>
+      <tstamp>604FCC3E</tstamp>
+    </comp>
+    <comp ref="D0,8">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/key_matrix/" tstamps="/604A5E2C/"/>
+      <tstamp>604FDC7B</tstamp>
+    </comp>
+    <comp ref="K0,8">
+      <value>KEYSW</value>
+      <footprint>Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/key_matrix/" tstamps="/604A5E2C/"/>
+      <tstamp>604FDC81</tstamp>
+    </comp>
+    <comp ref="D0,9">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/key_matrix/" tstamps="/604A5E2C/"/>
+      <tstamp>604FFA82</tstamp>
+    </comp>
+    <comp ref="K0,9">
+      <value>KEYSW</value>
+      <footprint>Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/key_matrix/" tstamps="/604A5E2C/"/>
+      <tstamp>604FFA88</tstamp>
+    </comp>
+    <comp ref="D0,6">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/key_matrix/" tstamps="/604A5E2C/"/>
+      <tstamp>60500BB1</tstamp>
+    </comp>
+    <comp ref="K0,6">
+      <value>KEYSW</value>
+      <footprint>Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/key_matrix/" tstamps="/604A5E2C/"/>
+      <tstamp>60500BB7</tstamp>
+    </comp>
+    <comp ref="D0,3">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/key_matrix/" tstamps="/604A5E2C/"/>
+      <tstamp>605024A2</tstamp>
+    </comp>
+    <comp ref="K0,3">
+      <value>KEYSW</value>
+      <footprint>Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/key_matrix/" tstamps="/604A5E2C/"/>
+      <tstamp>605024A8</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="keyboard_parts" part="D">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard_parts" part="KEYSW">
+      <fields>
+        <field name="Reference">K?</field>
+        <field name="Value">KEYSW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="keyboard_parts">
+      <uri>S:\git\RedPyKeeb\KiCAD/Libraries/kicad_lib_tmk/keyboard_parts.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="3" name="Net-(D0,3-Pad2)">
+      <node ref="D0,3" pin="2"/>
+      <node ref="K0,3" pin="2"/>
+    </net>
+    <net code="4" name="Net-(D0,5-Pad2)">
+      <node ref="K0,5" pin="2"/>
+      <node ref="D0,5" pin="2"/>
+    </net>
+    <net code="5" name="Net-(D0,2-Pad2)">
+      <node ref="D0,2" pin="2"/>
+      <node ref="K0,2" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D0,1-Pad1)">
+      <node ref="K0,2" pin="1"/>
+      <node ref="K0,4" pin="1"/>
+      <node ref="D0,4" pin="1"/>
+      <node ref="K0,5" pin="1"/>
+      <node ref="D0,5" pin="1"/>
+      <node ref="D0,8" pin="1"/>
+      <node ref="K0,8" pin="1"/>
+      <node ref="D0,9" pin="1"/>
+      <node ref="K0,9" pin="1"/>
+      <node ref="D0,6" pin="1"/>
+      <node ref="K0,6" pin="1"/>
+      <node ref="D0,1" pin="1"/>
+      <node ref="K0,1" pin="1"/>
+      <node ref="K0,7" pin="1"/>
+      <node ref="D0,7" pin="1"/>
+      <node ref="D0,2" pin="1"/>
+      <node ref="D0,3" pin="1"/>
+      <node ref="K0,3" pin="1"/>
+    </net>
+    <net code="7" name="Net-(D0,4-Pad2)">
+      <node ref="D0,4" pin="2"/>
+      <node ref="K0,4" pin="2"/>
+    </net>
+    <net code="8" name="Net-(D0,1-Pad2)">
+      <node ref="K0,1" pin="2"/>
+      <node ref="D0,1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(D0,6-Pad2)">
+      <node ref="D0,6" pin="2"/>
+      <node ref="K0,6" pin="2"/>
+    </net>
+    <net code="10" name="Net-(D0,9-Pad2)">
+      <node ref="K0,9" pin="2"/>
+      <node ref="D0,9" pin="2"/>
+    </net>
+    <net code="11" name="Net-(D0,8-Pad2)">
+      <node ref="D0,8" pin="2"/>
+      <node ref="K0,8" pin="2"/>
+    </net>
+    <net code="12" name="Net-(D0,7-Pad2)">
+      <node ref="K0,7" pin="2"/>
+      <node ref="D0,7" pin="2"/>
+    </net>
+  </nets>
+</export>
