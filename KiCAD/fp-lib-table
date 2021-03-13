@@ -9,4 +9,5 @@
   (lib (name Switch_Keyboard_Hybrid)(type KiCad)(uri ${KIPRJMOD}/Libraries/keyswitch-kicad-library/modules/Switch_Keyboard_Hybrid.pretty)(options "")(descr ""))
   (lib (name Switch_Keyboard_Kailh)(type KiCad)(uri ${KIPRJMOD}/Libraries/keyswitch-kicad-library/modules/Switch_Keyboard_Kailh.pretty)(options "")(descr ""))
   (lib (name MCU_RaspberryPi_and_Boards)(type KiCad)(uri ${KIPRJMOD}/Libraries/RP_Silicon_KiCad/KiCadLibraries/MCU_RaspberryPi_and_Boards.pretty)(options "")(descr ""))
+  (lib (name CrumpPrints)(type KiCad)(uri ${KIPRJMOD}/Libraries/CrumpPrints.pretty)(options "")(descr ""))
 )

@@ -2,4 +2,5 @@
   (lib (name keyboard_parts)(type Legacy)(uri ${KIPRJMOD}/Libraries/kicad_lib_tmk/keyboard_parts.lib)(options "")(descr ""))
   (lib (name mkl27z256vfm4)(type Legacy)(uri ${KIPRJMOD}/Libraries/kicad_lib_tmk/mkl27z256vfm4.lib)(options "")(descr ""))
   (lib (name MCU_RaspberryPi_and_Boards)(type Legacy)(uri ${KIPRJMOD}/Libraries/RP_Silicon_KiCad/KiCadLibraries/MCU_RaspberryPi_and_Boards.lib)(options "")(descr ""))
+  (lib (name crumpschemes)(type Legacy)(uri ${KIPRJMOD}/Libraries/CrumpSchemes/crumpschemes.lib)(options "")(descr ""))
 )

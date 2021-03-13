@@ -1,1849 +1,337 @@
-426384906972357
-MCU_RaspberryPi_and_Boards
-Crystal_SMD_HC49-US
-SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package
-SMD SMT crystal
-0
-2
-2
-MCU_RaspberryPi_and_Boards
-RP2040-QFN-56
-QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
-0
-70
-57
-MCU_RaspberryPi_and_Boards
-RPi_Pico_SMD_TH
-Through hole straight pin header, 2x20, 2.54mm pitch, double rows
-Through hole pin header THT 2x20 2.54mm double row
-0
-86
-43
-Mounting_Keyboard_Stabilizer
-Stabilizer_Cherry_MX_2u
-Cherry MX key stabilizer 2u 2.25u 2.5u 2.75u
-Cherry MX key stabilizer 2u 2.25u 2.5u 2.75u
-0
-0
-0
-Mounting_Keyboard_Stabilizer
-Stabilizer_Cherry_MX_3u
-Cherry MX key stabilizer 3u
-Cherry MX key stabilizer 3u
-0
-0
-0
-Mounting_Keyboard_Stabilizer
-Stabilizer_Cherry_MX_6.25u
-Cherry MX key stabilizer 6.25u
-Cherry MX key stabilizer 6.25u
-0
-0
-0
-Mounting_Keyboard_Stabilizer
-Stabilizer_Cherry_MX_6u
-Cherry MX key stabilizer 6u
-Cherry MX key stabilizer 6u
-0
-0
-0
-Mounting_Keyboard_Stabilizer
-Stabilizer_Cherry_MX_7u
-Cherry MX key stabilizer 7u
-Cherry MX key stabilizer 7u
-0
-0
-0
-Mounting_Keyboard_Stabilizer
-Stabilizer_Cherry_MX_8u
-Cherry MX key stabilizer 8u 9u 10u
-Cherry MX key stabilizer 8u 9u 10u
-0
-0
-0
-Switch_Keyboard_Alps_Matias
-SW_Alps_Matias
-Alps/Matias keyswitch (Matias is Alps Compatible), https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Alps Matias Keyboard Keyswitch Switch Plate
-0
-2
-2
-Switch_Keyboard_Alps_Matias
-SW_Alps_Matias_1.00u
-Alps/Matias keyswitch (Matias is Alps Compatible), https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Alps Matias Keyboard Keyswitch Switch Plate 1.00u
-0
-2
-2
-Switch_Keyboard_Alps_Matias
-SW_Alps_Matias_1.25u
-Alps/Matias keyswitch (Matias is Alps Compatible), https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Alps Matias Keyboard Keyswitch Switch Plate 1.25u
-0
-2
-2
-Switch_Keyboard_Alps_Matias
-SW_Alps_Matias_1.50u
-Alps/Matias keyswitch (Matias is Alps Compatible), https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Alps Matias Keyboard Keyswitch Switch Plate 1.50u
-0
-2
-2
-Switch_Keyboard_Alps_Matias
-SW_Alps_Matias_1.75u
-Alps/Matias keyswitch (Matias is Alps Compatible), https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Alps Matias Keyboard Keyswitch Switch Plate 1.75u
-0
-2
-2
-Switch_Keyboard_Alps_Matias
-SW_Alps_Matias_2.00u
-Alps/Matias keyswitch (Matias is Alps Compatible), https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Alps Matias Keyboard Keyswitch Switch Plate 2.00u
-0
-2
-2
-Switch_Keyboard_Alps_Matias
-SW_Alps_Matias_2.25u
-Alps/Matias keyswitch (Matias is Alps Compatible), https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Alps Matias Keyboard Keyswitch Switch Plate 2.25u
-0
-2
-2
-Switch_Keyboard_Alps_Matias
-SW_Alps_Matias_2.50u
-Alps/Matias keyswitch (Matias is Alps Compatible), https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Alps Matias Keyboard Keyswitch Switch Plate 2.50u
-0
-2
-2
-Switch_Keyboard_Alps_Matias
-SW_Alps_Matias_2.75u
-Alps/Matias keyswitch (Matias is Alps Compatible), https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Alps Matias Keyboard Keyswitch Switch Plate 2.75u
-0
-2
-2
-Switch_Keyboard_Alps_Matias
-SW_Alps_Matias_3.00u
-Alps/Matias keyswitch (Matias is Alps Compatible), https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Alps Matias Keyboard Keyswitch Switch Plate 3.00u
-0
-2
-2
-Switch_Keyboard_Alps_Matias
-SW_Alps_Matias_4.00u
-Alps/Matias keyswitch (Matias is Alps Compatible), https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Alps Matias Keyboard Keyswitch Switch Plate 4.00u
-0
-2
-2
-Switch_Keyboard_Alps_Matias
-SW_Alps_Matias_4.50u
-Alps/Matias keyswitch (Matias is Alps Compatible), https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Alps Matias Keyboard Keyswitch Switch Plate 4.50u
-0
-2
-2
-Switch_Keyboard_Alps_Matias
-SW_Alps_Matias_5.50u
-Alps/Matias keyswitch (Matias is Alps Compatible), https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Alps Matias Keyboard Keyswitch Switch Plate 5.50u
-0
-2
-2
-Switch_Keyboard_Alps_Matias
-SW_Alps_Matias_6.00u
-Alps/Matias keyswitch (Matias is Alps Compatible), https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Alps Matias Keyboard Keyswitch Switch Plate 6.00u
-0
-2
-2
-Switch_Keyboard_Alps_Matias
-SW_Alps_Matias_6.25u
-Alps/Matias keyswitch (Matias is Alps Compatible), https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Alps Matias Keyboard Keyswitch Switch Plate 6.25u
-0
-2
-2
-Switch_Keyboard_Alps_Matias
-SW_Alps_Matias_6.50u
-Alps/Matias keyswitch (Matias is Alps Compatible), https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Alps Matias Keyboard Keyswitch Switch Plate 6.50u
-0
-2
-2
-Switch_Keyboard_Alps_Matias
-SW_Alps_Matias_7.00u
-Alps/Matias keyswitch (Matias is Alps Compatible), https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Alps Matias Keyboard Keyswitch Switch Plate 7.00u
-0
-2
-2
-Switch_Keyboard_Alps_Matias
-SW_Alps_Matias_ISOEnter
-Alps/Matias keyswitch (Matias is Alps Compatible), https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Alps Matias Keyboard Keyswitch Switch Plate ISOEnter
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_1.00u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB 1.00u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_1.25u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB 1.25u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_1.25u_Rotated
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB 1.25u Rotated
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_1.50u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB 1.50u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_1.50u_Rotated
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB 1.50u Rotated
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_1.75u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB 1.75u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_1.75u_Rotated
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB 1.75u Rotated
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_2.00u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB 2.00u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_2.00u_Rotated
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB 2.00u Rotated
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_2.25u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB 2.25u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_2.25u_Rotated
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB 2.25u Rotated
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_2.50u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB 2.50u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_2.50u_Rotated
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB 2.50u Rotated
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_2.75u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB 2.75u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_2.75u_Rotated
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB 2.75u Rotated
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_3.00u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB 3.00u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_3.00u_Rotated
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB 3.00u Rotated
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_4.00u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB 4.00u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_4.50u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB 4.50u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_5.50u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB 5.50u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_6.00u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB 6.00u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_6.00u_Offset
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB 6.00u Offset
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_6.25u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB 6.25u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_6.50u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB 6.50u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_7.00u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB 7.00u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_ISOEnter
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB ISOEnter
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_ISOEnter_Rotated90
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB ISOEnter
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_ISOEnter_Rotated180
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB ISOEnter
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_PCB_ISOEnter_Rotated270
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch PCB ISOEnter
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_1.00u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate 1.00u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_1.25u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate 1.25u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_1.25u_Rotated
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate 1.25u Rotated
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_1.50u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate 1.50u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_1.50u_Rotated
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate 1.50u Rotated
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_1.75u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate 1.75u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_1.75u_Rotated
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate 1.75u Rotated
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_2.00u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate 2.00u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_2.00u_Rotated
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate 2.00u Rotated
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_2.25u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate 2.25u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_2.25u_Rotated
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate 2.25u Rotated
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_2.50u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate 2.50u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_2.50u_Rotated
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate 2.50u Rotated
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_2.75u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate 2.75u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_2.75u_Rotated
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate 2.75u Rotated
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_3.00u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate 3.00u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_3.00u_Rotated
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate 3.00u Rotated
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_4.00u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate 4.00u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_4.50u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate 4.50u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_5.50u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate 5.50u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_6.00u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate 6.00u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_6.00u_Offset
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate 6.00u Offset
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_6.25u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate 6.25u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_6.50u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate 6.50u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_7.00u
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate 7.00u
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_ISOEnter
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate ISOEnter
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_ISOEnter_Rotated90
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate ISOEnter
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_ISOEnter_Rotated180
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate ISOEnter
-0
-2
-2
-Switch_Keyboard_Cherry_MX
-SW_Cherry_MX_Plate_ISOEnter_Rotated270
-Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
-Cherry MX Keyboard Keyswitch Switch Plate ISOEnter
-0
-2
-2
-Switch_Keyboard_Hybrid
-SW_Hybrid_Cherry_MX_Alps
-Cherry MX / Alps keyswitch hybrid, https://www.cherrymx.de/en/dev.html, https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Cherry MX Alps Matias Hybrid Keyboard Keyswitch Switch PCB
+77549530920574
+CrumpPrints
+1W_RGB_LED_6PIN
+
+
+0
+7
+7
+CrumpPrints
+3x6x3.5mm_side_pushbutton_smd
+
+
+0
+2
+2
+CrumpPrints
+5V_buzzer
+
+5V Piezo Passive Buzzer
+0
+2
+2
+CrumpPrints
+6x6mm_pushbutton
+
+
+0
+4
+2
+CrumpPrints
+6x6mm_pushbutton_smd
+Based on TE Connectivity 2-1437565-8
+
+0
+4
+2
+CrumpPrints
+16_snap
+
+
+0
+1
+1
+CrumpPrints
+18650_Holder
+
+
+0
+2
+2
+CrumpPrints
+0480372200_Molex_USB_A_Plug_SMT
+
+USB
+0
+6
+5
+CrumpPrints
+APA102
+
+
+0
+6
+6
+CrumpPrints
+APA102_hand_solder
+
+
+0
+6
+6
+CrumpPrints
+Arduino_Pro_Mini
+
+
+0
+28
+28
+CrumpPrints
+BatteryHolder_Keystone_2460_1xAA
+1xAAA Battery Holder, Keystone, Plastic Case, http://www.keyelco.com/product-pdf.cfm?p=1031
+AAA battery holder Keystone
+0
+2
+2
+CrumpPrints
+CR2032_HOLDER
+http://www.mouser.com/ds/2/238/bat-hld-001-220194.pdf
+Linx Battery Holder 2032 bat-hld-001
 0
 3
 2
-Switch_Keyboard_Hybrid
-SW_Hybrid_Cherry_MX_Alps_1.00u
-Cherry MX / Alps keyswitch hybrid, https://www.cherrymx.de/en/dev.html, https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Cherry MX Alps Matias Hybrid Keyboard Keyswitch Switch PCB 1.00u
-0
-3
-2
-Switch_Keyboard_Hybrid
-SW_Hybrid_Cherry_MX_Alps_1.25u
-Cherry MX / Alps keyswitch hybrid, https://www.cherrymx.de/en/dev.html, https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Cherry MX Alps Matias Hybrid Keyboard Keyswitch Switch PCB 1.25u
-0
-3
-2
-Switch_Keyboard_Hybrid
-SW_Hybrid_Cherry_MX_Alps_1.50u
-Cherry MX / Alps keyswitch hybrid, https://www.cherrymx.de/en/dev.html, https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Cherry MX Alps Matias Hybrid Keyboard Keyswitch Switch PCB 1.50u
-0
-3
-2
-Switch_Keyboard_Hybrid
-SW_Hybrid_Cherry_MX_Alps_1.75u
-Cherry MX / Alps keyswitch hybrid, https://www.cherrymx.de/en/dev.html, https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Cherry MX Alps Matias Hybrid Keyboard Keyswitch Switch PCB 1.75u
-0
-3
-2
-Switch_Keyboard_Hybrid
-SW_Hybrid_Cherry_MX_Alps_2.00u
-Cherry MX / Alps keyswitch hybrid, https://www.cherrymx.de/en/dev.html, https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Cherry MX Alps Matias Hybrid Keyboard Keyswitch Switch PCB 2.00u
-0
-3
-2
-Switch_Keyboard_Hybrid
-SW_Hybrid_Cherry_MX_Alps_2.25u
-Cherry MX / Alps keyswitch hybrid, https://www.cherrymx.de/en/dev.html, https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Cherry MX Alps Matias Hybrid Keyboard Keyswitch Switch PCB 2.25u
-0
-3
-2
-Switch_Keyboard_Hybrid
-SW_Hybrid_Cherry_MX_Alps_2.50u
-Cherry MX / Alps keyswitch hybrid, https://www.cherrymx.de/en/dev.html, https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Cherry MX Alps Matias Hybrid Keyboard Keyswitch Switch PCB 2.50u
-0
-3
-2
-Switch_Keyboard_Hybrid
-SW_Hybrid_Cherry_MX_Alps_2.75u
-Cherry MX / Alps keyswitch hybrid, https://www.cherrymx.de/en/dev.html, https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Cherry MX Alps Matias Hybrid Keyboard Keyswitch Switch PCB 2.75u
-0
-3
-2
-Switch_Keyboard_Hybrid
-SW_Hybrid_Cherry_MX_Alps_3.00u
-Cherry MX / Alps keyswitch hybrid, https://www.cherrymx.de/en/dev.html, https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Cherry MX Alps Matias Hybrid Keyboard Keyswitch Switch PCB 3.00u
-0
-3
-2
-Switch_Keyboard_Hybrid
-SW_Hybrid_Cherry_MX_Alps_4.00u
-Cherry MX / Alps keyswitch hybrid, https://www.cherrymx.de/en/dev.html, https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Cherry MX Alps Matias Hybrid Keyboard Keyswitch Switch PCB 4.00u
-0
-3
-2
-Switch_Keyboard_Hybrid
-SW_Hybrid_Cherry_MX_Alps_4.50u
-Cherry MX / Alps keyswitch hybrid, https://www.cherrymx.de/en/dev.html, https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Cherry MX Alps Matias Hybrid Keyboard Keyswitch Switch PCB 4.50u
-0
-3
-2
-Switch_Keyboard_Hybrid
-SW_Hybrid_Cherry_MX_Alps_5.50u
-Cherry MX / Alps keyswitch hybrid, https://www.cherrymx.de/en/dev.html, https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Cherry MX Alps Matias Hybrid Keyboard Keyswitch Switch PCB 5.50u
-0
-3
-2
-Switch_Keyboard_Hybrid
-SW_Hybrid_Cherry_MX_Alps_6.00u
-Cherry MX / Alps keyswitch hybrid, https://www.cherrymx.de/en/dev.html, https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Cherry MX Alps Matias Hybrid Keyboard Keyswitch Switch PCB 6.00u
-0
-3
-2
-Switch_Keyboard_Hybrid
-SW_Hybrid_Cherry_MX_Alps_6.25u
-Cherry MX / Alps keyswitch hybrid, https://www.cherrymx.de/en/dev.html, https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Cherry MX Alps Matias Hybrid Keyboard Keyswitch Switch PCB 6.25u
-0
-3
-2
-Switch_Keyboard_Hybrid
-SW_Hybrid_Cherry_MX_Alps_6.50u
-Cherry MX / Alps keyswitch hybrid, https://www.cherrymx.de/en/dev.html, https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Cherry MX Alps Matias Hybrid Keyboard Keyswitch Switch PCB 6.50u
-0
-3
-2
-Switch_Keyboard_Hybrid
-SW_Hybrid_Cherry_MX_Alps_7.00u
-Cherry MX / Alps keyswitch hybrid, https://www.cherrymx.de/en/dev.html, https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Cherry MX Alps Matias Hybrid Keyboard Keyswitch Switch PCB 7.00u
-0
-3
-2
-Switch_Keyboard_Hybrid
-SW_Hybrid_Cherry_MX_Alps_ISOEnter
-Cherry MX / Alps keyswitch hybrid, https://www.cherrymx.de/en/dev.html, https://github.com/keyboardio/keyswitch_documentation/blob/master/datasheets/ALPS/SKCL.pdf
-Cherry MX Alps Matias Hybrid Keyboard Keyswitch Switch PCB ISOEnter
-0
-3
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_1.00u
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_1.25u
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket 1.25u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_1.25u_Rotated
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket 1.25u Rotated
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_1.50u
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket 1.50u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_1.50u_Rotated
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket 1.50u Rotated
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_1.75u
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket 1.75u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_1.75u_Rotated
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket 1.75u Rotated
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_2.00u
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket 2.00u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_2.00u_Rotated
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket 2.00u Rotated
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_2.25u
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket 2.25u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_2.25u_Rotated
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket 2.25u Rotated
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_2.50u
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket 2.50u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_2.50u_Rotated
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket 2.50u Rotated
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_2.75u
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket 2.75u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_2.75u_Rotated
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket 2.75u Rotated
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_3.00u
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket 3.00u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_3.00u_Rotated
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket 3.00u Rotated
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_4.00u
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket 4.00u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_4.50u
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket 4.50u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_5.50u
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket 5.50u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_6.00u
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket 6.00u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_6.00u_Offset
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket 6.00u Offset
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_6.25u
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket 6.25u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_6.50u
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket 6.50u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_7.00u
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket 7.00u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_ISOEnter
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket ISOEnter
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_ISOEnter_Rotated90
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket ISOEnter
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_ISOEnter_Rotated180
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket ISOEnter
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Hotswap_Kailh_ISOEnter_Rotated270
-Kailh keyswitch Hotswap Socket, 
-Kailh Keyboard Keyswitch Switch Hotswap Socket ISOEnter
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_1.00u
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch 1.00u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_1.25u
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch 1.25u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_1.25u_Rotated
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch 1.25u Rotated
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_1.50u
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch 1.50u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_1.50u_Rotated
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch 1.50u Rotated
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_1.75u
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch 1.75u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_1.75u_Rotated
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch 1.75u Rotated
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_2.00u
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch 2.00u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_2.00u_Rotated
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch 2.00u Rotated
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_2.25u
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch 2.25u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_2.25u_Rotated
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch 2.25u Rotated
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_2.50u
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch 2.50u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_2.50u_Rotated
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch 2.50u Rotated
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_2.75u
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch 2.75u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_2.75u_Rotated
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch 2.75u Rotated
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_3.00u
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch 3.00u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_3.00u_Rotated
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch 3.00u Rotated
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_4.00u
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch 4.00u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_4.50u
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch 4.50u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_5.50u
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch 5.50u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_6.00u
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch 6.00u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_6.00u_Offset
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch 6.00u Offset
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_6.25u
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch 6.25u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_6.50u
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch 6.50u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_7.00u
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch 7.00u
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_ISOEnter
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch ISOEnter
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_ISOEnter_Rotated90
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch ISOEnter
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_ISOEnter_Rotated180
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch ISOEnter
-0
-2
-2
-Switch_Keyboard_Kailh
-SW_Kailh_Choc_V1_ISOEnter_Rotated270
-Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
-Kailh Choc V1 Keyswitch Switch ISOEnter
-0
-2
-2
-keebs
-Mx_Alps_100
-MXALPS
-MXALPS
-0
-2
-2
-keebs
-Mx_Alps_125
-MXALPS
-MXALPS
-0
-2
-2
-keebs
-Mx_Alps_150
-MXALPS
-MXALPS
-0
-2
-2
-keebs
-Mx_Alps_175
-MXALPS
-MXALPS
-0
-2
-2
-keebs
-Mx_Alps_200
-MXALPS
-MXALPS
-0
-2
-2
-keebs
-Mx_Alps_225
-MXALPS
-MXALPS
-0
-2
-2
-keebs
-Mx_Alps_275
-MXALPS
-MXALPS
-0
-2
-2
-keebs
-Mx_Alps_625
-MXALPS
-MXALPS
-0
-2
-2
-keebs
-Pro_Micro
+CrumpPrints
+D1_mini
+
+
+0
+16
+16
+CrumpPrints
+FB-45-4
+
+
+0
+0
+0
+CrumpPrints
+Header_1x12_100
+
+
+0
+12
+12
+CrumpPrints
+Inductor_Bourns-SRN6045
+Bourns SRN6045 series SMD inductor
+Bourns SRN6045 SMD inductor
+0
+2
+2
+CrumpPrints
+L_Cheng_7x7mm
+Choke, SMD, 7.3x7.3mm 3.5mm height
+Choke SMD
+0
+2
+2
+CrumpPrints
+L_Cheng_13x13mm
+Choke, SMD, 7.3x7.3mm 3.5mm height
+Choke SMD
+0
+2
+2
+CrumpPrints
+MPCIe_full_card
+
+
+0
+60
+52
+CrumpPrints
+MPCIe_half_card
+
+
+0
+56
+52
+CrumpPrints
+MPCIe_socket
+
+mpci, pci, pci express
+0
+60
+52
+CrumpPrints
+QFN_44
+
+QFN44
+0
+44
+44
+CrumpPrints
+QRE1113
+
+
+0
+4
+4
+CrumpPrints
+QRE1113GR
+
+
+0
+4
+4
+CrumpPrints
+RF200
 
 
 0
 24
 24
-keebs
-Teensy_20
+CrumpPrints
+RF200_nosilk
 
 
 0
-31
-31
-keyboard_parts
-4P4C
-http://www.assmann.us/specs/A-2004-3-4-LP-N-R_REV00.pdf
-4P4C, RJ
+24
+24
+CrumpPrints
+Raspberry_Pi_Zero
+Raspberry Pi Zero Hat Template
+rpi Raspberry Pi hat zero
 0
-6
-6
-keyboard_parts
-ALPS_PLATE_SPRING
-http://deskthority.net/wiki/File:Alps_Electric_--_spec_--_5454_31.pdf
-ALPS, keyboard switch, SKCM, SKCL
-0
-4
-3
-keyboard_parts
-ALPS_PLATE_SPRING_CUTOUT
-
-
-0
-0
-0
-keyboard_parts
-ALPS_SKCM
-http://deskthority.net/wiki/File:Alps_Electric_--_spec_--_5454_31.pdf
-ALPS, keyboard switch, SKCM, SKCL
-0
-2
-2
-keyboard_parts
-ALPS_SKCM_CUTOUT
-
-
-0
-0
-0
-keyboard_parts
-ALPS_SKCM_CUTOUT_STAB256
-
-
-0
-0
-0
-keyboard_parts
-ALPS_SKCM_CUTOUT_STAB406
-
-
-0
-0
-0
-keyboard_parts
-ALPS_SKCM_CUTOUT_STAB883
-
-
-0
-0
-0
-keyboard_parts
-ALPS_SKCM_LED
-http://deskthority.net/wiki/File:Alps_Electric_--_spec_--_5454_31.pdf
-ALPS, keyboard switch, SKCM, SKCL
-0
-4
-4
-keyboard_parts
-ALPS_SKCM_reverse_pad
-http://deskthority.net/wiki/File:Alps_Electric_--_spec_--_5454_31.pdf
-ALPS, keyboard switch, SKCM, SKCL
-0
-2
-2
-keyboard_parts
-AVR_ICSP_3x2
-Double rangee de contacts 2 x 4 pins
-CONN
-0
-6
-6
-keyboard_parts
-C_1608
-SMT, 1608, 0603
-SMT, 1608, 0603
-0
-2
-2
-keyboard_parts
-C_1608_rev2
-SMT, 1608, 0603
-SMT, 1608, 0603
-0
-2
-2
-keyboard_parts
-C_3216
-SMD, 3216, 1210, C
-SMD, 3216, 1210, C
-0
-2
-2
-keyboard_parts
-C_3216_rev2
-SMD, 3216, 1210, C
-SMD, 3216, 1210, C
-0
-2
-2
-keyboard_parts
-C_3225
-SMD, 3216, 1210, C
-SMD, 3216, 1210, C
-0
-2
-2
-keyboard_parts
-C_3528
-SMD, 3216, 1210, C
-SMD, 3216, 1210, C
-0
-2
-2
-keyboard_parts
-C_3528_pol
-SMD, 3216, 1210, C
-SMD, 3216, 1210, C
-0
-2
-2
-keyboard_parts
-C_6032
-SMD, 3216, 1210, C
-SMD, 3216, 1210, C
-0
-2
-2
-keyboard_parts
-DSUB9P
-
-
-0
-11
-10
-keyboard_parts
-D_SC79
-SMT, 1608, 0603
-SMT, 1608, 0603
-0
-2
-2
-keyboard_parts
-D_SOD123
-
-
-0
-2
-2
-keyboard_parts
-D_SOD123W_hand
-
-
-0
-2
-2
-keyboard_parts
-D_SOD123_axial
-
-
-0
-6
-2
-keyboard_parts
-D_SOD123_hand
-
-
-0
-2
-2
-keyboard_parts
-D_axial
-
-
-0
-2
-2
-keyboard_parts
-FA-238
-
-
-0
-4
-3
-keyboard_parts
-HC-49_SMT
-
-
-0
-2
-2
-keyboard_parts
-HHKB_JP_HRS_DF14_15P
-http://www.mouser.com/ds/2/185/e53800017-12550.pdf
-HHKB JP, HRS, Hirose, DF14, 15P
-0
-17
-17
-keyboard_parts
-HHKB_PRO2_ZH13
-http://www.jst-mfg.com/product/pdf/eng/eZH.pdf
-HHKB pro2, JST, ZH
-0
-15
-15
-keyboard_parts
-HHKB_PRO2_ZH13_TH
-http://www.jst-mfg.com/product/pdf/eng/eZH.pdf
-JST ZH 13 HHKB pro2
-0
-13
-13
-keyboard_parts
-HHKB_PRO_PH15
-http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-JST PH 15 HHKB PRO
-0
-15
-15
-keyboard_parts
-HOLE_M2.6
-
-
-0
-1
-1
-keyboard_parts
-HOLE_M3
-
-
-0
-1
-1
-keyboard_parts
-HRS_DF14_20P
-http://www.mouser.com/ds/2/185/e53800017-12550.pdf
-HHKB JP, HRS, Hirose, DF14, 15P
-0
-22
-22
-keyboard_parts
-JST_PH2_SMT
-http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-JST, PH, Lipo, battery
-0
-4
-3
-keyboard_parts
-JST_PH2_SMT_TH
-http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-JST, PH, Lipo, battery
-0
-6
-3
-keyboard_parts
-JST_PH2_TH
-
-JST, PH2, Lipo
-0
-2
-2
-keyboard_parts
-LED_0805
-LED 0805 smd package
-LED 0805 SMD
-0
-2
-2
-keyboard_parts
-LED_2012_HSOL
-LED 0805 smd package
-LED 0805 SMD
-0
-2
-2
-keyboard_parts
-LED_3020_REFLOW
-LED 0805 smd package
-LED 0805 SMD
-0
-2
-2
-keyboard_parts
-LED_3025_DUAL
-
-
-0
-4
-4
-keyboard_parts
-LED_TH
-LED 3mm - Lead pitch 100mil (2,54mm)
-LED led 3mm 3MM 100mil 2,54mm
-0
-2
-2
-keyboard_parts
-LED_TH_BIVAR
-LED 3mm - Lead pitch 100mil (2,54mm)
-LED led 3mm 3MM 100mil 2,54mm
-0
-2
-2
-keyboard_parts
-LTC4054
-
-Lipo charger
-0
-5
-5
-keyboard_parts
-L_6x6MM
-
-
-0
-2
-2
-keyboard_parts
-L_7x7MM
-
-
-0
-2
-2
-keyboard_parts
-MINI_DIN_8
-
-
-0
-11
-9
-keyboard_parts
-MOS_FET_SOT23-3_HSOL
-SOT23
-
-0
-3
-3
-keyboard_parts
-PIN_1
-
-CONN pin 1 circle
-0
-1
-1
-keyboard_parts
-PIN_1_SQUARE
-
-CONN pin 1 square
-0
-1
-1
-keyboard_parts
-PPTC_nano
-
-
-0
-2
-2
-keyboard_parts
-PTC_3225
-
-
-0
-2
-2
-keyboard_parts
-Poker_oval_hole
-
-
-0
-1
-0
-keyboard_parts
-Poker_side_edge_long
-
-
-0
-1
-0
-keyboard_parts
-QFP32
-
-
-0
-32
-32
-keyboard_parts
-QFP32_reflow
-http://www.atmel.com/images/atmel-8826-seeprom-pcb-mounting-guidelines-surface-mount-packages-applicationnote.pdf
-
-0
-32
-32
-keyboard_parts
-QFP44
-
-
-0
-44
-44
-keyboard_parts
-QFP44_reflow
-http://www.atmel.com/images/atmel-8826-seeprom-pcb-mounting-guidelines-surface-mount-packages-applicationnote.pdf
-
-0
-44
-44
-keyboard_parts
-RN42
-
-
-0
-32
-32
-keyboard_parts
-R_1608
-SMT, 1608, 0603
-SMT, 1608, 0603
-0
-2
-2
-keyboard_parts
-R_1608_NOGUIDE
-SMT, 1608, 0603
-SMT, 1608, 0603
-0
-2
-2
-keyboard_parts
-R_1608_rev2
-SMT, 1608, 0603
-SMT, 1608, 0603
-0
-2
-2
-keyboard_parts
-R_2012
-SMT, 1608, 0603
-SMT, 1608, 0603
-0
-2
-2
-keyboard_parts
-SLP3-200-100-F
-
-
-0
-0
-0
-keyboard_parts
-SM_3216_POL
-
-
-0
-2
-2
-keyboard_parts
-SOLDER_JUMPER_2
-
-solder jumper bridge configuration
-0
-2
-2
-keyboard_parts
-SOLDER_JUMPER_2_WIRED
-
-solder jumper bridge configuration
-0
-3
-1
-keyboard_parts
-SOLDER_JUMPER_3
-
-solder jumper bridge configuration
-0
-3
-3
-keyboard_parts
-SOT23-3_HSOL
-SOT23
-
-0
-3
-3
-keyboard_parts
-SOT23-5_HSOL
-SOT23
-
-0
-5
-5
-keyboard_parts
-SOT23-6_HSOL
-SOT23
-
-0
-6
-6
-keyboard_parts
-SW_ALPS_SKRP
-
-
-0
-4
-2
-keyboard_parts
-SW_ALPS_SKSG
-
-
-0
-6
-4
-keyboard_parts
-SW_ALPS_SSAA
-
-
-0
-8
-8
-keyboard_parts
-SW_MINI_SLIDE
-
-
-0
-6
-6
-keyboard_parts
-SW_TACT_TH_HORIZ
-http://www.alps.com/products/WebObjects/catalog.woa/E/HTML/Tact/SnapIn/SKHH/SKHHLMA010.html
-ALPS SKHH tactile switch
-0
-4
-4
-keyboard_parts
-SW_TACT_TH_HORIZ_LOW
-http://www.alps.com/products/WebObjects/catalog.woa/E/HTML/Tact/SnapIn/SKHL/SKHLLAA010.html
-ALPS SKHLL low tactile switch
-0
-4
-4
-keyboard_parts
-USB_A
-
-
-0
-6
-5
-keyboard_parts
-USB_A_PLUG
-
+40
+40
+CrumpPrints
+SK22D07_DPDT_slide_switch
 
+switch slide toggle SK22D07 dpdt spdt
 0
 8
 6
-keyboard_parts
-USB_microB
-USB microB hirose ZX62R-B-5P
-USB micorB hirose
+CrumpPrints
+SM200
+
+
 0
+64
+64
+CrumpPrints
+SM200_nosilk
+
+
+0
+64
+64
+CrumpPrints
+SMLP34RGB
+
+LED, RGB, SMLP34RGB
+0
+4
+4
+CrumpPrints
+SPDT_slide_switch
+http://www.alps.com/prod/info/E/HTML/Switch/Slide/SSSS8/SSSS810701.html
+SPDT, slide, switch, alps, ssss810701
+0
+3
+3
+CrumpPrints
+SnapStack
+
+
+0
+32
+32
+CrumpPrints
+Switch_APEM_ADTSM3_3.5x6mm
+https://www.mouser.com/datasheet/2/26/ADTS3-369939-1158421.pdf
+pushbutton tact tactile switch
+0
+2
+2
+CrumpPrints
+TC200
+
+
+0
+24
+24
+CrumpPrints
+TC200_nosilk
+
+
+0
+24
+24
+CrumpPrints
+TC2030-MCP
+
+tag-connect, tagconnect, icsp
+0
+6
+6
+CrumpPrints
+TerminalBlock_bornier-12_P5.08mm
+simple 12-pin terminal block, pitch 5.08mm, revamped version of bornier2
+terminal block bornier2
+0
+12
+12
+CrumpPrints
+Texas_VSON-10_3.0x3.0mm_P0.5mm_DRC
+
+
+0
+25
 11
-6
-keyboard_parts
-USB_miniB
-http://www.hirose.co.jp/cataloge_hp/e24000019.pdf
-USB miniB hirose
+CrumpPrints
+Tiny_RTC_DS1307
+
+
+0
+12
+12
+CrumpPrints
+UCSP-9p-0.4mm
+
+UCSP, Maxim
 0
 9
 9
-keyboard_parts
-USB_miniB_hirose_5S8
-USB miniB hirose UX60SC-MB-5S8
-USB miniB hirose through hole UX60SC-MB-5S8
+CrumpPrints
+USB_Board_Edge
+
+
 0
-9
-6
-keyboard_parts
-USB_miniB_hirose_5ST
-USB miniB hirose UX60SC_MB_5ST
-USB miniB hirose new
+4
+4
+CrumpPrints
+USB_C_Receptacle_SMD_THT
+
+USB, type-c, c
+0
+28
+25
+CrumpPrints
+WS2812-2020
+
+
+0
+4
+4
+CrumpPrints
+WS2812B
+
+LED, Neopixel, RGB, WS2811, WS2812
+0
+4
+4
+CrumpPrints
+WS2812B_smallsilk
+
+LED, Neopixel, RGB, WS2811, WS2812
+0
+4
+4
+CrumpPrints
+WSON-6p-2x2mm
+
+WSON
 0
 7
-6
-keyboard_parts
-USB_miniB_hirose_5ST_hand
-USB miniB hirose UX60SC_MB_5ST
-USB miniB hirose new
-0
 7
-6
-keyboard_parts
-WT12_bluegiga
-
-BlueGiga, WT12, Bluetooth
-0
-31
-31
-keyboard_parts
-XTAL_HC_49_TH
-
-
-0
-2
-2
-keyboard_parts
-tmk2016
-
-
-0
-0
-0
-keyboard_parts
-tmk_logo
-
-
-0
-0
-0
