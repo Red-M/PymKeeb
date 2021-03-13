@@ -1,4 +1,4 @@
-# RedPyKeeb
+# RedPycoKeeb
 ## What is this?
 I'm getting fed up with the options for keyboards and there isn't anything that I want 100%, everything is a compromise between form factor, customizability and availability.
 So I'm making my own keyboard.

@@ -22,7 +22,7 @@ $EndSheet
 Text Notes 1950 1050 2    59   ~ 0
 Use I2C for interboard comms.\nSDA0 on GPIO0\nSCL0 on GPIO1
 Text Notes 2350 800  0    59   ~ 0
-TODO: Power bus needs to be sorted, see Unified-Daughterboard?\n
+TODO: Power bus needs to be sorted, see Unified-Daughterboard?\nLED row 7 is for status indicators
 Text Notes 10650 1350 2    59   ~ 0
 KEY_* originates from this sheet
 Text GLabel 1200 2050 0    39   BiDi ~ 0
@@ -250,8 +250,6 @@ Text GLabel 5200 1450 2    39   BiDi ~ 0
 USB_DP
 NoConn ~ 8100 3050
 NoConn ~ 8100 2950
-NoConn ~ 9500 3950
-NoConn ~ 9500 3050
 NoConn ~ 4900 3950
 NoConn ~ 7150 3950
 NoConn ~ 7150 3050
@@ -494,4 +492,8 @@ Wire Wire Line
 NoConn ~ 2600 2250
 Text Notes 2650 1200 0    39   ~ 0
 0805B104K100CT for capacitors\n100nF
+Text GLabel 9500 3050 2    39   BiDi ~ 0
+LED_SCL_ROW7
+Text GLabel 9500 3950 2    39   BiDi ~ 0
+LED_SDA_ROW7
 $EndSCHEMATC
