@@ -245,7 +245,7 @@ U 1 1 605024A8
 P 1750 5750
 F 0 "K0,2" H 1750 5983 60  0000 C CNN
 F 1 "KEYSW" H 1750 5650 60  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 1750 5983 60  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.50u" H 1750 5983 60  0001 C CNN
 F 3 "" H 1750 5750 60  0000 C CNN
 	1    1750 5750
 	1    0    0    -1  
@@ -778,7 +778,7 @@ U 1 1 6056F196
 P 1750 6500
 F 0 "K0,3" H 1750 6733 60  0000 C CNN
 F 1 "KEYSW" H 1750 6400 60  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 1750 6733 60  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.75u" H 1750 6733 60  0001 C CNN
 F 3 "" H 1750 6500 60  0000 C CNN
 	1    1750 6500
 	1    0    0    -1  
@@ -811,7 +811,7 @@ U 1 1 60578F79
 P 1750 7250
 F 0 "K0,4" H 1750 7483 60  0000 C CNN
 F 1 "KEYSW" H 1750 7150 60  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 1750 7483 60  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_2.25u" H 1750 7483 60  0001 C CNN
 F 3 "" H 1750 7250 60  0000 C CNN
 	1    1750 7250
 	1    0    0    -1  
@@ -2567,7 +2567,7 @@ U 1 1 61CDFF8A
 P 19000 8750
 F 0 "K19,6" H 19000 8983 60  0000 C CNN
 F 1 "KEYSW" H 19000 8650 60  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 19000 8983 60  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_2.00u_Rotated" H 19000 8983 60  0001 C CNN
 F 3 "" H 19000 8750 60  0000 C CNN
 	1    19000 8750
 	1    0    0    -1  
@@ -2625,7 +2625,7 @@ U 1 1 61CDFF6A
 P 17300 8750
 F 0 "K17,6" H 17300 8983 60  0000 C CNN
 F 1 "KEYSW" H 17300 8650 60  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 17300 8983 60  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_2.00u" H 17300 8983 60  0001 C CNN
 F 3 "" H 17300 8750 60  0000 C CNN
 	1    17300 8750
 	1    0    0    -1  
@@ -2709,7 +2709,7 @@ U 1 1 61CDFF22
 P 19000 7250
 F 0 "K19,4" H 19000 7483 60  0000 C CNN
 F 1 "KEYSW" H 19000 7150 60  0001 C CNN
-F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 19000 7483 60  0001 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_2.00u_Rotated" H 19000 7483 60  0001 C CNN
 F 3 "" H 19000 7250 60  0000 C CNN
 	1    19000 7250
 	1    0    0    -1  
