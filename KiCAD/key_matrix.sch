@@ -278,18 +278,6 @@ Connection ~ 2100 5000
 Wire Wire Line
 	2950 4100 2950 4300
 Connection ~ 2950 4300
-Entry Wire Line
-	2000 4000 2100 4100
-Entry Wire Line
-	2850 4000 2950 4100
-Entry Wire Line
-	3700 4000 3800 4100
-Entry Wire Line
-	1250 5300 1350 5400
-Entry Wire Line
-	1250 6050 1350 6150
-Entry Wire Line
-	1250 4600 1350 4700
 $Comp
 L keyboard_parts:D D3,2
 U 1 1 60513042
@@ -792,8 +780,6 @@ Wire Wire Line
 Wire Wire Line
 	1350 6900 1450 6900
 Connection ~ 1450 6900
-Entry Wire Line
-	1250 6800 1350 6900
 $Comp
 L keyboard_parts:D D0,4
 U 1 1 60578F73
@@ -826,8 +812,6 @@ Wire Wire Line
 	1350 7650 1450 7650
 Connection ~ 1450 7650
 Connection ~ 2100 7250
-Entry Wire Line
-	1250 7550 1350 7650
 $Comp
 L keyboard_parts:D D0,5
 U 1 1 6058E7DD
@@ -859,12 +843,8 @@ Wire Wire Line
 Wire Wire Line
 	1350 8400 1450 8400
 Connection ~ 1450 8400
-Entry Wire Line
-	1250 8300 1350 8400
 Wire Wire Line
 	4650 4100 4650 4300
-Entry Wire Line
-	4550 4000 4650 4100
 $Comp
 L keyboard_parts:D D4,0
 U 1 1 605DA7B1
@@ -895,8 +875,6 @@ Wire Wire Line
 	5450 4300 5500 4300
 Wire Wire Line
 	5500 4100 5500 4300
-Entry Wire Line
-	5400 4000 5500 4100
 $Comp
 L keyboard_parts:D D5,0
 U 1 1 60600296
@@ -927,8 +905,6 @@ Wire Wire Line
 	6300 4300 6350 4300
 Wire Wire Line
 	6350 4100 6350 4300
-Entry Wire Line
-	6250 4000 6350 4100
 $Comp
 L keyboard_parts:D D6,0
 U 1 1 6060BF6A
@@ -959,8 +935,6 @@ Wire Wire Line
 	7150 4300 7200 4300
 Wire Wire Line
 	7200 4100 7200 4300
-Entry Wire Line
-	7100 4000 7200 4100
 $Comp
 L keyboard_parts:D D7,0
 U 1 1 6061858E
@@ -991,8 +965,6 @@ Wire Wire Line
 	8650 4300 8700 4300
 Wire Wire Line
 	8700 4100 8700 4300
-Entry Wire Line
-	8600 4000 8700 4100
 $Comp
 L keyboard_parts:D D8,0
 U 1 1 60624DBC
@@ -1023,8 +995,6 @@ Wire Wire Line
 	9500 4300 9550 4300
 Wire Wire Line
 	9550 4100 9550 4300
-Entry Wire Line
-	9450 4000 9550 4100
 $Comp
 L keyboard_parts:D D9,0
 U 1 1 6063258E
@@ -1055,8 +1025,6 @@ Wire Wire Line
 	10350 4300 10400 4300
 Wire Wire Line
 	10400 4100 10400 4300
-Entry Wire Line
-	10300 4000 10400 4100
 $Comp
 L keyboard_parts:D D5,2
 U 1 1 60651762
@@ -1888,37 +1856,37 @@ Wire Wire Line
 	4000 7650 4850 7650
 Wire Wire Line
 	4850 7650 5700 7650
-Text GLabel 2000 4000 0    39   BiDi ~ 0
+Text GLabel 2100 4100 0    39   BiDi ~ 0
 KEY_COL0
-Text GLabel 2850 4000 0    39   BiDi ~ 0
+Text GLabel 2950 4100 0    39   BiDi ~ 0
 KEY_COL1
-Text GLabel 3700 4000 0    39   BiDi ~ 0
+Text GLabel 3800 4100 0    39   BiDi ~ 0
 KEY_COL2
-Text GLabel 4550 4000 0    39   BiDi ~ 0
+Text GLabel 4650 4100 0    39   BiDi ~ 0
 KEY_COL3
-Text GLabel 5400 4000 0    39   BiDi ~ 0
+Text GLabel 5500 4100 0    39   BiDi ~ 0
 KEY_COL4
-Text GLabel 6250 4000 0    39   BiDi ~ 0
+Text GLabel 6350 4100 0    39   BiDi ~ 0
 KEY_COL5
-Text GLabel 7100 4000 0    39   BiDi ~ 0
+Text GLabel 7200 4100 0    39   BiDi ~ 0
 KEY_COL6
-Text GLabel 8600 4000 0    39   BiDi ~ 0
+Text GLabel 8700 4100 0    39   BiDi ~ 0
 KEY_COL7
-Text GLabel 9450 4000 0    39   BiDi ~ 0
+Text GLabel 9550 4100 0    39   BiDi ~ 0
 KEY_COL8
-Text GLabel 10300 4000 0    39   BiDi ~ 0
+Text GLabel 10400 4100 0    39   BiDi ~ 0
 KEY_COL9
-Text GLabel 1250 4600 0    39   BiDi ~ 0
+Text GLabel 1350 4700 0    39   BiDi ~ 0
 KEY_ROW0
-Text GLabel 1250 5300 0    39   BiDi ~ 0
+Text GLabel 1350 5400 0    39   BiDi ~ 0
 KEY_ROW1
-Text GLabel 1250 6050 0    39   BiDi ~ 0
+Text GLabel 1350 6150 0    39   BiDi ~ 0
 KEY_ROW2
-Text GLabel 1250 6800 0    39   BiDi ~ 0
+Text GLabel 1350 6900 0    39   BiDi ~ 0
 KEY_ROW3
-Text GLabel 1250 7550 0    39   BiDi ~ 0
+Text GLabel 1350 7650 0    39   BiDi ~ 0
 KEY_ROW4
-Text GLabel 1250 8300 0    39   BiDi ~ 0
+Text GLabel 1350 8400 0    39   BiDi ~ 0
 KEY_ROW5
 $Comp
 L keyboard_parts:D D10,1
@@ -2087,10 +2055,6 @@ Connection ~ 12100 5750
 Wire Wire Line
 	11250 4100 11250 4300
 Connection ~ 11250 4300
-Entry Wire Line
-	11150 4000 11250 4100
-Entry Wire Line
-	12000 4000 12100 4100
 $Comp
 L keyboard_parts:D D12,2
 U 1 1 612EAA56
@@ -2437,10 +2401,6 @@ Wire Wire Line
 Connection ~ 12100 7250
 Wire Wire Line
 	12950 4100 12950 4300
-Entry Wire Line
-	12850 4000 12950 4100
-Entry Wire Line
-	13700 4000 13800 4100
 $Comp
 L keyboard_parts:D D11,2
 U 1 1 612EAD7F
@@ -2522,13 +2482,13 @@ Wire Wire Line
 	10600 7650 11450 7650
 Wire Wire Line
 	12100 7250 12100 8000
-Text GLabel 11150 4000 0    39   BiDi ~ 0
+Text GLabel 11250 4100 0    39   BiDi ~ 0
 KEY_COL10
-Text GLabel 12000 4000 0    39   BiDi ~ 0
+Text GLabel 12100 4100 0    39   BiDi ~ 0
 KEY_COL11
-Text GLabel 12850 4000 0    39   BiDi ~ 0
+Text GLabel 12950 4100 0    39   BiDi ~ 0
 KEY_COL12
-Text GLabel 13700 4000 0    39   BiDi ~ 0
+Text GLabel 13800 4100 0    39   BiDi ~ 0
 KEY_COL13
 Wire Wire Line
 	13800 4100 13800 5000
@@ -2641,11 +2601,11 @@ F 3 "" H 17000 9000 60  0000 C CNN
 	1    17000 9000
 	-1   0    0    1   
 $EndComp
-Text GLabel 19250 4000 0    39   BiDi ~ 0
+Text GLabel 19350 4100 0    39   BiDi ~ 0
 KEY_COL19
-Text GLabel 18400 4000 0    39   BiDi ~ 0
+Text GLabel 18500 4100 0    39   BiDi ~ 0
 KEY_COL18
-Text GLabel 17550 4000 0    39   BiDi ~ 0
+Text GLabel 17650 4100 0    39   BiDi ~ 0
 KEY_COL17
 Wire Wire Line
 	16150 7650 17000 7650
@@ -3014,8 +2974,6 @@ F 3 "" H 17000 5250 60  0000 C CNN
 	1    17000 5250
 	-1   0    0    1   
 $EndComp
-Entry Wire Line
-	19250 4000 19350 4100
 Wire Wire Line
 	19350 4100 19350 4300
 Wire Wire Line
@@ -3046,8 +3004,6 @@ F 3 "" H 18700 4550 60  0000 C CNN
 	1    18700 4550
 	-1   0    0    1   
 $EndComp
-Entry Wire Line
-	18400 4000 18500 4100
 Wire Wire Line
 	18500 4100 18500 4300
 Wire Wire Line
@@ -3078,8 +3034,6 @@ F 3 "" H 17850 4550 60  0000 C CNN
 	1    17850 4550
 	-1   0    0    1   
 $EndComp
-Entry Wire Line
-	17550 4000 17650 4100
 Wire Wire Line
 	17650 4100 17650 4300
 Wire Wire Line
@@ -3193,23 +3147,23 @@ F 3 "" H 14750 8750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D14,66
+L keyboard_parts:D D14,6
 U 1 1 61C5EF26
 P 14450 9000
-F 0 "D14,66" H 14322 8950 60  0000 R CNN
+F 0 "D14,6" H 14322 8950 60  0000 R CNN
 F 1 "D" V 14600 8950 60  0001 C CNN
 F 2 "keyboard_parts:D_SOD123_axial" H 14322 9003 60  0001 R CNN
 F 3 "" H 14450 9000 60  0000 C CNN
 	1    14450 9000
 	-1   0    0    1   
 $EndComp
-Text GLabel 14250 9100 0    20   BiDi ~ 0
+Text GLabel 14250 9150 0    20   BiDi ~ 0
 KEY_ROW6
-Text GLabel 16700 4000 0    39   BiDi ~ 0
+Text GLabel 16800 4100 0    39   BiDi ~ 0
 KEY_COL16
-Text GLabel 15850 4000 0    39   BiDi ~ 0
+Text GLabel 15950 4100 0    39   BiDi ~ 0
 KEY_COL15
-Text GLabel 15000 4000 0    39   BiDi ~ 0
+Text GLabel 15100 4100 0    39   BiDi ~ 0
 KEY_COL14
 Wire Wire Line
 	15300 6900 16150 6900
@@ -3495,8 +3449,6 @@ F 3 "" H 14450 5250 60  0000 C CNN
 	1    14450 5250
 	-1   0    0    1   
 $EndComp
-Entry Wire Line
-	16700 4000 16800 4100
 Wire Wire Line
 	16800 4100 16800 4300
 Wire Wire Line
@@ -3527,8 +3479,6 @@ F 3 "" H 16150 4550 60  0000 C CNN
 	1    16150 4550
 	-1   0    0    1   
 $EndComp
-Entry Wire Line
-	15850 4000 15950 4100
 Wire Wire Line
 	15950 4100 15950 4300
 Wire Wire Line
@@ -3559,8 +3509,6 @@ F 3 "" H 15300 4550 60  0000 C CNN
 	1    15300 4550
 	-1   0    0    1   
 $EndComp
-Entry Wire Line
-	15000 4000 15100 4100
 Wire Wire Line
 	15100 4100 15100 4300
 Wire Wire Line
@@ -3644,8 +3592,8 @@ Wire Wire Line
 	19350 5000 19350 6500
 Connection ~ 19350 5000
 Connection ~ 19350 6500
-Text GLabel 20100 4000 0    39   BiDi ~ 0
-KEY_COL19
+Text GLabel 20200 4100 0    39   BiDi ~ 0
+KEY_COL20
 Wire Wire Line
 	18700 5400 19550 5400
 Connection ~ 20200 4300
@@ -3681,8 +3629,6 @@ F 3 "" H 19550 5250 60  0000 C CNN
 	1    19550 5250
 	-1   0    0    1   
 $EndComp
-Entry Wire Line
-	20100 4000 20200 4100
 Wire Wire Line
 	20200 4100 20200 4300
 Wire Wire Line

@@ -3193,17 +3193,17 @@ F 3 "" H 14750 8750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D14,66
+L keyboard_parts:D D14,6
 U 1 1 61C5EF26
 P 14450 9000
-F 0 "D14,66" H 14322 8950 60  0000 R CNN
+F 0 "D14,6" H 14322 8950 60  0000 R CNN
 F 1 "D" V 14600 8950 60  0001 C CNN
 F 2 "keyboard_parts:D_SOD123_axial" H 14322 9003 60  0001 R CNN
 F 3 "" H 14450 9000 60  0000 C CNN
 	1    14450 9000
 	-1   0    0    1   
 $EndComp
-Text GLabel 14250 9100 0    20   BiDi ~ 0
+Text GLabel 14250 9150 0    20   BiDi ~ 0
 KEY_ROW6
 Text GLabel 16700 4000 0    39   BiDi ~ 0
 KEY_COL16

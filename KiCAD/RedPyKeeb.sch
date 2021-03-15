@@ -21,8 +21,8 @@ F1 "key_matrix.sch" 39
 $EndSheet
 Text Notes 1950 1050 2    59   ~ 0
 Use I2C for interboard comms.\nSDA0 on GPIO0\nSCL0 on GPIO1
-Text Notes 2350 800  0    59   ~ 0
-TODO: Power bus needs to be sorted, see Unified-Daughterboard?\nLED row 7 is for status indicators
+Text Notes 2150 950  0    59   ~ 0
+TODO: Power bus needs to be sorted, see Unified-Daughterboard?\n\nMCP23017_SO needs to have the interrupt pins (INT*)\nconfigured as not open-drain as the TXB0104D can't handle open-drain
 Text Notes 10650 1350 2    59   ~ 0
 KEY_* originates from this sheet
 NoConn ~ 3200 4350
@@ -365,9 +365,9 @@ F 3 "~" H 6050 1450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 6250 1550 2    39   BiDi ~ 0
-I2C_SDA0
+PICO_SDA0
 Text GLabel 6250 1450 2    39   BiDi ~ 0
-I2C_SCL0
+PICO_SCL0
 Text GLabel 3500 2050 1    39   BiDi ~ 0
 USB_DN
 Text GLabel 3600 2050 1    39   BiDi ~ 0
@@ -506,10 +506,10 @@ F 3 "https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf" H 1450 2500 50  0001 C 
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GNDPWR #PWR?
+L power:GNDPWR #PWR0116
 U 1 1 605F480A
 P 1750 1550
-F 0 "#PWR?" H 1750 1350 50  0001 C CNN
+F 0 "#PWR0116" H 1750 1350 50  0001 C CNN
 F 1 "GNDPWR" V 1755 1442 50  0000 R CNN
 F 2 "" H 1750 1500 50  0001 C CNN
 F 3 "" H 1750 1500 50  0001 C CNN
@@ -541,10 +541,10 @@ Wire Wire Line
 Wire Wire Line
 	2300 3150 2600 3150
 $Comp
-L power:GNDPWR #PWR?
+L power:GNDPWR #PWR0117
 U 1 1 60612AD1
 P 1700 2800
-F 0 "#PWR?" H 1700 2600 50  0001 C CNN
+F 0 "#PWR0117" H 1700 2600 50  0001 C CNN
 F 1 "GNDPWR" V 1705 2692 50  0000 R CNN
 F 2 "" H 1700 2750 50  0001 C CNN
 F 3 "" H 1700 2750 50  0001 C CNN
@@ -589,4 +589,9 @@ Wire Wire Line
 	2100 3600 2250 3600
 Wire Wire Line
 	2100 3800 2300 3800
+NoConn ~ 2350 6000
+Text GLabel 2350 1950 1    39   Input ~ 0
+PICO_SDA0
+Text GLabel 2350 2050 3    39   Input ~ 0
+PICO_SCL0
 $EndSCHEMATC

@@ -21,8 +21,8 @@ F1 "key_matrix.sch" 39
 $EndSheet
 Text Notes 1950 1050 2    59   ~ 0
 Use I2C for interboard comms.\nSDA0 on GPIO0\nSCL0 on GPIO1
-Text Notes 2350 800  0    59   ~ 0
-TODO: Power bus needs to be sorted, see Unified-Daughterboard?\nLED row 7 is for status indicators
+Text Notes 2150 950  0    59   ~ 0
+TODO: Power bus needs to be sorted, see Unified-Daughterboard?\n\nMCP23017_SO needs to have the interrupt pins (INT*)\nconfigured as not open-drain as the TXB0104D can't handle open-drain
 Text Notes 10650 1350 2    59   ~ 0
 KEY_* originates from this sheet
 NoConn ~ 3200 4350
@@ -60,126 +60,126 @@ NoConn ~ 2600 3450
 NoConn ~ 2600 3350
 NoConn ~ 2600 2950
 NoConn ~ 4000 2250
-Text GLabel 2450 6150 2    39   BiDi ~ 0
+Text GLabel 2350 5800 2    39   BiDi ~ 0
 KEY_ROW5
-Text GLabel 2450 6050 2    39   BiDi ~ 0
+Text GLabel 2350 5700 2    39   BiDi ~ 0
 KEY_ROW4
-Text GLabel 2450 5950 2    39   BiDi ~ 0
+Text GLabel 2350 5600 2    39   BiDi ~ 0
 KEY_ROW3
-Text GLabel 2450 5850 2    39   BiDi ~ 0
+Text GLabel 2350 5500 2    39   BiDi ~ 0
 KEY_ROW2
-Text GLabel 2450 5750 2    39   BiDi ~ 0
+Text GLabel 2350 5400 2    39   BiDi ~ 0
 KEY_ROW1
-Text GLabel 2450 5650 2    39   BiDi ~ 0
+Text GLabel 2350 5300 2    39   BiDi ~ 0
 KEY_ROW0
-Text GLabel 4700 6750 2    39   BiDi ~ 0
+Text GLabel 4600 6400 2    39   BiDi ~ 0
 KEY_COL9
-Text GLabel 4700 6650 2    39   BiDi ~ 0
+Text GLabel 4600 6300 2    39   BiDi ~ 0
 KEY_COL8
-Text GLabel 4700 6550 2    39   BiDi ~ 0
+Text GLabel 4600 6200 2    39   BiDi ~ 0
 KEY_COL7
-Text GLabel 2450 7150 2    39   BiDi ~ 0
+Text GLabel 2350 6800 2    39   BiDi ~ 0
 KEY_COL6
-Text GLabel 2450 7050 2    39   BiDi ~ 0
+Text GLabel 2350 6700 2    39   BiDi ~ 0
 KEY_COL5
-Text GLabel 2450 6950 2    39   BiDi ~ 0
+Text GLabel 2350 6600 2    39   BiDi ~ 0
 KEY_COL4
-Text GLabel 2450 6850 2    39   BiDi ~ 0
+Text GLabel 2350 6500 2    39   BiDi ~ 0
 KEY_COL3
-Text GLabel 2450 6750 2    39   BiDi ~ 0
+Text GLabel 2350 6400 2    39   BiDi ~ 0
 KEY_COL2
-Text GLabel 2450 6650 2    39   BiDi ~ 0
+Text GLabel 2350 6300 2    39   BiDi ~ 0
 KEY_COL1
-Text GLabel 2450 6550 2    39   BiDi ~ 0
+Text GLabel 2350 6200 2    39   BiDi ~ 0
 KEY_COL0
-Text GLabel 2450 6250 2    39   BiDi ~ 0
+Text GLabel 2350 5900 2    39   BiDi ~ 0
 KEY_ROW6
-Text GLabel 4700 6950 2    39   BiDi ~ 0
+Text GLabel 4600 6600 2    39   BiDi ~ 0
 KEY_COL11
-Text GLabel 4700 6850 2    39   BiDi ~ 0
+Text GLabel 4600 6500 2    39   BiDi ~ 0
 KEY_COL10
-Text GLabel 4700 7150 2    39   BiDi ~ 0
+Text GLabel 4600 6800 2    39   BiDi ~ 0
 KEY_COL13
-Text GLabel 4700 7050 2    39   BiDi ~ 0
+Text GLabel 4600 6700 2    39   BiDi ~ 0
 KEY_COL12
-Text GLabel 1050 5650 0    39   BiDi ~ 0
+Text GLabel 950  5300 0    39   BiDi ~ 0
 I2C_SDA0
-Text GLabel 1050 5750 0    39   BiDi ~ 0
+Text GLabel 950  5400 0    39   BiDi ~ 0
 I2C_SCL0
-Text GLabel 4700 5850 2    39   BiDi ~ 0
+Text GLabel 4600 5500 2    39   BiDi ~ 0
 KEY_COL16
-Text GLabel 4700 5750 2    39   BiDi ~ 0
+Text GLabel 4600 5400 2    39   BiDi ~ 0
 KEY_COL15
-Text GLabel 4700 6050 2    39   BiDi ~ 0
+Text GLabel 4600 5700 2    39   BiDi ~ 0
 KEY_COL18
-Text GLabel 4700 5950 2    39   BiDi ~ 0
+Text GLabel 4600 5600 2    39   BiDi ~ 0
 KEY_COL17
-Text GLabel 4700 6150 2    39   BiDi ~ 0
+Text GLabel 4600 5800 2    39   BiDi ~ 0
 KEY_COL19
-Text GLabel 4700 5650 2    39   BiDi ~ 0
+Text GLabel 4600 5300 2    39   BiDi ~ 0
 KEY_COL14
-Text GLabel 1300 5100 0    39   BiDi ~ 0
+Text GLabel 1200 4750 0    39   BiDi ~ 0
 MAIN_VBUS
 $Comp
 L power:GNDPWR #PWR0102
 U 1 1 633C353A
-P 1750 7550
-F 0 "#PWR0102" H 1750 7350 50  0001 C CNN
-F 1 "GNDPWR" V 1755 7442 50  0000 R CNN
-F 2 "" H 1750 7500 50  0001 C CNN
-F 3 "" H 1750 7500 50  0001 C CNN
-	1    1750 7550
+P 1650 7200
+F 0 "#PWR0102" H 1650 7000 50  0001 C CNN
+F 1 "GNDPWR" V 1655 7092 50  0000 R CNN
+F 2 "" H 1650 7150 50  0001 C CNN
+F 3 "" H 1650 7150 50  0001 C CNN
+	1    1650 7200
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Interface_Expansion:MCP23017_SO U2
 U 1 1 633D7503
-P 4000 6450
-F 0 "U2" H 4000 7731 50  0000 C CNN
-F 1 "MCP23017_SO" H 4000 7640 50  0000 C CNN
-F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 4200 5450 50  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 4200 5350 50  0001 L CNN
-	1    4000 6450
+P 3900 6100
+F 0 "U2" H 3900 7381 50  0000 C CNN
+F 1 "MCP23017_SO" H 3900 7290 50  0000 C CNN
+F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 4100 5100 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 4100 5000 50  0001 L CNN
+	1    3900 6100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDPWR #PWR0103
 U 1 1 633D9D02
-P 4000 7550
-F 0 "#PWR0103" H 4000 7350 50  0001 C CNN
-F 1 "GNDPWR" V 4005 7442 50  0000 R CNN
-F 2 "" H 4000 7500 50  0001 C CNN
-F 3 "" H 4000 7500 50  0001 C CNN
-	1    4000 7550
+P 3900 7200
+F 0 "#PWR0103" H 3900 7000 50  0001 C CNN
+F 1 "GNDPWR" V 3905 7092 50  0000 R CNN
+F 2 "" H 3900 7150 50  0001 C CNN
+F 3 "" H 3900 7150 50  0001 C CNN
+	1    3900 7200
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3300 5650 0    39   BiDi ~ 0
+Text GLabel 3200 5300 0    39   BiDi ~ 0
 I2C_SDA0
-Text GLabel 3300 5750 0    39   BiDi ~ 0
+Text GLabel 3200 5400 0    39   BiDi ~ 0
 I2C_SCL0
 $Comp
 L Interface_Expansion:MCP23017_SO U3
 U 1 1 6340BF08
-P 6350 6450
-F 0 "U3" H 6350 7731 50  0000 C CNN
-F 1 "MCP23017_SO" H 6350 7640 50  0000 C CNN
-F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 6550 5450 50  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 6550 5350 50  0001 L CNN
-	1    6350 6450
+P 6250 6100
+F 0 "U3" H 6250 7381 50  0000 C CNN
+F 1 "MCP23017_SO" H 6250 7290 50  0000 C CNN
+F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 6450 5100 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 6450 5000 50  0001 L CNN
+	1    6250 6100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDPWR #PWR0105
 U 1 1 6340BF0E
-P 6350 7550
-F 0 "#PWR0105" H 6350 7350 50  0001 C CNN
-F 1 "GNDPWR" V 6355 7442 50  0000 R CNN
-F 2 "" H 6350 7500 50  0001 C CNN
-F 3 "" H 6350 7500 50  0001 C CNN
-	1    6350 7550
+P 6250 7200
+F 0 "#PWR0105" H 6250 7000 50  0001 C CNN
+F 1 "GNDPWR" V 6255 7092 50  0000 R CNN
+F 2 "" H 6250 7150 50  0001 C CNN
+F 3 "" H 6250 7150 50  0001 C CNN
+	1    6250 7200
 	0    -1   -1   0   
 $EndComp
-Text Notes 6650 5150 2    39   ~ 0
+Text Notes 6550 4800 2    39   ~ 0
 LED IO controller
 $Sheet
 S 8300 750  500  300 
@@ -187,33 +187,33 @@ U 63412601
 F0 "LED_strings" 39
 F1 "led_strings.sch" 39
 $EndSheet
-Text GLabel 7050 6250 2    39   BiDi ~ 0
+Text GLabel 6950 5900 2    39   BiDi ~ 0
 LED_SCL_ROW6
-Text GLabel 7050 6150 2    39   BiDi ~ 0
+Text GLabel 6950 5800 2    39   BiDi ~ 0
 LED_SCL_ROW5
-Text GLabel 7050 6050 2    39   BiDi ~ 0
+Text GLabel 6950 5700 2    39   BiDi ~ 0
 LED_SCL_ROW4
-Text GLabel 7050 5950 2    39   BiDi ~ 0
+Text GLabel 6950 5600 2    39   BiDi ~ 0
 LED_SCL_ROW3
-Text GLabel 7050 5850 2    39   BiDi ~ 0
+Text GLabel 6950 5500 2    39   BiDi ~ 0
 LED_SCL_ROW2
-Text GLabel 7050 5750 2    39   BiDi ~ 0
+Text GLabel 6950 5400 2    39   BiDi ~ 0
 LED_SCL_ROW1
-Text GLabel 7050 5650 2    39   BiDi ~ 0
+Text GLabel 6950 5300 2    39   BiDi ~ 0
 LED_SCL_ROW0
-Text GLabel 7050 7150 2    39   BiDi ~ 0
+Text GLabel 6950 6800 2    39   BiDi ~ 0
 LED_SDA_ROW6
-Text GLabel 7050 7050 2    39   BiDi ~ 0
+Text GLabel 6950 6700 2    39   BiDi ~ 0
 LED_SDA_ROW5
-Text GLabel 7050 6950 2    39   BiDi ~ 0
+Text GLabel 6950 6600 2    39   BiDi ~ 0
 LED_SDA_ROW4
-Text GLabel 7050 6850 2    39   BiDi ~ 0
+Text GLabel 6950 6500 2    39   BiDi ~ 0
 LED_SDA_ROW3
-Text GLabel 7050 6750 2    39   BiDi ~ 0
+Text GLabel 6950 6400 2    39   BiDi ~ 0
 LED_SDA_ROW2
-Text GLabel 7050 6650 2    39   BiDi ~ 0
+Text GLabel 6950 6300 2    39   BiDi ~ 0
 LED_SDA_ROW1
-Text GLabel 7050 6550 2    39   BiDi ~ 0
+Text GLabel 6950 6200 2    39   BiDi ~ 0
 LED_SDA_ROW0
 $Comp
 L Connector_Generic:Conn_01x04 J0
@@ -243,19 +243,19 @@ Text GLabel 5200 1350 2    39   BiDi ~ 0
 USB_DN
 Text GLabel 5200 1450 2    39   BiDi ~ 0
 USB_DP
-NoConn ~ 5650 6350
-NoConn ~ 5650 6250
-NoConn ~ 2450 7250
-NoConn ~ 4700 7250
-NoConn ~ 4700 6350
-NoConn ~ 4700 6250
-Text GLabel 1050 6250 0    39   BiDi ~ 0
+NoConn ~ 5550 6000
+NoConn ~ 5550 5900
+NoConn ~ 2350 6900
+NoConn ~ 4600 6900
+NoConn ~ 4600 6000
+NoConn ~ 4600 5900
+Text GLabel 950  5900 0    39   BiDi ~ 0
 IO_INT0
-Text GLabel 1050 6350 0    39   BiDi ~ 0
+Text GLabel 950  6000 0    39   BiDi ~ 0
 IO_INT1
-Text GLabel 3300 6250 0    39   BiDi ~ 0
+Text GLabel 3200 5900 0    39   BiDi ~ 0
 IO_INT2
-Text GLabel 3300 6350 0    39   BiDi ~ 0
+Text GLabel 3200 6000 0    39   BiDi ~ 0
 IO_INT3
 Text GLabel 1300 3200 0    39   BiDi ~ 0
 IO_INT0
@@ -268,90 +268,90 @@ IO_INT3
 $Comp
 L Interface_Expansion:MCP23017_SO U1
 U 1 1 633C5696
-P 1750 6450
-F 0 "U1" H 1750 7731 50  0000 C CNN
-F 1 "MCP23017_SO" H 1750 7640 50  0000 C CNN
-F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 1950 5450 50  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 1950 5350 50  0001 L CNN
-	1    1750 6450
+P 1650 6100
+F 0 "U1" H 1650 7381 50  0000 C CNN
+F 1 "MCP23017_SO" H 1650 7290 50  0000 C CNN
+F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 1850 5100 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 1850 5000 50  0001 L CNN
+	1    1650 6100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDPWR #PWR0104
 U 1 1 64901E61
-P 1050 7250
-F 0 "#PWR0104" H 1050 7050 50  0001 C CNN
-F 1 "GNDPWR" V 1054 7141 50  0000 R CNN
-F 2 "" H 1050 7200 50  0001 C CNN
-F 3 "" H 1050 7200 50  0001 C CNN
-	1    1050 7250
+P 950 6900
+F 0 "#PWR0104" H 950 6700 50  0001 C CNN
+F 1 "GNDPWR" V 954 6791 50  0000 R CNN
+F 2 "" H 950 6850 50  0001 C CNN
+F 3 "" H 950 6850 50  0001 C CNN
+	1    950  6900
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GNDPWR #PWR0106
 U 1 1 64903402
-P 1050 7150
-F 0 "#PWR0106" H 1050 6950 50  0001 C CNN
-F 1 "GNDPWR" V 1054 7041 50  0000 R CNN
-F 2 "" H 1050 7100 50  0001 C CNN
-F 3 "" H 1050 7100 50  0001 C CNN
-	1    1050 7150
+P 950 6800
+F 0 "#PWR0106" H 950 6600 50  0001 C CNN
+F 1 "GNDPWR" V 954 6691 50  0000 R CNN
+F 2 "" H 950 6750 50  0001 C CNN
+F 3 "" H 950 6750 50  0001 C CNN
+	1    950  6800
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GNDPWR #PWR0107
 U 1 1 649035CF
-P 1050 7050
-F 0 "#PWR0107" H 1050 6850 50  0001 C CNN
-F 1 "GNDPWR" V 1054 6941 50  0000 R CNN
-F 2 "" H 1050 7000 50  0001 C CNN
-F 3 "" H 1050 7000 50  0001 C CNN
-	1    1050 7050
+P 950 6700
+F 0 "#PWR0107" H 950 6500 50  0001 C CNN
+F 1 "GNDPWR" V 954 6591 50  0000 R CNN
+F 2 "" H 950 6650 50  0001 C CNN
+F 3 "" H 950 6650 50  0001 C CNN
+	1    950  6700
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GNDPWR #PWR0108
 U 1 1 649043C1
-P 3300 7150
-F 0 "#PWR0108" H 3300 6950 50  0001 C CNN
-F 1 "GNDPWR" V 3304 7041 50  0000 R CNN
-F 2 "" H 3300 7100 50  0001 C CNN
-F 3 "" H 3300 7100 50  0001 C CNN
-	1    3300 7150
+P 3200 6800
+F 0 "#PWR0108" H 3200 6600 50  0001 C CNN
+F 1 "GNDPWR" V 3204 6691 50  0000 R CNN
+F 2 "" H 3200 6750 50  0001 C CNN
+F 3 "" H 3200 6750 50  0001 C CNN
+	1    3200 6800
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GNDPWR #PWR0109
 U 1 1 64904490
-P 3300 7050
-F 0 "#PWR0109" H 3300 6850 50  0001 C CNN
-F 1 "GNDPWR" V 3304 6941 50  0000 R CNN
-F 2 "" H 3300 7000 50  0001 C CNN
-F 3 "" H 3300 7000 50  0001 C CNN
-	1    3300 7050
+P 3200 6700
+F 0 "#PWR0109" H 3200 6500 50  0001 C CNN
+F 1 "GNDPWR" V 3204 6591 50  0000 R CNN
+F 2 "" H 3200 6650 50  0001 C CNN
+F 3 "" H 3200 6650 50  0001 C CNN
+	1    3200 6700
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GNDPWR #PWR0110
 U 1 1 64904A18
-P 5650 7050
-F 0 "#PWR0110" H 5650 6850 50  0001 C CNN
-F 1 "GNDPWR" V 5654 6941 50  0000 R CNN
-F 2 "" H 5650 7000 50  0001 C CNN
-F 3 "" H 5650 7000 50  0001 C CNN
-	1    5650 7050
+P 5550 6700
+F 0 "#PWR0110" H 5550 6500 50  0001 C CNN
+F 1 "GNDPWR" V 5554 6591 50  0000 R CNN
+F 2 "" H 5550 6650 50  0001 C CNN
+F 3 "" H 5550 6650 50  0001 C CNN
+	1    5550 6700
 	0    1    1    0   
 $EndComp
-Text GLabel 5650 5650 0    39   BiDi ~ 0
+Text GLabel 5550 5300 0    39   BiDi ~ 0
 I2C_SDA0
-Text GLabel 5650 5750 0    39   BiDi ~ 0
+Text GLabel 5550 5400 0    39   BiDi ~ 0
 I2C_SCL0
 NoConn ~ 2600 2650
-Text GLabel 5650 6550 0    39   BiDi ~ 0
+Text GLabel 5550 6200 0    39   BiDi ~ 0
 MAIN_VBUS
-Text GLabel 3300 6550 0    39   BiDi ~ 0
+Text GLabel 3200 6200 0    39   BiDi ~ 0
 MAIN_VBUS
-Text GLabel 1050 6550 0    39   BiDi ~ 0
+Text GLabel 950  6200 0    39   BiDi ~ 0
 MAIN_VBUS
 $Comp
 L Connector_Generic:Conn_01x04 J1
@@ -365,9 +365,9 @@ F 3 "~" H 6050 1450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 6250 1550 2    39   BiDi ~ 0
-I2C_SDA0
+PICO_SDA0
 Text GLabel 6250 1450 2    39   BiDi ~ 0
-I2C_SCL0
+PICO_SCL0
 Text GLabel 3500 2050 1    39   BiDi ~ 0
 USB_DN
 Text GLabel 3600 2050 1    39   BiDi ~ 0
@@ -397,98 +397,98 @@ $EndComp
 $Comp
 L Device:CP C1
 U 1 1 64942561
-P 1900 5250
-F 0 "C1" V 2155 5250 50  0000 C CNN
-F 1 "0805B104K100CT" V 2064 5250 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1938 5100 50  0001 C CNN
-F 3 "~" H 1900 5250 50  0001 C CNN
-	1    1900 5250
+P 1800 4900
+F 0 "C1" V 2055 4900 50  0000 C CNN
+F 1 "0805B104K100CT" V 1964 4900 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1838 4750 50  0001 C CNN
+F 3 "~" H 1800 4900 50  0001 C CNN
+	1    1800 4900
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:CP C2
 U 1 1 6494E898
-P 4150 5300
-F 0 "C2" V 4405 5300 50  0000 C CNN
-F 1 "0805B104K100CT" V 4314 5300 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4188 5150 50  0001 C CNN
-F 3 "~" H 4150 5300 50  0001 C CNN
-	1    4150 5300
+P 4050 4950
+F 0 "C2" V 4305 4950 50  0000 C CNN
+F 1 "0805B104K100CT" V 4214 4950 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4088 4800 50  0001 C CNN
+F 3 "~" H 4050 4950 50  0001 C CNN
+	1    4050 4950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:CP C3
 U 1 1 6494F130
-P 6500 5300
-F 0 "C3" V 6755 5300 50  0000 C CNN
-F 1 "0805B104K100CT" V 6664 5300 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6538 5150 50  0001 C CNN
-F 3 "~" H 6500 5300 50  0001 C CNN
-	1    6500 5300
+P 6400 4950
+F 0 "C3" V 6655 4950 50  0000 C CNN
+F 1 "0805B104K100CT" V 6564 4950 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6438 4800 50  0001 C CNN
+F 3 "~" H 6400 4950 50  0001 C CNN
+	1    6400 4950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GNDPWR #PWR0112
 U 1 1 64950902
-P 2050 5250
-F 0 "#PWR0112" H 2050 5050 50  0001 C CNN
-F 1 "GNDPWR" V 2055 5142 50  0000 R CNN
-F 2 "" H 2050 5200 50  0001 C CNN
-F 3 "" H 2050 5200 50  0001 C CNN
-	1    2050 5250
+P 1950 4900
+F 0 "#PWR0112" H 1950 4700 50  0001 C CNN
+F 1 "GNDPWR" V 1955 4792 50  0000 R CNN
+F 2 "" H 1950 4850 50  0001 C CNN
+F 3 "" H 1950 4850 50  0001 C CNN
+	1    1950 4900
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GNDPWR #PWR0113
 U 1 1 64952DDE
-P 4300 5300
-F 0 "#PWR0113" H 4300 5100 50  0001 C CNN
-F 1 "GNDPWR" H 4304 5146 50  0000 C CNN
-F 2 "" H 4300 5250 50  0001 C CNN
-F 3 "" H 4300 5250 50  0001 C CNN
-	1    4300 5300
+P 4200 4950
+F 0 "#PWR0113" H 4200 4750 50  0001 C CNN
+F 1 "GNDPWR" H 4204 4796 50  0000 C CNN
+F 2 "" H 4200 4900 50  0001 C CNN
+F 3 "" H 4200 4900 50  0001 C CNN
+	1    4200 4950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GNDPWR #PWR0114
 U 1 1 64954015
-P 6650 5300
-F 0 "#PWR0114" H 6650 5100 50  0001 C CNN
-F 1 "GNDPWR" H 6654 5146 50  0000 C CNN
-F 2 "" H 6650 5250 50  0001 C CNN
-F 3 "" H 6650 5250 50  0001 C CNN
-	1    6650 5300
+P 6550 4950
+F 0 "#PWR0114" H 6550 4750 50  0001 C CNN
+F 1 "GNDPWR" H 6554 4796 50  0000 C CNN
+F 2 "" H 6550 4900 50  0001 C CNN
+F 3 "" H 6550 4900 50  0001 C CNN
+	1    6550 4950
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1300 5100 1750 5100
+	1200 4750 1650 4750
 Wire Wire Line
-	1750 5100 1750 5250
-Connection ~ 1750 5100
+	1650 4750 1650 4900
+Connection ~ 1650 4750
 Wire Wire Line
-	4000 5350 4000 5300
-Connection ~ 4000 5100
+	3900 5000 3900 4950
+Connection ~ 3900 4750
 Wire Wire Line
-	6350 5350 6350 5300
-Connection ~ 6350 5300
+	6250 5000 6250 4950
+Connection ~ 6250 4950
 Wire Wire Line
-	6350 5300 6350 5100
-Connection ~ 4000 5300
+	6250 4950 6250 4750
+Connection ~ 3900 4950
 Wire Wire Line
-	4000 5300 4000 5100
+	3900 4950 3900 4750
 Wire Wire Line
-	4000 5100 6350 5100
-Connection ~ 1750 5250
+	3900 4750 6250 4750
+Connection ~ 1650 4900
 Wire Wire Line
-	1750 5250 1750 5350
+	1650 4900 1650 5000
 Wire Wire Line
-	1750 5100 4000 5100
+	1650 4750 3900 4750
 NoConn ~ 4000 2450
 Text Notes 2650 1200 0    39   ~ 0
 0805B104K100CT for capacitors\n100nF
-Text GLabel 7050 6350 2    39   BiDi ~ 0
+Text GLabel 6950 6000 2    39   BiDi ~ 0
 LED_SCL_ROW7
-Text GLabel 7050 7250 2    39   BiDi ~ 0
+Text GLabel 6950 6900 2    39   BiDi ~ 0
 LED_SDA_ROW7
 Text GLabel 1350 2050 0    39   BiDi ~ 0
 I2C_SCL0
@@ -506,10 +506,10 @@ F 3 "https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf" H 1450 2500 50  0001 C 
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GNDPWR #PWR?
+L power:GNDPWR #PWR0116
 U 1 1 605F480A
 P 1750 1550
-F 0 "#PWR?" H 1750 1350 50  0001 C CNN
+F 0 "#PWR0116" H 1750 1350 50  0001 C CNN
 F 1 "GNDPWR" V 1755 1442 50  0000 R CNN
 F 2 "" H 1750 1500 50  0001 C CNN
 F 3 "" H 1750 1500 50  0001 C CNN
@@ -541,10 +541,10 @@ Wire Wire Line
 Wire Wire Line
 	2300 3150 2600 3150
 $Comp
-L power:GNDPWR #PWR?
+L power:GNDPWR #PWR0117
 U 1 1 60612AD1
 P 1700 2800
-F 0 "#PWR?" H 1700 2600 50  0001 C CNN
+F 0 "#PWR0117" H 1700 2600 50  0001 C CNN
 F 1 "GNDPWR" V 1705 2692 50  0000 R CNN
 F 2 "" H 1700 2750 50  0001 C CNN
 F 3 "" H 1700 2750 50  0001 C CNN
@@ -589,4 +589,9 @@ Wire Wire Line
 	2100 3600 2250 3600
 Wire Wire Line
 	2100 3800 2300 3800
+NoConn ~ 2350 6000
+Text GLabel 2350 1950 1    39   Input ~ 0
+PICO_SDA0
+Text GLabel 2350 2050 3    39   Input ~ 0
+PICO_SCL0
 $EndSCHEMATC
