@@ -234,25 +234,6 @@ F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 9450 
 	1    9350 1450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9350 1750 9950 1750
-Wire Wire Line
-	9350 1150 9950 1150
-$Comp
-L LED:APA102-2020 LD13,0
-U 1 1 63D5A535
-P 9950 1450
-F 0 "LD13,0" H 9950 1931 50  0000 C CNN
-F 1 "APA102-2020" H 9950 1840 50  0000 C CNN
-F 2 "CrumpPrints:APA102_hand_solder" H 10000 1150 50  0001 L TNN
-F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 10050 1075 50  0001 L TNN
-	1    9950 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9950 1750 10550 1750
-Wire Wire Line
-	9950 1150 10550 1150
 $Comp
 L LED:APA102-2020 LD14,0
 U 1 1 63D5A53D
@@ -368,7 +349,7 @@ $EndComp
 Wire Wire Line
 	11950 10850 12550 10850
 Wire Wire Line
-	11950 10250 12550 10250
+	11950 10250 12250 10250
 $Comp
 L LED:APA102-2020 LD17,6
 U 1 1 63D6A334
@@ -382,8 +363,6 @@ F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 12650
 $EndComp
 Wire Wire Line
 	12550 10850 13150 10850
-Wire Wire Line
-	12550 10250 12850 10250
 $Comp
 L LED:APA102-2020 LD18,6
 U 1 1 63D6A33C
@@ -412,21 +391,6 @@ F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 13850
 $EndComp
 Wire Wire Line
 	13750 10850 14350 10850
-Wire Wire Line
-	13750 10250 14350 10250
-$Comp
-L LED:APA102-2020 LD20,6
-U 1 1 63D6E15C
-P 14350 10550
-F 0 "LD20,6" H 14350 11031 50  0000 C CNN
-F 1 "APA102-2020" H 14350 10940 50  0000 C CNN
-F 2 "CrumpPrints:APA102_hand_solder" H 14400 10250 50  0001 L TNN
-F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 14450 10175 50  0001 L TNN
-	1    14350 10550
-	1    0    0    -1  
-$EndComp
-NoConn ~ 14650 10450
-NoConn ~ 14650 10550
 Wire Wire Line
 	13550 1750 14150 1750
 Wire Wire Line
@@ -1477,19 +1441,6 @@ $EndComp
 Wire Wire Line
 	13600 8000 14200 8000
 Wire Wire Line
-	13600 7400 14200 7400
-$Comp
-L LED:APA102-2020 LD20,4
-U 1 1 63ECF103
-P 14200 7700
-F 0 "LD20,4" H 14200 8181 50  0000 C CNN
-F 1 "APA102-2020" H 14200 8090 50  0000 C CNN
-F 2 "CrumpPrints:APA102_hand_solder" H 14250 7400 50  0001 L TNN
-F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 14300 7325 50  0001 L TNN
-	1    14200 7700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	8800 8000 11800 8000
 Wire Wire Line
 	8800 7400 11800 7400
@@ -1505,7 +1456,6 @@ Connection ~ 12550 10250
 Connection ~ 12550 10850
 Connection ~ 13150 10250
 Connection ~ 13150 10850
-Connection ~ 13750 10250
 Connection ~ 13750 10850
 $Comp
 L LED:APA102-2020 LD0,5
@@ -1563,70 +1513,6 @@ F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 4250 
 	1    4150 9200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4150 9500 4750 9500
-Wire Wire Line
-	4150 8900 4750 8900
-$Comp
-L LED:APA102-2020 LD4,5
-U 1 1 63FA00F2
-P 4750 9200
-F 0 "LD4,5" H 4750 9681 50  0000 C CNN
-F 1 "APA102-2020" H 4750 9590 50  0000 C CNN
-F 2 "CrumpPrints:APA102_hand_solder" H 4800 8900 50  0001 L TNN
-F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 4850 8825 50  0001 L TNN
-	1    4750 9200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4750 9500 5350 9500
-Wire Wire Line
-	4750 8900 5050 8900
-$Comp
-L LED:APA102-2020 LD5,5
-U 1 1 63FA00FA
-P 5350 9200
-F 0 "LD5,5" H 5350 9681 50  0000 C CNN
-F 1 "APA102-2020" H 5350 9590 50  0000 C CNN
-F 2 "CrumpPrints:APA102_hand_solder" H 5400 8900 50  0001 L TNN
-F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 5450 8825 50  0001 L TNN
-	1    5350 9200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5350 9500 5950 9500
-Wire Wire Line
-	5350 8900 5950 8900
-$Comp
-L LED:APA102-2020 LD6,5
-U 1 1 63FA0102
-P 5950 9200
-F 0 "LD6,5" H 5950 9681 50  0000 C CNN
-F 1 "APA102-2020" H 5950 9590 50  0000 C CNN
-F 2 "CrumpPrints:APA102_hand_solder" H 6000 8900 50  0001 L TNN
-F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 6050 8825 50  0001 L TNN
-	1    5950 9200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5950 9500 6550 9500
-Wire Wire Line
-	5950 8900 6550 8900
-$Comp
-L LED:APA102-2020 LD7,5
-U 1 1 63FA010A
-P 6550 9200
-F 0 "LD7,5" H 6550 9681 50  0000 C CNN
-F 1 "APA102-2020" H 6550 9590 50  0000 C CNN
-F 2 "CrumpPrints:APA102_hand_solder" H 6600 8900 50  0001 L TNN
-F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 6650 8825 50  0001 L TNN
-	1    6550 9200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6550 9500 7150 9500
-Wire Wire Line
-	6550 8900 7150 8900
 $Comp
 L LED:APA102-2020 LD8,5
 U 1 1 63FA0112
@@ -1761,8 +1647,6 @@ NoConn ~ 14450 1450
 NoConn ~ 14450 1350
 NoConn ~ 13850 5950
 NoConn ~ 13850 6050
-NoConn ~ 14500 7600
-NoConn ~ 14500 7700
 NoConn ~ 13550 9100
 NoConn ~ 13550 9200
 Connection ~ 2950 8900
@@ -1801,8 +1685,6 @@ Connection ~ 3900 4100
 Connection ~ 3900 4700
 Connection ~ 3950 5750
 Connection ~ 3950 6350
-Connection ~ 4750 8900
-Connection ~ 4750 9500
 Connection ~ 4600 7400
 Connection ~ 4600 8000
 Connection ~ 4550 1150
@@ -1813,8 +1695,6 @@ Connection ~ 4500 4100
 Connection ~ 4500 4700
 Connection ~ 4550 5750
 Connection ~ 4550 6350
-Connection ~ 5350 8900
-Connection ~ 5350 9500
 Connection ~ 5200 7400
 Connection ~ 5200 8000
 Connection ~ 5150 1150
@@ -1825,8 +1705,6 @@ Connection ~ 5100 4100
 Connection ~ 5100 4700
 Connection ~ 5150 5750
 Connection ~ 5150 6350
-Connection ~ 5950 8900
-Connection ~ 5950 9500
 Connection ~ 5800 7400
 Connection ~ 5800 8000
 Connection ~ 5750 1150
@@ -1837,8 +1715,6 @@ Connection ~ 5700 4100
 Connection ~ 5700 4700
 Connection ~ 5750 5750
 Connection ~ 5750 6350
-Connection ~ 6550 8900
-Connection ~ 6550 9500
 Connection ~ 6400 7400
 Connection ~ 6400 8000
 Connection ~ 6350 1150
@@ -1905,8 +1781,6 @@ Connection ~ 9300 4100
 Connection ~ 9300 4700
 Connection ~ 9350 5750
 Connection ~ 9350 6350
-Connection ~ 9950 1150
-Connection ~ 9950 1750
 Connection ~ 9900 2800
 Connection ~ 9900 3400
 Connection ~ 10550 1150
@@ -1945,7 +1819,6 @@ Connection ~ 12900 2800
 Connection ~ 12900 3400
 Connection ~ 12950 5750
 Connection ~ 12950 6350
-Connection ~ 13600 7400
 Connection ~ 13600 8000
 Connection ~ 13550 1150
 Connection ~ 13550 1750
@@ -2128,14 +2001,7 @@ Wire Wire Line
 	4800 4100 5100 4100
 Wire Wire Line
 	15300 5400 15300 6800
-Wire Wire Line
-	15300 9900 12850 9900
-Wire Wire Line
-	12850 9900 12850 10250
 Connection ~ 15300 5400
-Connection ~ 12850 10250
-Wire Wire Line
-	12850 10250 13150 10250
 Wire Wire Line
 	15300 8500 8650 8500
 Wire Wire Line
@@ -2152,8 +2018,6 @@ Wire Wire Line
 	5050 8500 5050 8900
 Connection ~ 8650 8500
 Connection ~ 5050 8900
-Wire Wire Line
-	5050 8900 5350 8900
 Wire Wire Line
 	15300 6800 8500 6800
 Wire Wire Line
@@ -2256,9 +2120,6 @@ NoConn ~ 9000 10450
 NoConn ~ 9000 10550
 Wire Wire Line
 	9650 10250 9650 9900
-Wire Wire Line
-	9650 9900 12850 9900
-Connection ~ 12850 9900
 $Comp
 L power:GNDPWR #PWR0118
 U 1 1 606F9755
@@ -2276,11 +2137,43 @@ Connection ~ 8700 10250
 Wire Wire Line
 	8700 10250 9650 10250
 Connection ~ 8700 10850
-Connection ~ 14350 10850
 Connection ~ 13250 9500
-Connection ~ 14200 8000
 Connection ~ 13550 6350
 Connection ~ 9900 4700
 Connection ~ 14100 3400
 Connection ~ 14150 1750
+Wire Wire Line
+	5050 8900 7150 8900
+Wire Wire Line
+	9350 1150 10550 1150
+Wire Wire Line
+	9350 1750 10550 1750
+Wire Wire Line
+	9650 1350 10250 1350
+Wire Wire Line
+	9650 1450 10250 1450
+Wire Wire Line
+	4150 8900 5050 8900
+Wire Wire Line
+	4150 9500 7150 9500
+Wire Wire Line
+	4450 9100 6850 9100
+Wire Wire Line
+	4450 9200 6850 9200
+NoConn ~ 13900 7600
+NoConn ~ 13900 7700
+NoConn ~ 14050 10450
+NoConn ~ 14050 10550
+Wire Wire Line
+	9650 9900 12250 9900
+Wire Wire Line
+	12550 10250 13150 10250
+Wire Wire Line
+	12250 9900 12250 10250
+Connection ~ 12250 9900
+Wire Wire Line
+	12250 9900 15300 9900
+Connection ~ 12250 10250
+Wire Wire Line
+	12250 10250 12550 10250
 $EndSCHEMATC

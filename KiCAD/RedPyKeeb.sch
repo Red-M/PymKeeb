@@ -187,31 +187,31 @@ U 63412601
 F0 "LED_strings" 39
 F1 "led_strings.sch" 39
 $EndSheet
-Text GLabel 6950 5900 2    39   BiDi ~ 0
-LED_SCL_ROW6
 Text GLabel 6950 5800 2    39   BiDi ~ 0
-LED_SCL_ROW5
-Text GLabel 6950 5700 2    39   BiDi ~ 0
-LED_SCL_ROW4
+LED_SCL_ROW6
 Text GLabel 6950 5600 2    39   BiDi ~ 0
-LED_SCL_ROW3
-Text GLabel 6950 5500 2    39   BiDi ~ 0
-LED_SCL_ROW2
+LED_SCL_ROW5
 Text GLabel 6950 5400 2    39   BiDi ~ 0
-LED_SCL_ROW1
-Text GLabel 6950 5300 2    39   BiDi ~ 0
-LED_SCL_ROW0
-Text GLabel 6950 6800 2    39   BiDi ~ 0
-LED_SDA_ROW6
+LED_SCL_ROW4
+Text GLabel 6950 6900 2    39   BiDi ~ 0
+LED_SCL_ROW3
 Text GLabel 6950 6700 2    39   BiDi ~ 0
-LED_SDA_ROW5
-Text GLabel 6950 6600 2    39   BiDi ~ 0
-LED_SDA_ROW4
+LED_SCL_ROW2
 Text GLabel 6950 6500 2    39   BiDi ~ 0
-LED_SDA_ROW3
-Text GLabel 6950 6400 2    39   BiDi ~ 0
-LED_SDA_ROW2
+LED_SCL_ROW1
 Text GLabel 6950 6300 2    39   BiDi ~ 0
+LED_SCL_ROW0
+Text GLabel 6950 5700 2    39   BiDi ~ 0
+LED_SDA_ROW6
+Text GLabel 6950 5500 2    39   BiDi ~ 0
+LED_SDA_ROW5
+Text GLabel 6950 5300 2    39   BiDi ~ 0
+LED_SDA_ROW4
+Text GLabel 6950 6800 2    39   BiDi ~ 0
+LED_SDA_ROW3
+Text GLabel 6950 6600 2    39   BiDi ~ 0
+LED_SDA_ROW2
+Text GLabel 6950 6400 2    39   BiDi ~ 0
 LED_SDA_ROW1
 Text GLabel 6950 6200 2    39   BiDi ~ 0
 LED_SDA_ROW0
@@ -246,9 +246,6 @@ USB_DP
 NoConn ~ 5550 6000
 NoConn ~ 5550 5900
 NoConn ~ 2350 6900
-NoConn ~ 4600 6900
-NoConn ~ 4600 6000
-NoConn ~ 4600 5900
 Text GLabel 950  5900 0    39   BiDi ~ 0
 IO_INT0
 Text GLabel 950  6000 0    39   BiDi ~ 0
@@ -488,7 +485,7 @@ Text Notes 2650 1200 0    39   ~ 0
 0805B104K100CT for capacitors\n100nF
 Text GLabel 6950 6000 2    39   BiDi ~ 0
 LED_SCL_ROW7
-Text GLabel 6950 6900 2    39   BiDi ~ 0
+Text GLabel 6950 5900 2    39   BiDi ~ 0
 LED_SDA_ROW7
 Text GLabel 1350 2050 0    39   BiDi ~ 0
 I2C_SCL0
@@ -594,4 +591,6 @@ Text GLabel 2350 1950 1    39   Input ~ 0
 PICO_SDA0
 Text GLabel 2350 2050 3    39   Input ~ 0
 PICO_SCL0
+Text GLabel 4600 5900 2    39   BiDi ~ 0
+KEY_COL20
 $EndSCHEMATC
