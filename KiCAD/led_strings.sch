@@ -22,7 +22,7 @@ F 1 "APA102-2020" H 10750 10940 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 10800 10250 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 10850 10175 50  0001 L TNN
 	1    10750 10550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text GLabel 1850 1350 0    39   BiDi ~ 0
 LED_SDA_ROW0
@@ -69,7 +69,7 @@ F 1 "APA102-2020" H 2750 1840 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 2800 1150 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 2850 1075 50  0001 L TNN
 	1    2750 1450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2750 1750 3350 1750
@@ -84,7 +84,7 @@ F 1 "APA102-2020" H 3350 1840 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 3400 1150 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 3450 1075 50  0001 L TNN
 	1    3350 1450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3350 1750 3950 1750
@@ -99,7 +99,7 @@ F 1 "APA102-2020" H 3950 1840 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 4000 1150 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 4050 1075 50  0001 L TNN
 	1    3950 1450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3950 1750 4550 1750
@@ -114,7 +114,7 @@ F 1 "APA102-2020" H 4550 1840 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 4600 1150 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 4650 1075 50  0001 L TNN
 	1    4550 1450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4550 1750 5150 1750
@@ -129,7 +129,7 @@ F 1 "APA102-2020" H 5150 1840 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 5200 1150 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 5250 1075 50  0001 L TNN
 	1    5150 1450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5150 1750 5750 1750
@@ -144,7 +144,7 @@ F 1 "APA102-2020" H 5750 1840 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 5800 1150 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 5850 1075 50  0001 L TNN
 	1    5750 1450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5750 1750 6350 1750
@@ -159,7 +159,7 @@ F 1 "APA102-2020" H 6350 1840 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 6400 1150 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 6450 1075 50  0001 L TNN
 	1    6350 1450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6350 1750 6950 1750
@@ -172,7 +172,7 @@ F 1 "APA102-2020" H 6950 1840 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 7000 1150 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 7050 1075 50  0001 L TNN
 	1    6950 1450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6950 1750 7550 1750
@@ -187,7 +187,7 @@ F 1 "APA102-2020" H 7550 1840 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 7600 1150 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 7650 1075 50  0001 L TNN
 	1    7550 1450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7550 1750 8150 1750
@@ -202,7 +202,7 @@ F 1 "APA102-2020" H 8150 1840 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 8200 1150 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 8250 1075 50  0001 L TNN
 	1    8150 1450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8150 1750 8750 1750
@@ -217,7 +217,7 @@ F 1 "APA102-2020" H 8750 1840 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 8800 1150 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 8850 1075 50  0001 L TNN
 	1    8750 1450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8750 1750 9350 1750
@@ -232,7 +232,7 @@ F 1 "APA102-2020" H 9350 1840 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 9400 1150 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 9450 1075 50  0001 L TNN
 	1    9350 1450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L LED:APA102-2020 LD14,0
@@ -243,7 +243,7 @@ F 1 "APA102-2020" H 10550 1840 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 10600 1150 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 10650 1075 50  0001 L TNN
 	1    10550 1450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	10550 1750 11150 1750
@@ -258,7 +258,7 @@ F 1 "APA102-2020" H 11150 1840 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 11200 1150 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 11250 1075 50  0001 L TNN
 	1    11150 1450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	11150 1750 11750 1750
@@ -273,7 +273,7 @@ F 1 "APA102-2020" H 11750 1840 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 11800 1150 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 11850 1075 50  0001 L TNN
 	1    11750 1450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	11750 1750 12350 1750
@@ -288,7 +288,7 @@ F 1 "APA102-2020" H 12350 1840 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 12400 1150 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 12450 1075 50  0001 L TNN
 	1    12350 1450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	12350 1750 12950 1750
@@ -303,7 +303,7 @@ F 1 "APA102-2020" H 12950 1840 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 13000 1150 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 13050 1075 50  0001 L TNN
 	1    12950 1450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	12950 1750 13550 1750
@@ -318,7 +318,7 @@ F 1 "APA102-2020" H 13550 1840 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 13600 1150 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 13650 1075 50  0001 L TNN
 	1    13550 1450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L LED:APA102-2020 LD15,6
@@ -329,7 +329,7 @@ F 1 "APA102-2020" H 11350 10940 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 11400 10250 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 11450 10175 50  0001 L TNN
 	1    11350 10550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	11350 10850 11950 10850
@@ -344,7 +344,7 @@ F 1 "APA102-2020" H 11950 10940 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 12000 10250 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 12050 10175 50  0001 L TNN
 	1    11950 10550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	11950 10850 12550 10850
@@ -359,7 +359,7 @@ F 1 "APA102-2020" H 12550 10940 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 12600 10250 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 12650 10175 50  0001 L TNN
 	1    12550 10550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	12550 10850 13150 10850
@@ -372,7 +372,7 @@ F 1 "APA102-2020" H 13150 10940 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 13200 10250 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 13250 10175 50  0001 L TNN
 	1    13150 10550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	13150 10850 13750 10850
@@ -387,7 +387,7 @@ F 1 "APA102-2020" H 13750 10940 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 13800 10250 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 13850 10175 50  0001 L TNN
 	1    13750 10550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	13750 10850 14350 10850
@@ -404,7 +404,7 @@ F 1 "APA102-2020" H 14150 1840 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 14200 1150 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 14250 1075 50  0001 L TNN
 	1    14150 1450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L LED:APA102-2020 LD0,1
@@ -415,7 +415,7 @@ F 1 "APA102-2020" H 2100 3490 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 2150 2800 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 2200 2725 50  0001 L TNN
 	1    2100 3100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2100 3400 2700 3400
@@ -430,7 +430,7 @@ F 1 "APA102-2020" H 2700 3490 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 2750 2800 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 2800 2725 50  0001 L TNN
 	1    2700 3100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2700 3400 3300 3400
@@ -445,7 +445,7 @@ F 1 "APA102-2020" H 3300 3490 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 3350 2800 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 3400 2725 50  0001 L TNN
 	1    3300 3100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3300 3400 3900 3400
@@ -460,7 +460,7 @@ F 1 "APA102-2020" H 3900 3490 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 3950 2800 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 4000 2725 50  0001 L TNN
 	1    3900 3100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3900 3400 4500 3400
@@ -475,7 +475,7 @@ F 1 "APA102-2020" H 4500 3490 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 4550 2800 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 4600 2725 50  0001 L TNN
 	1    4500 3100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4500 3400 5100 3400
@@ -490,7 +490,7 @@ F 1 "APA102-2020" H 5100 3490 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 5150 2800 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 5200 2725 50  0001 L TNN
 	1    5100 3100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5100 3400 5700 3400
@@ -505,7 +505,7 @@ F 1 "APA102-2020" H 5700 3490 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 5750 2800 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 5800 2725 50  0001 L TNN
 	1    5700 3100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5700 3400 6300 3400
@@ -520,7 +520,7 @@ F 1 "APA102-2020" H 6300 3490 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 6350 2800 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 6400 2725 50  0001 L TNN
 	1    6300 3100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6300 3400 6900 3400
@@ -535,7 +535,7 @@ F 1 "APA102-2020" H 6900 3490 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 6950 2800 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 7000 2725 50  0001 L TNN
 	1    6900 3100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6900 3400 7500 3400
@@ -550,7 +550,7 @@ F 1 "APA102-2020" H 7500 3490 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 7550 2800 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 7600 2725 50  0001 L TNN
 	1    7500 3100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7500 3400 8100 3400
@@ -565,7 +565,7 @@ F 1 "APA102-2020" H 8100 3490 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 8150 2800 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 8200 2725 50  0001 L TNN
 	1    8100 3100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8100 3400 8700 3400
@@ -580,7 +580,7 @@ F 1 "APA102-2020" H 8700 3490 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 8750 2800 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 8800 2725 50  0001 L TNN
 	1    8700 3100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8700 3400 9300 3400
@@ -595,7 +595,7 @@ F 1 "APA102-2020" H 9300 3490 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 9350 2800 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 9400 2725 50  0001 L TNN
 	1    9300 3100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9300 3400 9900 3400
@@ -610,7 +610,7 @@ F 1 "APA102-2020" H 9900 3490 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 9950 2800 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 10000 2725 50  0001 L TNN
 	1    9900 3100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9900 3400 10500 3400
@@ -625,7 +625,7 @@ F 1 "APA102-2020" H 10500 3490 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 10550 2800 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 10600 2725 50  0001 L TNN
 	1    10500 3100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	10500 3400 11100 3400
@@ -640,7 +640,7 @@ F 1 "APA102-2020" H 11100 3490 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 11150 2800 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 11200 2725 50  0001 L TNN
 	1    11100 3100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	11100 3400 11700 3400
@@ -655,7 +655,7 @@ F 1 "APA102-2020" H 11700 3490 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 11750 2800 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 11800 2725 50  0001 L TNN
 	1    11700 3100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	11700 3400 12300 3400
@@ -670,7 +670,7 @@ F 1 "APA102-2020" H 12300 3490 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 12350 2800 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 12400 2725 50  0001 L TNN
 	1    12300 3100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	12300 3400 12900 3400
@@ -685,7 +685,7 @@ F 1 "APA102-2020" H 12900 3490 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 12950 2800 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 13000 2725 50  0001 L TNN
 	1    12900 3100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	12900 3400 13500 3400
@@ -700,7 +700,7 @@ F 1 "APA102-2020" H 13500 3490 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 13550 2800 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 13600 2725 50  0001 L TNN
 	1    13500 3100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	13500 3400 14100 3400
@@ -715,7 +715,7 @@ F 1 "APA102-2020" H 14100 3490 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 14150 2800 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 14200 2725 50  0001 L TNN
 	1    14100 3100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L LED:APA102-2020 LD0,2
@@ -726,7 +726,7 @@ F 1 "APA102-2020" H 2100 4790 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 2150 4100 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 2200 4025 50  0001 L TNN
 	1    2100 4400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2100 4700 2700 4700
@@ -741,7 +741,7 @@ F 1 "APA102-2020" H 2700 4790 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 2750 4100 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 2800 4025 50  0001 L TNN
 	1    2700 4400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2700 4700 3300 4700
@@ -756,7 +756,7 @@ F 1 "APA102-2020" H 3300 4790 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 3350 4100 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 3400 4025 50  0001 L TNN
 	1    3300 4400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3300 4700 3900 4700
@@ -771,7 +771,7 @@ F 1 "APA102-2020" H 3900 4790 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 3950 4100 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 4000 4025 50  0001 L TNN
 	1    3900 4400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3900 4700 4500 4700
@@ -786,7 +786,7 @@ F 1 "APA102-2020" H 4500 4790 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 4550 4100 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 4600 4025 50  0001 L TNN
 	1    4500 4400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4500 4700 5100 4700
@@ -801,7 +801,7 @@ F 1 "APA102-2020" H 5100 4790 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 5150 4100 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 5200 4025 50  0001 L TNN
 	1    5100 4400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5100 4700 5700 4700
@@ -816,7 +816,7 @@ F 1 "APA102-2020" H 5700 4790 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 5750 4100 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 5800 4025 50  0001 L TNN
 	1    5700 4400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5700 4700 6300 4700
@@ -831,7 +831,7 @@ F 1 "APA102-2020" H 6300 4790 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 6350 4100 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 6400 4025 50  0001 L TNN
 	1    6300 4400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6300 4700 6900 4700
@@ -846,7 +846,7 @@ F 1 "APA102-2020" H 6900 4790 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 6950 4100 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 7000 4025 50  0001 L TNN
 	1    6900 4400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6900 4700 7500 4700
@@ -859,7 +859,7 @@ F 1 "APA102-2020" H 7500 4790 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 7550 4100 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 7600 4025 50  0001 L TNN
 	1    7500 4400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7500 4700 8100 4700
@@ -874,7 +874,7 @@ F 1 "APA102-2020" H 8100 4790 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 8150 4100 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 8200 4025 50  0001 L TNN
 	1    8100 4400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8100 4700 8700 4700
@@ -889,7 +889,7 @@ F 1 "APA102-2020" H 8700 4790 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 8750 4100 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 8800 4025 50  0001 L TNN
 	1    8700 4400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8700 4700 9300 4700
@@ -904,7 +904,7 @@ F 1 "APA102-2020" H 9300 4790 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 9350 4100 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 9400 4025 50  0001 L TNN
 	1    9300 4400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9300 4700 9900 4700
@@ -919,7 +919,7 @@ F 1 "APA102-2020" H 9900 4790 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 9950 4100 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 10000 4025 50  0001 L TNN
 	1    9900 4400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L LED:APA102-2020 LD0,3
@@ -930,7 +930,7 @@ F 1 "APA102-2020" H 2150 6440 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 2200 5750 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 2250 5675 50  0001 L TNN
 	1    2150 6050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2150 6350 2750 6350
@@ -945,7 +945,7 @@ F 1 "APA102-2020" H 2750 6440 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 2800 5750 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 2850 5675 50  0001 L TNN
 	1    2750 6050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2750 6350 3350 6350
@@ -960,7 +960,7 @@ F 1 "APA102-2020" H 3350 6440 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 3400 5750 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 3450 5675 50  0001 L TNN
 	1    3350 6050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3350 6350 3950 6350
@@ -975,7 +975,7 @@ F 1 "APA102-2020" H 3950 6440 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 4000 5750 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 4050 5675 50  0001 L TNN
 	1    3950 6050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3950 6350 4550 6350
@@ -990,7 +990,7 @@ F 1 "APA102-2020" H 4550 6440 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 4600 5750 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 4650 5675 50  0001 L TNN
 	1    4550 6050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4550 6350 5150 6350
@@ -1005,7 +1005,7 @@ F 1 "APA102-2020" H 5150 6440 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 5200 5750 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 5250 5675 50  0001 L TNN
 	1    5150 6050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5150 6350 5750 6350
@@ -1020,7 +1020,7 @@ F 1 "APA102-2020" H 5750 6440 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 5800 5750 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 5850 5675 50  0001 L TNN
 	1    5750 6050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5750 6350 6350 6350
@@ -1035,7 +1035,7 @@ F 1 "APA102-2020" H 6350 6440 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 6400 5750 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 6450 5675 50  0001 L TNN
 	1    6350 6050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6350 6350 6950 6350
@@ -1050,7 +1050,7 @@ F 1 "APA102-2020" H 6950 6440 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 7000 5750 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 7050 5675 50  0001 L TNN
 	1    6950 6050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6950 6350 7550 6350
@@ -1065,7 +1065,7 @@ F 1 "APA102-2020" H 7550 6440 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 7600 5750 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 7650 5675 50  0001 L TNN
 	1    7550 6050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7550 6350 8150 6350
@@ -1080,7 +1080,7 @@ F 1 "APA102-2020" H 8150 6440 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 8200 5750 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 8250 5675 50  0001 L TNN
 	1    8150 6050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8150 6350 8750 6350
@@ -1095,7 +1095,7 @@ F 1 "APA102-2020" H 8750 6440 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 8800 5750 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 8850 5675 50  0001 L TNN
 	1    8750 6050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8750 6350 9350 6350
@@ -1110,7 +1110,7 @@ F 1 "APA102-2020" H 9350 6440 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 9400 5750 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 9450 5675 50  0001 L TNN
 	1    9350 6050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L LED:APA102-2020 LD14,3
@@ -1121,7 +1121,7 @@ F 1 "APA102-2020" H 10550 6440 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 10600 5750 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 10650 5675 50  0001 L TNN
 	1    10550 6050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	10550 6350 11150 6350
@@ -1136,7 +1136,7 @@ F 1 "APA102-2020" H 11150 6440 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 11200 5750 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 11250 5675 50  0001 L TNN
 	1    11150 6050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	11150 6350 11750 6350
@@ -1151,7 +1151,7 @@ F 1 "APA102-2020" H 11750 6440 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 11800 5750 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 11850 5675 50  0001 L TNN
 	1    11750 6050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	11750 6350 12350 6350
@@ -1166,7 +1166,7 @@ F 1 "APA102-2020" H 12350 6440 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 12400 5750 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 12450 5675 50  0001 L TNN
 	1    12350 6050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	12350 6350 12950 6350
@@ -1181,7 +1181,7 @@ F 1 "APA102-2020" H 12950 6440 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 13000 5750 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 13050 5675 50  0001 L TNN
 	1    12950 6050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	12950 6350 13550 6350
@@ -1196,7 +1196,7 @@ F 1 "APA102-2020" H 13550 6440 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 13600 5750 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 13650 5675 50  0001 L TNN
 	1    13550 6050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9650 5950 10250 5950
@@ -1215,7 +1215,7 @@ F 1 "APA102-2020" H 2200 8090 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 2250 7400 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 2300 7325 50  0001 L TNN
 	1    2200 7700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2200 8000 2800 8000
@@ -1230,7 +1230,7 @@ F 1 "APA102-2020" H 2800 8090 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 2850 7400 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 2900 7325 50  0001 L TNN
 	1    2800 7700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2800 8000 3400 8000
@@ -1245,7 +1245,7 @@ F 1 "APA102-2020" H 3400 8090 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 3450 7400 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 3500 7325 50  0001 L TNN
 	1    3400 7700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3400 8000 4000 8000
@@ -1260,7 +1260,7 @@ F 1 "APA102-2020" H 4000 8090 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 4050 7400 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 4100 7325 50  0001 L TNN
 	1    4000 7700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4000 8000 4600 8000
@@ -1275,7 +1275,7 @@ F 1 "APA102-2020" H 4600 8090 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 4650 7400 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 4700 7325 50  0001 L TNN
 	1    4600 7700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4600 8000 5200 8000
@@ -1290,7 +1290,7 @@ F 1 "APA102-2020" H 5200 8090 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 5250 7400 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 5300 7325 50  0001 L TNN
 	1    5200 7700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5200 8000 5800 8000
@@ -1305,7 +1305,7 @@ F 1 "APA102-2020" H 5800 8090 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 5850 7400 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 5900 7325 50  0001 L TNN
 	1    5800 7700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5800 8000 6400 8000
@@ -1320,7 +1320,7 @@ F 1 "APA102-2020" H 6400 8090 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 6450 7400 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 6500 7325 50  0001 L TNN
 	1    6400 7700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6400 8000 7000 8000
@@ -1335,7 +1335,7 @@ F 1 "APA102-2020" H 7000 8090 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 7050 7400 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 7100 7325 50  0001 L TNN
 	1    7000 7700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7000 8000 7600 8000
@@ -1350,7 +1350,7 @@ F 1 "APA102-2020" H 7600 8090 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 7650 7400 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 7700 7325 50  0001 L TNN
 	1    7600 7700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7600 8000 8200 8000
@@ -1365,7 +1365,7 @@ F 1 "APA102-2020" H 8200 8090 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 8250 7400 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 8300 7325 50  0001 L TNN
 	1    8200 7700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8200 8000 8800 8000
@@ -1380,7 +1380,7 @@ F 1 "APA102-2020" H 8800 8090 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 8850 7400 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 8900 7325 50  0001 L TNN
 	1    8800 7700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L LED:APA102-2020 LD16,4
@@ -1391,7 +1391,7 @@ F 1 "APA102-2020" H 11800 8090 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 11850 7400 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 11900 7325 50  0001 L TNN
 	1    11800 7700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	11800 8000 12400 8000
@@ -1406,7 +1406,7 @@ F 1 "APA102-2020" H 12400 8090 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 12450 7400 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 12500 7325 50  0001 L TNN
 	1    12400 7700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	12400 8000 13000 8000
@@ -1421,7 +1421,7 @@ F 1 "APA102-2020" H 13000 8090 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 13050 7400 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 13100 7325 50  0001 L TNN
 	1    13000 7700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	13000 8000 13600 8000
@@ -1436,7 +1436,7 @@ F 1 "APA102-2020" H 13600 8090 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 13650 7400 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 13700 7325 50  0001 L TNN
 	1    13600 7700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	13600 8000 14200 8000
@@ -1466,7 +1466,7 @@ F 1 "APA102-2020" H 2350 9590 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 2400 8900 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 2450 8825 50  0001 L TNN
 	1    2350 9200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2350 9500 2950 9500
@@ -1481,7 +1481,7 @@ F 1 "APA102-2020" H 2950 9590 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 3000 8900 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 3050 8825 50  0001 L TNN
 	1    2950 9200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2950 9500 3550 9500
@@ -1496,7 +1496,7 @@ F 1 "APA102-2020" H 3550 9590 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 3600 8900 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 3650 8825 50  0001 L TNN
 	1    3550 9200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3550 9500 4150 9500
@@ -1511,7 +1511,7 @@ F 1 "APA102-2020" H 4150 9590 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 4200 8900 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 4250 8825 50  0001 L TNN
 	1    4150 9200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L LED:APA102-2020 LD8,5
@@ -1522,7 +1522,7 @@ F 1 "APA102-2020" H 7150 9590 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 7200 8900 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 7250 8825 50  0001 L TNN
 	1    7150 9200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7150 9500 7750 9500
@@ -1537,7 +1537,7 @@ F 1 "APA102-2020" H 7750 9590 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 7800 8900 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 7850 8825 50  0001 L TNN
 	1    7750 9200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7750 9500 8350 9500
@@ -1552,7 +1552,7 @@ F 1 "APA102-2020" H 8350 9590 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 8400 8900 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 8450 8825 50  0001 L TNN
 	1    8350 9200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8350 9500 8950 9500
@@ -1567,7 +1567,7 @@ F 1 "APA102-2020" H 8950 9590 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 9000 8900 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 9050 8825 50  0001 L TNN
 	1    8950 9200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8950 9500 11450 9500
@@ -1582,7 +1582,7 @@ F 1 "APA102-2020" H 11450 9590 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 11500 8900 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 11550 8825 50  0001 L TNN
 	1    11450 9200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 11450 8900
 Connection ~ 11450 9500
@@ -1599,7 +1599,7 @@ F 1 "APA102-2020" H 12050 9590 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 12100 8900 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 12150 8825 50  0001 L TNN
 	1    12050 9200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	12050 9500 12650 9500
@@ -1614,7 +1614,7 @@ F 1 "APA102-2020" H 12650 9590 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 12700 8900 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 12750 8825 50  0001 L TNN
 	1    12650 9200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	12650 9500 13250 9500
@@ -1629,7 +1629,7 @@ F 1 "APA102-2020" H 13250 9590 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 13300 8900 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 13350 8825 50  0001 L TNN
 	1    13250 9200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 12650 8900
 Connection ~ 12650 9500
@@ -1833,7 +1833,7 @@ F 1 "APA102-2020" H 2150 1840 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 2200 1150 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 2250 1075 50  0001 L TNN
 	1    2150 1450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDPWR #PWR0115
@@ -1844,9 +1844,9 @@ F 1 "GNDPWR" V 16054 4991 50  0000 R CNN
 F 2 "" H 16050 5050 50  0001 C CNN
 F 3 "" H 16050 5050 50  0001 C CNN
 	1    16050 5100
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
-Text GLabel 16050 5400 3    39   BiDi ~ 0
+Text GLabel 16050 5400 3    39   Input ~ 0
 MAIN_VBUS
 Wire Wire Line
 	16050 5100 15900 5100
@@ -1856,14 +1856,14 @@ $Comp
 L Device:CP C?
 U 1 1 64B87B14
 P 15900 5250
-AR Path="/64B87B14" Ref="C?"  Part="1"
-AR Path="/63412601/64B87B14" Ref="C6"  Part="1"
+AR Path="/64B87B14" Ref="C?"  Part="1" 
+AR Path="/63412601/64B87B14" Ref="C6"  Part="1" 
 F 0 "C6" V 16155 5250 50  0000 C CNN
 F 1 "EEE-FK1A102AL" V 16064 5250 50  0000 C CNN
 F 2 "Capacitor_SMD:CP_Elec_10x10" H 15938 5100 50  0001 C CNN
 F 3 "~" H 15900 5250 50  0001 C CNN
 	1    15900 5250
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GNDPWR #PWR0127
@@ -1874,7 +1874,7 @@ F 1 "GNDPWR" V 14154 1641 50  0000 R CNN
 F 2 "" H 14150 1700 50  0001 C CNN
 F 3 "" H 14150 1700 50  0001 C CNN
 	1    14150 1750
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GNDPWR #PWR0128
@@ -1885,7 +1885,7 @@ F 1 "GNDPWR" V 13554 6241 50  0000 R CNN
 F 2 "" H 13550 6300 50  0001 C CNN
 F 3 "" H 13550 6300 50  0001 C CNN
 	1    13550 6350
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GNDPWR #PWR0129
@@ -1896,7 +1896,7 @@ F 1 "GNDPWR" V 14104 3291 50  0000 R CNN
 F 2 "" H 14100 3350 50  0001 C CNN
 F 3 "" H 14100 3350 50  0001 C CNN
 	1    14100 3400
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GNDPWR #PWR0130
@@ -1907,7 +1907,7 @@ F 1 "GNDPWR" V 9904 4591 50  0000 R CNN
 F 2 "" H 9900 4650 50  0001 C CNN
 F 3 "" H 9900 4650 50  0001 C CNN
 	1    9900 4700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GNDPWR #PWR0131
@@ -1918,7 +1918,7 @@ F 1 "GNDPWR" V 14204 7891 50  0000 R CNN
 F 2 "" H 14200 7950 50  0001 C CNN
 F 3 "" H 14200 7950 50  0001 C CNN
 	1    14200 8000
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GNDPWR #PWR0132
@@ -1929,7 +1929,7 @@ F 1 "GNDPWR" V 13254 9391 50  0000 R CNN
 F 2 "" H 13250 9450 50  0001 C CNN
 F 3 "" H 13250 9450 50  0001 C CNN
 	1    13250 9500
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GNDPWR #PWR0133
@@ -1940,22 +1940,22 @@ F 1 "GNDPWR" V 14354 10741 50  0000 R CNN
 F 2 "" H 14350 10800 50  0001 C CNN
 F 3 "" H 14350 10800 50  0001 C CNN
 	1    14350 10850
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	6350 1150 6650 1150
 Wire Wire Line
-	15300 700  10900 700
+	15300 700  10900 700 
 Wire Wire Line
 	10900 700  10900 1150
 Connection ~ 10900 1150
 Wire Wire Line
 	10900 1150 11150 1150
 Wire Wire Line
-	10900 700  6650 700
+	10900 700  6650 700 
 Wire Wire Line
 	6650 700  6650 1150
-Connection ~ 10900 700
+Connection ~ 10900 700 
 Connection ~ 6650 1150
 Wire Wire Line
 	6650 1150 6950 1150
@@ -1965,7 +1965,7 @@ Wire Wire Line
 	11400 2300 11400 2800
 Connection ~ 15300 2300
 Wire Wire Line
-	15300 2300 15300 700
+	15300 2300 15300 700 
 Connection ~ 11400 2800
 Wire Wire Line
 	11400 2800 11700 2800
@@ -2063,7 +2063,7 @@ F 1 "APA102-2020" H 6900 10940 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 6950 10250 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 7000 10175 50  0001 L TNN
 	1    6900 10550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text GLabel 6600 10450 0    39   BiDi ~ 0
 LED_SDA_ROW7
@@ -2082,7 +2082,7 @@ F 1 "APA102-2020" H 7500 10940 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 7550 10250 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 7600 10175 50  0001 L TNN
 	1    7500 10550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7500 10850 8100 10850
@@ -2097,7 +2097,7 @@ F 1 "APA102-2020" H 8100 10940 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 8150 10250 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 8200 10175 50  0001 L TNN
 	1    8100 10550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 7500 10250
 Connection ~ 7500 10850
@@ -2114,7 +2114,7 @@ F 1 "APA102-2020" H 8700 10940 50  0000 C CNN
 F 2 "Custom_pico:LED-APA102-2020" H 8750 10250 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 8800 10175 50  0001 L TNN
 	1    8700 10550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 NoConn ~ 9000 10450
 NoConn ~ 9000 10550
@@ -2129,7 +2129,7 @@ F 1 "GNDPWR" V 8705 10742 50  0000 R CNN
 F 2 "" H 8700 10800 50  0001 C CNN
 F 3 "" H 8700 10800 50  0001 C CNN
 	1    8700 10850
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	8100 10250 8700 10250

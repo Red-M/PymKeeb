@@ -28,7 +28,7 @@ KEY_* originates from this sheet
 NoConn ~ 3200 4350
 NoConn ~ 3300 4350
 NoConn ~ 3400 4350
-Text GLabel 4000 2350 2    39   BiDi ~ 0
+Text GLabel 4000 2350 2    39   Input ~ 0
 MAIN_VBUS
 NoConn ~ 2600 2450
 NoConn ~ 4000 2550
@@ -38,7 +38,7 @@ NoConn ~ 4000 2850
 NoConn ~ 4000 2950
 NoConn ~ 4000 3050
 NoConn ~ 4000 3150
-Text GLabel 4000 3250 2    39   BiDi ~ 0
+Text GLabel 4000 3250 2    39   Input ~ 0
 PICO_RUN
 NoConn ~ 4000 3350
 NoConn ~ 4000 3450
@@ -118,7 +118,7 @@ Text GLabel 4600 5800 2    39   BiDi ~ 0
 KEY_COL19
 Text GLabel 4600 5300 2    39   BiDi ~ 0
 KEY_COL14
-Text GLabel 1200 4750 0    39   BiDi ~ 0
+Text GLabel 1200 4750 0    39   Input ~ 0
 MAIN_VBUS
 $Comp
 L power:GNDPWR #PWR0102
@@ -136,7 +136,7 @@ L Interface_Expansion:MCP23017_SO U2
 U 1 1 633D7503
 P 3900 6100
 F 0 "U2" H 3900 7381 50  0000 C CNN
-F 1 "MCP23017_SO" H 3900 7290 50  0000 C CNN
+F 1 "MCP23017-E/SO" H 3900 7290 50  0000 C CNN
 F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 4100 5100 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 4100 5000 50  0001 L CNN
 	1    3900 6100
@@ -162,7 +162,7 @@ L Interface_Expansion:MCP23017_SO U3
 U 1 1 6340BF08
 P 6250 6100
 F 0 "U3" H 6250 7381 50  0000 C CNN
-F 1 "MCP23017_SO" H 6250 7290 50  0000 C CNN
+F 1 "MCP23017-E/SO" H 6250 7290 50  0000 C CNN
 F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 6450 5100 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 6450 5000 50  0001 L CNN
 	1    6250 6100
@@ -237,7 +237,7 @@ F 3 "" H 5200 1200 50  0001 C CNN
 	1    5200 1250
 	0    -1   -1   0   
 $EndComp
-Text GLabel 5200 1550 2    39   BiDi ~ 0
+Text GLabel 5200 1550 2    39   Output ~ 0
 MAIN_VBUS
 Text GLabel 5200 1350 2    39   BiDi ~ 0
 USB_DN
@@ -267,7 +267,7 @@ L Interface_Expansion:MCP23017_SO U1
 U 1 1 633C5696
 P 1650 6100
 F 0 "U1" H 1650 7381 50  0000 C CNN
-F 1 "MCP23017_SO" H 1650 7290 50  0000 C CNN
+F 1 "MCP23017-E/SO" H 1650 7290 50  0000 C CNN
 F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 1850 5100 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 1850 5000 50  0001 L CNN
 	1    1650 6100
@@ -344,11 +344,11 @@ I2C_SDA0
 Text GLabel 5550 5400 0    39   BiDi ~ 0
 I2C_SCL0
 NoConn ~ 2600 2650
-Text GLabel 5550 6200 0    39   BiDi ~ 0
+Text GLabel 5550 6200 0    39   Input ~ 0
 MAIN_VBUS
-Text GLabel 3200 6200 0    39   BiDi ~ 0
+Text GLabel 3200 6200 0    39   Input ~ 0
 MAIN_VBUS
-Text GLabel 950  6200 0    39   BiDi ~ 0
+Text GLabel 950  6200 0    39   Input ~ 0
 MAIN_VBUS
 $Comp
 L Connector_Generic:Conn_01x04 J1
@@ -496,7 +496,7 @@ L Interface:PCA9306D U10
 U 1 1 605F37CA
 P 1750 2050
 F 0 "U10" H 1750 1369 50  0000 C CNN
-F 1 "PCA9306D" H 1750 1460 50  0000 C CNN
+F 1 "PCA9306DP" H 1750 1460 50  0000 C CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 1750 1600 50  0001 C CNN
 F 3 "https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf" H 1450 2500 50  0001 C CNN
 	1    1750 2050
@@ -527,7 +527,7 @@ Wire Wire Line
 	2550 2050 2550 2350
 Wire Wire Line
 	2550 2350 2600 2350
-Text GLabel 1350 2550 0    39   BiDi ~ 0
+Text GLabel 1350 2550 0    39   Input ~ 0
 MAIN_VBUS
 Wire Wire Line
 	2250 3600 2250 3050
@@ -557,7 +557,7 @@ Text GLabel 1800 4200 2    20   Input ~ 0
 PICO_33_REF
 Text GLabel 2100 4000 2    20   Input ~ 0
 PICO_33_REF
-Text GLabel 1600 4200 0    39   BiDi ~ 0
+Text GLabel 1600 4200 0    39   Input ~ 0
 MAIN_VBUS
 $Comp
 L Logic_LevelTranslator:TXB0104D U11
@@ -587,9 +587,9 @@ Wire Wire Line
 Wire Wire Line
 	2100 3800 2300 3800
 NoConn ~ 2350 6000
-Text GLabel 2350 1950 1    39   Input ~ 0
+Text GLabel 2350 1950 1    39   BiDi ~ 0
 PICO_SDA0
-Text GLabel 2350 2050 3    39   Input ~ 0
+Text GLabel 2350 2050 3    39   BiDi ~ 0
 PICO_SCL0
 Text GLabel 4600 5900 2    39   BiDi ~ 0
 KEY_COL20
