@@ -12,6 +12,9 @@ class PinConfig(BaseKeeb):
         self.pico_33_ref = DigitalInOut(board.GP2)
         self.pico_33_ref.direction = Direction.OUTPUT
         self.pico_33_ref.pull = Pull.UP
+        self.led_count = 112
+        self.key_count = 108
+        self.screen_enabled = False
         self.i2c = busio.I2C(board.GP0, board.GP1)
         self._mcp = [
             MCP23017(i2c,address=0x20),

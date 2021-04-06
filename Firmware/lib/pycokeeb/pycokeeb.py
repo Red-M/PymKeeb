@@ -25,7 +25,7 @@ class PycoKeeb(KeyMap):
             Keyboard(usb_hid.devices),
             Keyboard(usb_hid.devices)
         ]
-        self.kbd_key_count = [
+        self.kbd_key_state_count = [
             0,
             0,
             0,
@@ -40,4 +40,4 @@ class PycoKeeb(KeyMap):
 
         while True:
 
-            time.sleep(0.01)
+            time.sleep(0.1)
