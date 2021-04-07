@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source S:\git\RedPycoKeeb\KiCAD\RedPyKeeb.sch)
-    (date "01/04/2021 7:14:34 PM")
+    (date "08/04/2021 2:09:47 AM")
     (tool "Eeschema (5.1.9)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -184,11 +184,11 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 62848745))
     (comp (ref U10)
-      (value PCA9306DP)
-      (footprint Package_SO:SSOP-8_2.95x2.8mm_P0.65mm)
+      (value PCA9306DP,118)
+      (footprint Package_SO:TSSOP-8_3x3mm_P0.65mm)
       (datasheet https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf)
       (fields
-        (field (name "Mouser No") PCA9306DP,118))
+        (field (name "Mouser No") 771-PCA9306DP-T))
       (libsource (lib Interface) (part PCA9306D) (description "Dual bidirectional I2C Bus and SMBus voltage level translator, SO-8"))
       (sheetpath (names /) (tstamps /))
       (tstamp 605F37CA))
