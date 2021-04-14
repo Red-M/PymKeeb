@@ -5,6 +5,14 @@ import adafruit_dotstar
 from digitalio import DigitalInOut, Direction, Pull
 from adafruit_bus_device.i2c_device import I2CDevice
 
+import usb_hid
+from adafruit_hid.keyboard import Keyboard
+from adafruit_hid.keycode import Keycode
+from adafruit_hid.consumer_control import ConsumerControl
+from adafruit_hid.consumer_control_code import ConsumerControlCode
+from pycokeeb.keymap import KeyMap
+from pycokeeb.keytypes import KeyTypes
+
 class BaseKeeb():
 
     def get_led_count(self):
@@ -100,6 +108,40 @@ class BaseKeeb():
             pin.direction = Direction.INPUT
             pin.pull = Pull.DOWN
             del pin
+
+    def setup_hid_devices(self):
+        self.kbd = [
+            Keyboard(usb_hid.devices), #24-KRO
+            Keyboard(usb_hid.devices),
+            Keyboard(usb_hid.devices),
+            Keyboard(usb_hid.devices)
+        ]
+        self.kbd_key_state_count = [
+            0,
+            0,
+            0,
+            0
+        ]
+        self.cc = ConsumerControl(usb_hid.devices)
+
+    def update_hid(self,key_data,release=None):
+        if release==None:
+            release = False
+        if type(key_data)==type((None,None)):
+            (key_type,keycodes) = key_data
+        else:
+            key_type = KeyTypes.KEY
+            keycodes = key_data
+        if key_type==KeyTypes.MEDIA:
+            if release==False:
+                cc.press(keycodes)
+            if release==True:
+                cc.release()
+        if key_type==KeyTypes.KEY:
+            if release==False:
+                self.kbd[0].press(*keycodes)
+            if release==True:
+                self.kbd[0].release(*keycodes)
 
     def setup_led_strings(self):
         allowed_brightness = self.led_brightness()
