@@ -1,11 +1,12 @@
 import time
 import board
 from digitalio import DigitalInOut, Direction, Pull
+from pycokeeb.keymap import KeyMap
 
 class PycoKeeb(KeyMap):
     def __init__(self):
         self.USB_mA_total = 500 # replace this with the actual USB budget defined when plugged in
-        self.debounce_time = 0.01
+        self.debounce_time = 0.000000001 # Let the IO expander think about it!
         print("RedPycoKeeb")
 
         try:
@@ -18,7 +19,7 @@ class PycoKeeb(KeyMap):
         self.setup_hid_devices()
         self.pin_setup()
         self.init_pins()
-        self.config()
+        self.load_keymap()
         self.main()
 
     def main(self):
@@ -33,7 +34,7 @@ class PycoKeeb(KeyMap):
             pressed_keys = [item for item in keys if item not in last_step_keys]
             release_keys = [item for item in last_step_keys if item not in keys]
             if len(pressed_keys)>0:
-                print("Pressed: ", keys)
+                print("Pressed: ", pressed_keys)
                 self.update_hid(pressed_keys)
             if len(release_keys)>0:
                 print("Released: ", release_keys)

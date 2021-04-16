@@ -10,8 +10,7 @@ from adafruit_hid.keyboard import Keyboard
 from adafruit_hid.keycode import Keycode
 from adafruit_hid.consumer_control import ConsumerControl
 from adafruit_hid.consumer_control_code import ConsumerControlCode
-from pycokeeb.keymap import KeyMap
-from pycokeeb.keytypes import KeyTypes
+from pycokeeb.keytypes import KeyTypes,meta_key_enum
 
 class BaseKeeb():
 
@@ -85,16 +84,32 @@ class BaseKeeb():
         for pin in self.row_pins:
             pin.direction = Direction.INPUT
             pin.pull = Pull.UP
+        # time.sleep(self.debounce_time)
         for row in range(len(self.row_pins)):
+            time.sleep(self.debounce_time)
             self.row_pins[row].direction = Direction.OUTPUT
             self.row_pins[row].value = False
             # if self.int_pins[1].value==False:
+            col_offset_pin_index = 0
             for int_pin in range(len(self.int_pins)):
                 if int_pin!=1 and self.int_pins[int_pin].value==False:
                     ints_flag = self.mcp(self.int_pins_to_mcp[int_pin]).int_flag
-                    for col in range(len(self.mcp_irq_pins[int_pin])):
+                    pins_under_int_pin = len(self.mcp_irq_pins[int_pin])
+                    col_offset_pin_index+=pins_under_int_pin
+                    for col in range(0,pins_under_int_pin):
                         if self.mcp_irq_pins[int_pin][col].value==False:
-                            pressed.append(self.keymap[row][col])
+                            key_res = self.keymap[row][col+col_offset_pin_index]
+                            if key_res==None:
+                                continue
+                            if isinstance(key_res,type([])):
+                                (key_type,keycode) = key_res
+                                if key_type==KeyTypes.META_KEY:
+                                    pass # Call for magic keys
+                                if key_type==KeyTypes.META_KEY:
+                                    pass # Call for magic keys
+                            else:
+                                keycode = key_res
+                            pressed.append(keycode)
             self.row_pins[row].direction = Direction.INPUT
             self.row_pins[row].pull = Pull.UP
         return(pressed)
@@ -124,9 +139,7 @@ class BaseKeeb():
         ]
         self.cc = ConsumerControl(usb_hid.devices)
 
-    def update_hid(self,key_data,release=None):
-        if release==None:
-            release = False
+    def update_hid(self,key_data,release=False):
         if type(key_data)==type((None,None)):
             (key_type,keycodes) = key_data
         else:
