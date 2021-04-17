@@ -1,12 +1,13 @@
 import time
 import board
+import tasko
 from digitalio import DigitalInOut, Direction, Pull
 from pycokeeb.keymap import KeyMap
 
 class PycoKeeb(KeyMap):
     def __init__(self):
         self.USB_mA_total = 500 # replace this with the actual USB budget defined when plugged in
-        self.debounce_time = 0.000000001 # Let the IO expander think about it!
+        self.debounce_time = 0.00001 # Let the IO expander think about it!
         print("RedPycoKeeb")
 
         try:
@@ -22,22 +23,26 @@ class PycoKeeb(KeyMap):
         self.load_keymap()
         self.main()
 
+    async def co_check_keys(self):
+        keys = await self.check_keys()
+        pressed_keys = [item for item in keys if item not in self.last_loopstep_keys]
+        release_keys = [item for item in self.last_loopstep_keys if item not in keys]
+        if len(pressed_keys)>0:
+            print("Pressed: ", pressed_keys)
+            self.update_hid(pressed_keys)
+        if len(release_keys)>0:
+            print("Released: ", release_keys)
+            self.update_hid(release_keys,True)
+        self.last_loopstep_keys = keys
+
     def main(self):
         self.led_i2c[0].fill((255,0,0))
         self.led_i2c[0].show()
         self.led_i2c[1].fill((255,0,0))
         self.led_i2c[1].show()
 
-        last_step_keys = []
-        while True:
-            keys = self.check_keys()
-            pressed_keys = [item for item in keys if item not in last_step_keys]
-            release_keys = [item for item in last_step_keys if item not in keys]
-            if len(pressed_keys)>0:
-                print("Pressed: ", pressed_keys)
-                self.update_hid(pressed_keys)
-            if len(release_keys)>0:
-                print("Released: ", release_keys)
-                self.update_hid(release_keys,True)
-            last_step_keys = keys
+        self.last_loopstep_keys = []
+
+        tasko.schedule(hz=100, coroutine_function=self.co_check_keys)
+        tasko.run()
 

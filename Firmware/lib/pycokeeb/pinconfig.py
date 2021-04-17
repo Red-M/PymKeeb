@@ -114,6 +114,18 @@ class PinConfig(BaseKeeb):
             self.col_pins[7:14],
             self.col_pins[15:21]
         ]
+        self.mcp_irq_pins_count = [
+            0, #This maps interrupt pins in self.int_pins to pin offset counts to get the correct column index for the keymap
+            None,
+            len(self.mcp_irq_pins[0]),
+            len(self.mcp_irq_pins[0]+self.mcp_irq_pins[2])
+        ]
+        self.int_clears = [
+            self.mcp(0).clear_inta,
+            self.mcp(0).clear_intb,
+            self.mcp(1).clear_inta,
+            self.mcp(1).clear_intb
+        ]
         self.int_pins_to_mcp = [
             0, #This maps int pins to MCP device number
             0,

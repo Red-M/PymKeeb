@@ -2,6 +2,7 @@ import board
 import time
 import busio
 import adafruit_dotstar
+import tasko
 from digitalio import DigitalInOut, Direction, Pull
 from adafruit_bus_device.i2c_device import I2CDevice
 
@@ -79,26 +80,21 @@ class BaseKeeb():
     def row_check(self,device,ints):
         return(self.mcp_pin_check_and_shift(device,ints))
 
-    def check_keys(self):
+    async def check_keys(self):
         pressed = []
         for pin in self.row_pins:
             pin.direction = Direction.INPUT
             pin.pull = Pull.UP
-        # time.sleep(self.debounce_time)
         for row in range(len(self.row_pins)):
             time.sleep(self.debounce_time)
             self.row_pins[row].direction = Direction.OUTPUT
             self.row_pins[row].value = False
-            # if self.int_pins[1].value==False:
-            col_offset_pin_index = 0
-            for int_pin in range(len(self.int_pins)):
-                if int_pin!=1 and self.int_pins[int_pin].value==False:
-                    ints_flag = self.mcp(self.int_pins_to_mcp[int_pin]).int_flag
-                    pins_under_int_pin = len(self.mcp_irq_pins[int_pin])
-                    col_offset_pin_index+=pins_under_int_pin
-                    for col in range(0,pins_under_int_pin):
-                        if self.mcp_irq_pins[int_pin][col].value==False:
-                            key_res = self.keymap[row][col+col_offset_pin_index]
+            for int_pin_index in range(len(self.int_pins)):
+                if int_pin_index!=1 and self.int_pins[int_pin_index].value==False:
+                    ints_flag = self.mcp(self.int_pins_to_mcp[int_pin_index]).int_flag
+                    for col in ints_flag:
+                        if self.mcp_irq_pins[int_pin_index][col].value==False:
+                            key_res = self.keymap[row][col+self.mcp_irq_pins_count[int_pin_index]]
                             if key_res==None:
                                 continue
                             if isinstance(key_res,type([])):
@@ -110,6 +106,7 @@ class BaseKeeb():
                             else:
                                 keycode = key_res
                             pressed.append(keycode)
+                    self.int_clears[int_pin_index]()
             self.row_pins[row].direction = Direction.INPUT
             self.row_pins[row].pull = Pull.UP
         return(pressed)
