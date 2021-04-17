@@ -109,10 +109,10 @@ class PinConfig(BaseKeeb):
             self._led_i2c(board.GP15,board.GP14,110),
         ]
         self.mcp_irq_pins = [
-            self.col_pins[0:6], #This maps interrupt pins in self.int_pins to mcp pins in self.rows and self.cols
+            self.col_pins[0:7], #This maps interrupt pins in self.int_pins to mcp pins in self.rows and self.cols
             self.row_pins,
             self.col_pins[7:14],
-            self.col_pins[15:21]
+            self.col_pins[15:]
         ]
         self.mcp_irq_pins_count = [
             0, #This maps interrupt pins in self.int_pins to pin offset counts to get the correct column index for the keymap

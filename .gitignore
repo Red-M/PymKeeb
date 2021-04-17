@@ -1,2 +1,2 @@
 *.zip
-Firmware/adafruit_libs/lib/*
+Firmware/external_libs/lib/*

@@ -38,55 +38,13 @@ class BaseKeeb():
     def _mcp_pin(self,device,pin):
         return(self.mcp(device).get_pin(pin))
 
-    def mcp_pin_check_and_shift(self,device,ints,col=None):
-        if col==None:
-            col = False
-        output = []
-        for interrupt in ints:
-            if col==True:
-                res = self.rows[device][interrupt]
-                if res!=None:
-                    res = not res
-            elif col==False:
-                res = self.rows[device][interrupt]
-            if res==True:
-                if col==False: #Translate down due to the pin layout of MCP0
-                    interrupt-=8
-                output.append(interrupt)
-        return(output)
-
-    def int_pins_check(self):
-        triggered_pins = []
-        for i in range(0,len(self.int_pins)):
-            pin = self.int_pins[i]
-            pin_value = not pin.value
-            if pin_value==True:
-                triggered_pins.append(i)
-        return(triggered_pins)
-
-    def row_pins_check(self):
-        for row in self.row_pins:
-            row.direction = Direction.INPUT
-            del row
-        time.sleep(0.005)
-        for row in self.row_pins:
-            row.direction = Direction.OUTPUT
-            # row.value = False
-            del row
-
-    def col_check(self,device,ints):
-        return(self.mcp_pin_check_and_shift(device,ints,True))
-
-    def row_check(self,device,ints):
-        return(self.mcp_pin_check_and_shift(device,ints))
-
-    async def check_keys(self):
+    def check_keys(self):
         pressed = []
         for pin in self.row_pins:
             pin.direction = Direction.INPUT
             pin.pull = Pull.UP
         for row in range(len(self.row_pins)):
-            time.sleep(self.debounce_time)
+            time.sleep(self.debounce_time) #Do not change this to an async sleep, this needs to be very percise.
             self.row_pins[row].direction = Direction.OUTPUT
             self.row_pins[row].value = False
             for int_pin_index in range(len(self.int_pins)):
@@ -123,18 +81,24 @@ class BaseKeeb():
 
     def setup_hid_devices(self):
         self.kbd = [
-            Keyboard(usb_hid.devices), #24-KRO
+            Keyboard(usb_hid.devices),
+            Keyboard(usb_hid.devices),
+            Keyboard(usb_hid.devices),
             Keyboard(usb_hid.devices),
             Keyboard(usb_hid.devices),
             Keyboard(usb_hid.devices)
         ]
-        self.kbd_key_state_count = [
-            0,
-            0,
-            0,
-            0
-        ]
         self.cc = ConsumerControl(usb_hid.devices)
+
+    def pick_hid(self,cc=False): # This doesn't send releases to the correct hid device, we might also be asking to press more keys than the hid has left
+        if cc==True:
+            return(self.cc)
+        elif cc==False:
+            for hid in self.kbd:
+                for item in hid.report_keys:
+                    if item==0:
+                        return(hid)
+
 
     def update_hid(self,key_data,release=False):
         if type(key_data)==type((None,None)):
@@ -144,14 +108,14 @@ class BaseKeeb():
             keycodes = key_data
         if key_type==KeyTypes.MEDIA:
             if release==False:
-                cc.press(keycodes)
+                self.cc.press(keycodes)
             if release==True:
-                cc.release()
+                self.cc.release()
         if key_type==KeyTypes.KEY:
             if release==False:
-                self.kbd[0].press(*keycodes)
+                self.pick_hid().press(*keycodes)
             if release==True:
-                self.kbd[0].release(*keycodes)
+                self.pick_hid().release(*keycodes)
 
     def setup_led_strings(self):
         allowed_brightness = self.led_brightness()
