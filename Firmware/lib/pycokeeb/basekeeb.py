@@ -38,46 +38,35 @@ class BaseKeeb():
     def _mcp_pin(self,device,pin):
         return(self.mcp(device).get_pin(pin))
 
+    def _mcp_int_flaga(self,device):
+        return(self.mcp(device).int_flaga)
+    def _mcp_int_flagb(self,device):
+        return(self.mcp(device).int_flagb)
+
     def check_keys(self):
-        pressed = []
         for pin in self.row_pins:
             pin.direction = Direction.INPUT
             pin.pull = Pull.UP
         for row in range(len(self.row_pins)):
-            time.sleep(self.debounce_time) #Do not change this to an async sleep, this needs to be very percise.
+            # time.sleep(self.debounce_time) # Do not change this to an async sleep, this needs to be very percise.
             self.row_pins[row].direction = Direction.OUTPUT
             self.row_pins[row].value = False
             for int_pin_index in range(len(self.int_pins)):
-                if int_pin_index!=1 and self.int_pins[int_pin_index].value==False:
-                    ints_flag = self.mcp(self.int_pins_to_mcp[int_pin_index]).int_flag
+                if int_pin_index==1:
+                    continue
+                if self.int_pins[int_pin_index].value==False:
+                    ints_flag = self.int_flags[int_pin_index](self.int_pins_to_mcp[int_pin_index])
                     for col in ints_flag:
                         if self.mcp_irq_pins[int_pin_index][col].value==False:
                             key_res = self.keymap[row][col+self.mcp_irq_pins_count[int_pin_index]]
-                            if key_res==None:
-                                continue
-                            if isinstance(key_res,type([])):
-                                (key_type,keycode) = key_res
-                                if key_type==KeyTypes.META_KEY:
-                                    pass # Call for magic keys
-                                if key_type==KeyTypes.META_KEY:
-                                    pass # Call for magic keys
-                            else:
-                                keycode = key_res
-                            pressed.append(keycode)
+                            yield(key_res)
                     self.int_clears[int_pin_index]()
             self.row_pins[row].direction = Direction.INPUT
             self.row_pins[row].pull = Pull.UP
-        return(pressed)
 
     def _led_i2c(self,cl,da,dots=1):
-        dotstar_sring = adafruit_dotstar.DotStar(cl,da,dots,brightness=0)
-        return(dotstar_sring)
-
-    def _setup_irq_pins(self):
-        for pin in self.int_pins:
-            pin.direction = Direction.INPUT
-            pin.pull = Pull.DOWN
-            del pin
+        dotstar_string = adafruit_dotstar.DotStar(cl,da,dots,brightness=0)
+        return(dotstar_string)
 
     def setup_hid_devices(self):
         self.kbd = [
@@ -121,6 +110,12 @@ class BaseKeeb():
         allowed_brightness = self.led_brightness()
         for i in range(0,len(self.led_i2c)):
             self.led_i2c[i].brightness = allowed_brightness
+
+    def _setup_irq_pins(self):
+        for pin in self.int_pins:
+            pin.direction = Direction.INPUT
+            pin.pull = Pull.DOWN
+            del pin
 
     def _enable_mcp_irq(self,device):
         self.mcp(device).interrupt_enable = 0xFFFF

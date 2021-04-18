@@ -3,7 +3,7 @@
 class ClassKeyTypes():
     MEDIA = 2
     KEY = 3
-    META_KEY = 4
+    FUNC = 4
 
 KeyTypes = ClassKeyTypes()
 

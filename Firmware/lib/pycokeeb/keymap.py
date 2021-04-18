@@ -1,5 +1,3 @@
-import board
-from digitalio import DigitalInOut, Direction, Pull
 from adafruit_hid.keycode import Keycode
 from adafruit_hid.consumer_control_code import ConsumerControlCode
 from adafruit_mcp230xx.mcp23017 import MCP23017

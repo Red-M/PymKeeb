@@ -8,6 +8,7 @@ from adafruit_mcp230xx.mcp23017 import MCP23017
 from pycokeeb.basekeeb import BaseKeeb
 
 class PinConfig(BaseKeeb):
+
     def init_pins(self):
         self._setup_irq_pins()
         self._setup_key_mcp(0)
@@ -125,6 +126,12 @@ class PinConfig(BaseKeeb):
             self.mcp(0).clear_intb,
             self.mcp(1).clear_inta,
             self.mcp(1).clear_intb
+        ]
+        self.int_flags = [
+            self._mcp_int_flaga,
+            self._mcp_int_flagb,
+            self._mcp_int_flaga,
+            self._mcp_int_flagb
         ]
         self.int_pins_to_mcp = [
             0, #This maps int pins to MCP device number
