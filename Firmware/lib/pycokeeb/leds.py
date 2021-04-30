@@ -1,3 +1,4 @@
+import time
 import random
 import tasko
 
@@ -6,10 +7,18 @@ class LEDs():
         self.keeb = keeb
 
     def random_color(self):
-        return(random.randrange(0, 7) * 32)
+        return(random.randrange(0, 255),random.randrange(0, 255),random.randrange(0, 255))
 
     async def main(self):
-        for dotstring in self.keeb.led_i2c:
-            for dot in range(len(dotstring)):
-                dotstring[dot] = (self.random_color(), self.random_color(), self.random_color())
-                await tasko.sleep(1/self.keeb.led_refresh)
+        if self.keeb.leds_enabled==True:
+            for dotstring in self.keeb.led_spi:
+                self.keeb.starttimer()
+                for dot in range(dotstring.n):
+                    dotstring[dot] = self.random_color()
+                    # dotstring[dot] = (255, 0, 0)
+                    # await tasko.sleep(1/self.keeb.led_refresh)
+                # dotstring[0] = (self.random_color(), self.random_color(), self.random_color())
+                dotstring.show()
+                self.keeb.endtimer()
+                # await tasko.sleep(1/self.keeb.led_refresh)
+                await tasko.sleep(1)

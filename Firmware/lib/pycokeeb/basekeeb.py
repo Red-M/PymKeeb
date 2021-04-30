@@ -5,6 +5,9 @@ import adafruit_dotstar
 import tasko
 from digitalio import DigitalInOut, Direction, Pull
 from adafruit_bus_device.i2c_device import I2CDevice
+from adafruit_bus_device.spi_device import SPIDevice
+import displayio
+from adafruit_st7789 import ST7789
 
 import usb_hid
 from adafruit_hid.keyboard import Keyboard
@@ -13,12 +16,18 @@ from adafruit_hid.consumer_control import ConsumerControl
 from adafruit_hid.consumer_control_code import ConsumerControlCode
 from pycokeeb.keytypes import KeyTypes,meta_key_enum
 
+
 class BaseKeeb():
+
+    def starttimer(self):
+        self.timer_start = time.monotonic()
+    def endtimer(self):
+        print(float(time.monotonic()-self.timer_start)*1000)
 
     def get_led_count(self):
         total = 0
-        for i in range(0,len(self.led_i2c)):
-            total+=self.led_i2c[i].n
+        for i in range(0,len(self.led_spi)):
+            total+=self.led_spi[i].n
         return(total)
 
     def power_budgets(self):
@@ -38,35 +47,67 @@ class BaseKeeb():
     def _mcp_pin(self,device,pin):
         return(self.mcp(device).get_pin(pin))
 
+    def _mcp_get_bit(self, val, bit):
+        return(val & (1 << bit) > 0)
+
+    def _mcp_gpioa(self,device):
+        return(self.mcp(device).gpioa)
+    def _mcp_gpiob(self,device):
+        return(self.mcp(device).gpiob)
+
     def _mcp_int_flaga(self,device):
         return(self.mcp(device).int_flaga)
     def _mcp_int_flagb(self,device):
         return(self.mcp(device).int_flagb)
 
     def check_keys(self):
-        for pin in self.row_pins:
-            pin.direction = Direction.INPUT
-            pin.pull = Pull.UP
+        keys = []
         for row in range(len(self.row_pins)):
-            # time.sleep(self.debounce_time) # Do not change this to an async sleep, this needs to be very percise.
-            self.row_pins[row].direction = Direction.OUTPUT
-            self.row_pins[row].value = False
+            # time.sleep(self.debounce_time)
+            self.row_pins[row].switch_to_output(False)
             for int_pin_index in range(len(self.int_pins)):
                 if int_pin_index==1:
+                    # print(self.int_flags[1](self.int_pins_to_mcp[1]))
                     continue
+                mcp_device = self.int_pins_to_mcp[int_pin_index]
+                reset_int_pin = False
                 if self.int_pins[int_pin_index].value==False:
-                    ints_flag = self.int_flags[int_pin_index](self.int_pins_to_mcp[int_pin_index])
+                    ints_flag = self.int_flags[int_pin_index](mcp_device)
+                    gpio = None
                     for col in ints_flag:
-                        if self.mcp_irq_pins[int_pin_index][col].value==False:
+                        if gpio==None:
+                            gpio = self.gpios[int_pin_index](mcp_device)
+                        if self._mcp_get_bit(gpio,col)==False:
+                            reset_int_pin = True
                             key_res = self.keymap[row][col+self.mcp_irq_pins_count[int_pin_index]]
-                            yield(key_res)
+                            if key_res==None:
+                                continue
+                            if isinstance(key_res,self.type_array):
+                                (key_type,keycode) = key_res
+                                if key_type==KeyTypes.FUNC:
+                                    pass # Call for magic keys
+                            else:
+                                keycode = key_res
+                            keys.append(keycode)
+                if reset_int_pin==True:
                     self.int_clears[int_pin_index]()
-            self.row_pins[row].direction = Direction.INPUT
-            self.row_pins[row].pull = Pull.UP
+        self.mcp(0).iodirb = 0xFF
+        return(keys)
+        # start = time.monotonic()
+        # print(time.monotonic()-start)
 
-    def _led_i2c(self,cl,da,dots=1):
-        dotstar_string = adafruit_dotstar.DotStar(cl,da,dots,brightness=0)
+    def _led_spi(self,cl,da,dots=1):
+        dotstar_string = adafruit_dotstar.DotStar(cl,da,dots,brightness=0,baudrate=self.led_spi_baud,auto_write=False)
+        # dotstar_string = adafruit_dotstar.DotStar(cl,da,dots,brightness=0,baudrate=self.led_spi_baud,auto_write=True)
         return(dotstar_string)
+
+    def _screen_spi(self,clk,mosi,miso,cs,dc):
+        displayio.release_displays()
+        if self.screen_enabled==False:
+            return(None)
+        spi = busio.SPI(clock=clk,MOSI=mosi,MISO=miso)
+        display_bus = displayio.FourWire(spi,command=dc,chip_select=cs,baudrate=self.screen_spi_baud)
+        return(ST7789(display_bus,width=320,height=240,rotation=270))
 
     def setup_hid_devices(self):
         self.kbd = [
@@ -83,10 +124,11 @@ class BaseKeeb():
         if cc==True:
             return(self.cc)
         elif cc==False:
-            for hid in self.kbd:
-                for item in hid.report_keys:
-                    if item==0:
-                        return(hid)
+            return(self.kbd[0])
+            # for hid in self.kbd:
+                # for item in hid.report_keys:
+                    # if item==0:
+                        # return(hid)
 
 
     def update_hid(self,key_data,release=False):
@@ -108,8 +150,8 @@ class BaseKeeb():
 
     def setup_led_strings(self):
         allowed_brightness = self.led_brightness()
-        for i in range(0,len(self.led_i2c)):
-            self.led_i2c[i].brightness = allowed_brightness
+        for i in range(0,len(self.led_spi)):
+            self.led_spi[i].brightness = allowed_brightness
 
     def _setup_irq_pins(self):
         for pin in self.int_pins:
@@ -125,13 +167,15 @@ class BaseKeeb():
 
     def _setup_key_mcp(self,device):
         if device==0:
-            for pin in self.col_pins[0:7]+self.row_pins:
-                pin.direction = Direction.INPUT
-                pin.pull = Pull.UP
+            for pin in self.col_pins[0:7]:
+                pin.switch_to_input(Pull.UP)
                 del pin
+            for pin in self.row_pins:
+                # pin.switch_to_output(False)
+                pin.switch_to_input(Pull.UP)
+                pin.value = False
         elif device==1:
             for pin in self.col_pins[7:]:
-                pin.direction = Direction.INPUT
-                pin.pull = Pull.UP
+                pin.switch_to_input(Pull.UP)
                 del pin
         self._enable_mcp_irq(device)
