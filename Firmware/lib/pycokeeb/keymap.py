@@ -1,6 +1,5 @@
 from adafruit_hid.keycode import Keycode
 from adafruit_hid.consumer_control_code import ConsumerControlCode
-from adafruit_mcp230xx.mcp23017 import MCP23017
 
 from pycokeeb.keytypes import KeyTypes,meta_key_enum
 from pycokeeb.pinconfig import PinConfig
@@ -17,12 +16,3 @@ class KeyMap(PinConfig):
             [Keycode.LEFT_CONTROL, Keycode.LEFT_GUI, Keycode.LEFT_ALT, Keycode.SPACE, Keycode.RIGHT_ALT, Keycode.RIGHT_GUI, [KeyTypes.FUNC,meta_key_enum.function], Keycode.RIGHT_CONTROL, None, None, None, None, None, Keycode.UP_ARROW, Keycode.KEYPAD_ONE, Keycode.KEYPAD_TWO, Keycode.KEYPAD_THREE, None, None, None, None],
             [None, None, None, None, None, None, None, None, None, None, None, None, Keycode.LEFT_ARROW, Keycode.DOWN_ARROW, Keycode.RIGHT_ARROW, Keycode.KEYPAD_ZERO, Keycode.KEYPAD_PERIOD, Keycode.KEYPAD_ENTER, None, None, None]
         ]
-
-        # self.switches = [0, 1, 2, 3, 4, 5, 6,
-                    # 7, 8, 9, 10, 11, 12, 13,
-                    # 14, 15, 16, 17, 18, 19, 20, 21]
-
-        # for i in range(len(self.switches)-1):
-            # self.switches[i] = DigitalInOut(self.pins[i])
-            # self.switches[i].direction = Direction.INPUT
-            # self.switches[i].pull = Pull.UP

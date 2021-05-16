@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name keyboard_parts)(type Legacy)(uri ${KIPRJMOD}/../Libraries/kicad_lib_tmk/keyboard_parts.lib)(options "")(descr ""))
+  (lib (name mkl27z256vfm4)(type Legacy)(uri ${KIPRJMOD}/../Libraries/kicad_lib_tmk/mkl27z256vfm4.lib)(options "")(descr ""))
+  (lib (name MCU_RaspberryPi_and_Boards)(type Legacy)(uri ${KIPRJMOD}/../Libraries/RP_Silicon_KiCad/KiCadLibraries/MCU_RaspberryPi_and_Boards.lib)(options "")(descr ""))
+  (lib (name crumpschemes)(type Legacy)(uri ${KIPRJMOD}/../Libraries/CrumpSchemes/crumpschemes.lib)(options "")(descr ""))
+  (lib (name RPI_Pico)(type Legacy)(uri ${KIPRJMOD}/../Libraries/Custom_pico/RPI_Pico.lib)(options "")(descr ""))
+  (lib (name SamacSys_Parts)(type Legacy)(uri ${KIPRJMOD}/../Libraries/SamacSys_Parts/SamacSys_Parts.lib)(options "")(descr ""))
+  (lib (name teensy)(type Legacy)(uri ${KIPRJMOD}/../Libraries/teensy_library/teensy.lib)(options "")(descr ""))
+)

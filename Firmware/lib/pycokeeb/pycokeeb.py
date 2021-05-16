@@ -17,18 +17,11 @@ class PycoKeeb(KeyMap):
         self.spi_baud = 10000000
         self.led_spi_baud = 10000000
         self.screen_spi_baud = 24000000
-        self.key_refresh = 10000
+        self.key_refresh = 2000
         self.led_refresh = 15
         self.screen_refresh = 15
         self.type_array = type([])
         print("RedPycoKeeb")
-
-        try:
-            self.led = DigitalInOut(board.LED)
-            self.led.direction = Direction.OUTPUT
-            self.led.value = True
-        except:
-            pass
 
         self.setup_hid_devices()
         self.pin_setup()
