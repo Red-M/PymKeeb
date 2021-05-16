@@ -63,10 +63,12 @@ class BaseKeeb():
     def check_keys(self):
         keys = []
         for row in range(len(self.row_pins)):
+            self.starttimer()
             # time.sleep(self.debounce_time)
             self.row_pins[row].switch_to_output(False)
             for int_pin_index in range(len(self.int_pins)):
-                if int_pin_index==1:
+                if int_pin_index==1 or int_pin_index==3:
+                # if int_pin_index==1:
                     # print(self.int_flags[1](self.int_pins_to_mcp[1]))
                     continue
                 mcp_device = self.int_pins_to_mcp[int_pin_index]
@@ -74,10 +76,16 @@ class BaseKeeb():
                 if self.int_pins[int_pin_index].value==False:
                     ints_flag = self.int_flags[int_pin_index](mcp_device)
                     gpio = None
+                    # print(mcp_device)
+                    # print(ints_flag)
                     for col in ints_flag:
                         if gpio==None:
                             gpio = self.gpios[int_pin_index](mcp_device)
                         if self._mcp_get_bit(gpio,col)==False:
+                            print(row)
+                            print(col)
+                            print(int_pin_index)
+                            print(col+self.mcp_irq_pins_count[int_pin_index])
                             reset_int_pin = True
                             key_res = self.keymap[row][col+self.mcp_irq_pins_count[int_pin_index]]
                             if key_res==None:
@@ -91,10 +99,9 @@ class BaseKeeb():
                             keys.append(keycode)
                 if reset_int_pin==True:
                     self.int_clears[int_pin_index]()
+            self.endtimer()
         self.mcp(0).iodirb = 0xFF
         return(keys)
-        # start = time.monotonic()
-        # print(time.monotonic()-start)
 
     def _led_spi(self,cl,da,dots=1):
         dotstar_string = adafruit_dotstar.DotStar(cl,da,dots,brightness=0,baudrate=self.led_spi_baud,auto_write=False)

@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(5.1.9)-1*%
-%TF.CreationDate,2021-04-30T23:03:23+10:00*%
+%TF.CreationDate,2021-05-02T00:53:09+10:00*%
 %TF.ProjectId,RedPyKeeb_MCU,52656450-794b-4656-9562-5f4d43552e6b,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Paste,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.9)-1) date 2021-04-30 23:03:23*
+G04 Created by KiCad (PCBNEW (5.1.9)-1) date 2021-05-02 00:53:09*
 %MOMM*%
 %LPD*%
 G01*
@@ -173,8 +173,8 @@ X80218600Y-50952400D03*
 %TD*%
 D12*
 %TO.C,C2*%
-X108521500Y-57968200D03*
-X108521500Y-55468200D03*
+X109016800Y-56215600D03*
+X109016800Y-53715600D03*
 %TD*%
 %TO.C,C10*%
 G36*

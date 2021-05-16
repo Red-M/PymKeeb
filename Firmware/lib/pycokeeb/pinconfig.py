@@ -3,7 +3,7 @@ import busio
 from digitalio import DigitalInOut, Direction, Pull
 from adafruit_hid.keycode import Keycode
 from adafruit_hid.consumer_control_code import ConsumerControlCode
-from adafruit_mcp230xx.mcp23017 import MCP23017
+from adafruit_mcp230xx.mcp23s17 import MCP23S17
 
 from pycokeeb.basekeeb import BaseKeeb
 
@@ -26,16 +26,16 @@ class PinConfig(BaseKeeb):
             pass
         self.key_count = 108
         if self.key_matrix_enabled==True:
-            self.i2c = busio.I2C(scl=board.GP1, sda=board.GP0, frequency=self.i2c_baud)
+            self.spi = busio.SPI(clock=board.GP10, MOSI=board.GP11, MISO=board.GP12)
             self._mcp = [
-                MCP23017(self.i2c,address=0x20),
-                MCP23017(self.i2c,address=0x21)
+                MCP23S17(self.spi,board.GP0,address=0x20,baudrate=self.spi_baud),
+                MCP23S17(self.spi,board.GP1,address=0x21,baudrate=self.spi_baud)
             ]
             self.int_pins = [
-                DigitalInOut(board.GP5),
                 DigitalInOut(board.GP4),
-                DigitalInOut(board.GP7),
-                DigitalInOut(board.GP6)
+                DigitalInOut(board.GP5),
+                DigitalInOut(board.GP6),
+                DigitalInOut(board.GP7)
             ]
             self.row_pins = [
                 self._mcp_pin(0,8), #Rows 0 to 6
@@ -70,10 +70,10 @@ class PinConfig(BaseKeeb):
                 self._mcp_pin(1,14)
             ]
             self.mcp_irq_pins = [
-                self.col_pins[0:7], #This maps interrupt pins in self.int_pins to mcp pins in self.rows and self.cols
+                self.col_pins[:7], #This maps interrupt pins in self.int_pins to mcp pins in self.rows and self.cols
                 self.row_pins,
                 self.col_pins[7:14],
-                self.col_pins[15:]
+                self.col_pins[14:]
             ]
             self.mcp_irq_pins_count = [
                 0, #This maps interrupt pins in self.int_pins to pin offset counts to get the correct column index for the keymap

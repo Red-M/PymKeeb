@@ -5,4 +5,5 @@
   (lib (name crumpschemes)(type Legacy)(uri ${KIPRJMOD}/../Libraries/CrumpSchemes/crumpschemes.lib)(options "")(descr ""))
   (lib (name RPI_Pico)(type Legacy)(uri ${KIPRJMOD}/../Libraries/Custom_pico/RPI_Pico.lib)(options "")(descr ""))
   (lib (name SamacSys_Parts)(type Legacy)(uri ${KIPRJMOD}/../Libraries/SamacSys_Parts/SamacSys_Parts.lib)(options "")(descr ""))
+  (lib (name teensy)(type Legacy)(uri ${KIPRJMOD}/../Libraries/teensy_library/teensy.lib)(options "")(descr ""))
 )

@@ -10,14 +10,14 @@ class PycoKeeb(KeyMap):
     def __init__(self):
         self.USB_mA_total = 500 # replace this with the actual USB budget defined when plugged in
         self.debounce_time = 0.001 # Let the IO expander think about it!
-        self.key_matrix_enabled = False
-        self.leds_enabled = True
+        self.key_matrix_enabled = True
+        self.leds_enabled = False
         self.screen_enabled = False
         self.i2c_baud = 950000
         self.spi_baud = 10000000
         self.led_spi_baud = 10000000
         self.screen_spi_baud = 24000000
-        self.key_refresh = 2000
+        self.key_refresh = 10000
         self.led_refresh = 15
         self.screen_refresh = 15
         self.type_array = type([])
@@ -56,9 +56,9 @@ class PycoKeeb(KeyMap):
 
     async def co_check_keys(self):
         print('keys')
-        # self.starttimer()
+        self.starttimer()
         self.poll_keys()
-        # self.endtimer()
+        self.endtimer()
         await tasko.sleep(1/self.key_refresh)
 
     async def co_led_management(self):

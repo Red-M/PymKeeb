@@ -19,3 +19,9 @@
 [submodule "KiCAD/Libraries/CrumpPrints.pretty"]
 	path = KiCAD/Libraries/CrumpPrints.pretty
 	url = git@github.com:tylercrumpton/CrumpPrints.pretty.git
+[submodule "KiCAD/Libraries/teensy.pretty"]
+	path = KiCAD/Libraries/teensy.pretty
+	url = https://github.com/XenGi/teensy.pretty.git
+[submodule "KiCAD/Libraries/teensy_library"]
+	path = KiCAD/Libraries/teensy_library
+	url = https://github.com/XenGi/teensy_library.git

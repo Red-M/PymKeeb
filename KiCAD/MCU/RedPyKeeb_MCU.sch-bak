@@ -32,18 +32,6 @@ NoConn ~ 8650 3650
 NoConn ~ 7250 3150
 NoConn ~ 7250 2650
 NoConn ~ 8650 1950
-Text GLabel 2850 6100 2    39   BiDi ~ 0
-KEY_ROW5
-Text GLabel 2850 6000 2    39   BiDi ~ 0
-KEY_ROW4
-Text GLabel 2850 5900 2    39   BiDi ~ 0
-KEY_ROW3
-Text GLabel 2850 5800 2    39   BiDi ~ 0
-KEY_ROW2
-Text GLabel 2850 5700 2    39   BiDi ~ 0
-KEY_ROW1
-Text GLabel 2850 5600 2    39   BiDi ~ 0
-KEY_ROW0
 Text GLabel 5100 6700 2    39   BiDi ~ 0
 KEY_COL9
 Text GLabel 5100 6600 2    39   BiDi ~ 0
@@ -64,8 +52,6 @@ Text GLabel 2850 6600 2    39   BiDi ~ 0
 KEY_COL1
 Text GLabel 2850 6500 2    39   BiDi ~ 0
 KEY_COL0
-Text GLabel 2850 6200 2    39   BiDi ~ 0
-KEY_ROW6
 Text GLabel 5100 6900 2    39   BiDi ~ 0
 KEY_COL11
 Text GLabel 5100 6800 2    39   BiDi ~ 0
@@ -319,8 +305,6 @@ Text Notes 600  750  0    39   ~ 0
 NoConn ~ 2850 6300
 Text GLabel 5100 6200 2    39   BiDi ~ 0
 KEY_COL20
-Text GLabel 3700 7200 0    39   Input ~ 0
-PICO_33_REF
 NoConn ~ 5100 7200
 NoConn ~ 5100 6300
 Text GLabel 7250 3550 0    39   Output ~ 0
@@ -1122,4 +1106,13 @@ Text GLabel 3250 3650 2    39   BiDi ~ 0
 LED_SCL_ROW0_PICO
 Text GLabel 3250 3850 2    39   BiDi ~ 0
 LED_SDA_ROW0_PICO
+Text GLabel 3700 7200 0    39   Input ~ 0
+MAIN_VBUS
+NoConn ~ 2850 6200
+NoConn ~ 2850 6100
+NoConn ~ 2850 6000
+NoConn ~ 2850 5900
+NoConn ~ 2850 5800
+NoConn ~ 2850 5700
+NoConn ~ 2850 5600
 $EndSCHEMATC
