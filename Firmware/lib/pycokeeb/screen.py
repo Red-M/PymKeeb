@@ -24,8 +24,5 @@ class Screen():
         return(random.randrange(0, 7) * 32)
 
     async def main(self):
-        if self.keeb.screen_enabled==True:
-            # self.keeb.starttimer()
-            # self.reset_screen()
-            # self.keeb.endtimer()
-            await tasko.sleep(1/self.keeb.screen_refresh)
+        self.reset_screen()
+        await tasko.sleep(1/self.keeb.screen_refresh)

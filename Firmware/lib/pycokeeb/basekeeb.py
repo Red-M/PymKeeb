@@ -41,25 +41,6 @@ class BaseKeeb():
             value = 1.0
         return(value)
 
-    def mcp(self,device):
-        return(self._mcp[device])
-
-    def _mcp_pin(self,device,pin):
-        return(self.mcp(device).get_pin(pin))
-
-    def _mcp_get_bit(self, val, bit):
-        return(val & (1 << bit) > 0)
-
-    def _mcp_gpioa(self,device):
-        return(self.mcp(device).gpioa)
-    def _mcp_gpiob(self,device):
-        return(self.mcp(device).gpiob)
-
-    def _mcp_int_flaga(self,device):
-        return(self.mcp(device).int_flaga)
-    def _mcp_int_flagb(self,device):
-        return(self.mcp(device).int_flagb)
-
     def check_keys(self):
         keys = []
         for row in self.row_range:
@@ -73,10 +54,11 @@ class BaseKeeb():
                     if isinstance(key_res,self.type_array):
                         (key_type,keycode) = key_res
                         if key_type==KeyTypes.FUNC:
-                            pass # Call for magic keys
+                            continue # Call for magic keys
                     else:
                         keycode = key_res
                     keys.append(keycode)
+            self.row_pins[row].switch_to_output(True)
         return(keys)
 
     def _led_spi(self,cl,da,dots=1):
@@ -136,21 +118,9 @@ class BaseKeeb():
         for i in range(0,len(self.led_spi)):
             self.led_spi[i].brightness = allowed_brightness
 
-    def _setup_irq_pins(self):
-        for pin in self.int_pins:
-            pin.direction = Direction.INPUT
-            pin.pull = Pull.DOWN
-            del pin
-
-    def _enable_mcp_irq(self,device):
-        self.mcp(device).interrupt_enable = 0xFFFF
-        self.mcp(device).interrupt_configuration = 0x0000
-        self.mcp(device).io_control = 0x40 # These need to be set to push-pull and not open drain on bit 2
-        self.mcp(device).clear_ints()
-
     def _setup_key_pins(self):
         for pin in self.row_pins:
-            pin.switch_to_input(Pull.UP)
+            pin.switch_to_input(Pull.DOWN)
             del pin
         for pin in self.col_pins:
             pin.switch_to_input(Pull.UP)

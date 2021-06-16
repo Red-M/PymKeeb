@@ -8,6 +8,9 @@ from pycokeeb.basekeeb import BaseKeeb
 
 class PinConfig(BaseKeeb):
 
+    def _dpin(self,pin):
+        return(DigitalInOut(pin))
+
     def init_pins(self):
         if self.key_matrix_enabled==True:
             self._setup_key_pins()
@@ -15,44 +18,38 @@ class PinConfig(BaseKeeb):
             self.setup_led_strings()
 
     def pin_setup(self):
-        try:
-            self.pico_33_ref = DigitalInOut(board.GP2)
-            self.pico_33_ref.direction = Direction.OUTPUT
-            self.pico_33_ref.value = True
-        except:
-            pass
         if self.key_matrix_enabled==True:
             self.row_pins = [
-                DigitalInOut(board.D0), #Rows 0 to 6
-                DigitalInOut(board.D1),
-                DigitalInOut(board.D2),
-                DigitalInOut(board.D3),
-                DigitalInOut(board.D4),
-                DigitalInOut(board.D5),
-                DigitalInOut(board.D6)
+                self._dpin(board.D0), #Rows 0 to 6
+                self._dpin(board.D1),
+                self._dpin(board.D2),
+                self._dpin(board.D3),
+                self._dpin(board.D4),
+                self._dpin(board.D5),
+                self._dpin(board.D6)
             ]
             self.col_pins = [
-                DigitalInOut(board.D7), #Cols 0 to 20
-                DigitalInOut(board.D8),
-                DigitalInOut(board.D9),
-                DigitalInOut(board.D10),
-                DigitalInOut(board.D12),
-                DigitalInOut(board.D26),
-                DigitalInOut(board.D27),
-                DigitalInOut(board.D28),
-                DigitalInOut(board.D29),
-                DigitalInOut(board.D30),
-                DigitalInOut(board.D31),
-                DigitalInOut(board.D32),
-                DigitalInOut(board.D23),
-                DigitalInOut(board.D22),
-                DigitalInOut(board.D21),
-                DigitalInOut(board.D20),
-                DigitalInOut(board.D19),
-                DigitalInOut(board.D18),
-                DigitalInOut(board.D15),
-                DigitalInOut(board.D16),
-                DigitalInOut(board.D17)
+                self._dpin(board.D7), #Cols 0 to 20
+                self._dpin(board.D8),
+                self._dpin(board.D9),
+                self._dpin(board.D10),
+                self._dpin(board.D12),
+                self._dpin(board.D26),
+                self._dpin(board.D27),
+                self._dpin(board.D28),
+                self._dpin(board.D29),
+                self._dpin(board.D30),
+                self._dpin(board.D31),
+                self._dpin(board.D32),
+                self._dpin(board.D23),
+                self._dpin(board.D22),
+                self._dpin(board.D21),
+                self._dpin(board.D20),
+                self._dpin(board.D19),
+                self._dpin(board.D18),
+                self._dpin(board.D15),
+                self._dpin(board.D16),
+                self._dpin(board.D17)
             ]
         self.row_len = len(self.row_pins)
         self.col_len = len(self.col_pins)
@@ -60,10 +57,8 @@ class PinConfig(BaseKeeb):
         self.col_range = range(self.col_len)
         if self.leds_enabled==True:
             self.led_spi = [
-                self._led_spi(board.GP10,board.GP11,1),
-                self._led_spi(board.GP14,board.GP15,13)
-                # self._led_spi(board.GP10,board.GP11,4),
-                # self._led_spi(board.GP14,board.GP15,110)
+                self._led_spi(board.D24,board.D25,4),
+                self._led_spi(board.D13,board.D11,110)
             ]
         if self.screen_enabled==True:
-            self.screen_spi = self._screen_spi(board.GP18,board.GP19,board.GP16,board.GP17,board.GP20)
+            self.screen_spi = self._screen_spi(board.D37,board.D36,board.D35,board.D34,board.D33)

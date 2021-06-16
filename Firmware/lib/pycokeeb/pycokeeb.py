@@ -11,7 +11,7 @@ class PycoKeeb(KeyMap):
         self.USB_mA_total = 500 # replace this with the actual USB budget defined when plugged in
         self.debounce_time = 0.001 # Let the IO expander think about it!
         self.key_matrix_enabled = True
-        self.leds_enabled = False
+        self.leds_enabled = True
         self.screen_enabled = False
         self.i2c_baud = 950000
         self.spi_baud = 10000000
@@ -40,39 +40,37 @@ class PycoKeeb(KeyMap):
             if item not in keys:
                 release_keys.append(item)
         if len(keys)>0:
-            print("Pressed: ", keys)
+            pass
+            # print("Pressed: ", keys)
             # self.update_hid(keys)
         if len(release_keys)>0:
-            print("Released: ", release_keys)
+            pass
+            # print("Released: ", release_keys)
             # self.update_hid(release_keys,True)
         self.last_loopstep_keys = keys
 
     async def co_check_keys(self):
-        print('keys')
-        self.starttimer()
+        # print('keys')
+        # self.starttimer()
         self.poll_keys()
-        self.endtimer()
+        # self.endtimer()
         await tasko.sleep(1/self.key_refresh)
 
     async def co_led_management(self):
-        print('leds')
-        # self.starttimer()
+        # print('leds')
+        self.starttimer()
         await self.leds.main()
-        # self.endtimer()
+        self.endtimer()
         # await tasko.sleep(1/self.led_refresh)
 
     async def co_screen_management(self):
-        print('screen')
+        # print('screen')
         # self.starttimer()
         await self.screen.main()
         # self.endtimer()
         # await tasko.sleep(1/self.screen_refresh)
 
     def main(self):
-        # self.led_i2c[0].fill((255,0,0))
-        # self.led_i2c[0].show()
-        # self.led_i2c[1].fill((255,0,0))
-        # self.led_i2c[1].show()
 
         self.last_loopstep_keys = []
 
