@@ -1,6 +1,6 @@
-update=30/04/2021 6:39:57 PM
+update=27/06/2021 12:28:47 AM
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -74,18 +74,18 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=PWRGND
+Name=PWR
 Type=1
 Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=MISC
-Type=0
+Name=GND
+Type=1
 Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu

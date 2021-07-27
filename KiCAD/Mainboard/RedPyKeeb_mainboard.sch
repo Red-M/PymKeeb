@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 8300 750  500  300 
+S 7950 750  500  300 
 U 63412601
 F0 "LED_strings" 39
 F1 "led_strings.sch" 39
@@ -4046,104 +4046,104 @@ $EndComp
 Text Notes 1450 1200 0    99   ~ 0
 6 rows\n20 columns
 $Comp
-L conn:Conn_01x36 J1
+L conn:Conn_02x20_Top_Bottom J1
 U 1 1 609288FA
-P 12800 1750
-F 0 "J1" V 13017 1696 50  0000 C CNN
-F 1 "Conn_01x36" V 12926 1696 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x36_P2.00mm_Horizontal" H 12800 1750 50  0001 C CNN
-F 3 "~" H 12800 1750 50  0001 C CNN
-	1    12800 1750
+P 20850 1750
+F 0 "J1" V 21067 1696 50  0000 C CNN
+F 1 "Conn_02x20_Top_Bottom" V 20976 1696 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical_SMD" H 20850 1750 50  0001 C CNN
+F 3 "~" H 20850 1750 50  0001 C CNN
+	1    20850 1750
 	0    -1   -1   0   
 $EndComp
-Text GLabel 11600 1950 3    39   BiDi ~ 0
+Text GLabel 20450 1950 3    39   BiDi ~ 0
 KEY_ROW5
-Text GLabel 11500 1950 3    39   BiDi ~ 0
+Text GLabel 20350 1950 3    39   BiDi ~ 0
 KEY_ROW4
-Text GLabel 11400 1950 3    39   BiDi ~ 0
+Text GLabel 20250 1950 3    39   BiDi ~ 0
 KEY_ROW3
-Text GLabel 11300 1950 3    39   BiDi ~ 0
+Text GLabel 20150 1950 3    39   BiDi ~ 0
 KEY_ROW2
-Text GLabel 11200 1950 3    39   BiDi ~ 0
+Text GLabel 20050 1950 3    39   BiDi ~ 0
 KEY_ROW1
-Text GLabel 11100 1950 3    39   BiDi ~ 0
+Text GLabel 19950 1950 3    39   BiDi ~ 0
 KEY_ROW0
-Text GLabel 11700 1950 3    39   BiDi ~ 0
+Text GLabel 20550 1950 3    39   BiDi ~ 0
 KEY_ROW6
-Text GLabel 14200 1950 3    39   BiDi ~ 0
+Text GLabel 20850 1450 1    39   BiDi ~ 0
 KEY_COL20
-Text GLabel 13600 1950 3    39   BiDi ~ 0
+Text GLabel 20250 1450 1    39   BiDi ~ 0
 KEY_COL14
-Text GLabel 13700 1950 3    39   BiDi ~ 0
+Text GLabel 20350 1450 1    39   BiDi ~ 0
 KEY_COL15
-Text GLabel 13800 1950 3    39   BiDi ~ 0
+Text GLabel 20450 1450 1    39   BiDi ~ 0
 KEY_COL16
-Text GLabel 13900 1950 3    39   BiDi ~ 0
+Text GLabel 20550 1450 1    39   BiDi ~ 0
 KEY_COL17
-Text GLabel 14000 1950 3    39   BiDi ~ 0
+Text GLabel 20650 1450 1    39   BiDi ~ 0
 KEY_COL18
-Text GLabel 14100 1950 3    39   BiDi ~ 0
+Text GLabel 20750 1450 1    39   BiDi ~ 0
 KEY_COL19
-Text GLabel 13500 1950 3    39   BiDi ~ 0
+Text GLabel 20150 1450 1    39   BiDi ~ 0
 KEY_COL13
-Text GLabel 13400 1950 3    39   BiDi ~ 0
+Text GLabel 21850 1950 3    39   BiDi ~ 0
 KEY_COL12
-Text GLabel 13300 1950 3    39   BiDi ~ 0
+Text GLabel 21750 1950 3    39   BiDi ~ 0
 KEY_COL11
-Text GLabel 13200 1950 3    39   BiDi ~ 0
+Text GLabel 21650 1950 3    39   BiDi ~ 0
 KEY_COL10
-Text GLabel 13100 1950 3    39   BiDi ~ 0
+Text GLabel 21550 1950 3    39   BiDi ~ 0
 KEY_COL9
-Text GLabel 13000 1950 3    39   BiDi ~ 0
+Text GLabel 21450 1950 3    39   BiDi ~ 0
 KEY_COL8
-Text GLabel 12900 1950 3    39   BiDi ~ 0
+Text GLabel 21350 1950 3    39   BiDi ~ 0
 KEY_COL7
-Text GLabel 12800 1950 3    39   BiDi ~ 0
+Text GLabel 21250 1950 3    39   BiDi ~ 0
 KEY_COL6
-Text GLabel 12700 1950 3    39   BiDi ~ 0
+Text GLabel 21150 1950 3    39   BiDi ~ 0
 KEY_COL5
-Text GLabel 12600 1950 3    39   BiDi ~ 0
+Text GLabel 21050 1950 3    39   BiDi ~ 0
 KEY_COL4
-Text GLabel 12500 1950 3    39   BiDi ~ 0
+Text GLabel 20950 1950 3    39   BiDi ~ 0
 KEY_COL3
-Text GLabel 12400 1950 3    39   BiDi ~ 0
+Text GLabel 20850 1950 3    39   BiDi ~ 0
 KEY_COL2
-Text GLabel 12300 1950 3    39   BiDi ~ 0
+Text GLabel 20750 1950 3    39   BiDi ~ 0
 KEY_COL1
-Text GLabel 12200 1950 3    39   BiDi ~ 0
+Text GLabel 20650 1950 3    39   BiDi ~ 0
 KEY_COL0
-Text GLabel 11900 1950 3    39   BiDi ~ 0
+Text GLabel 19950 1450 1    39   BiDi ~ 0
 LED_SDA_ROW0
-Text GLabel 12000 1950 3    39   BiDi ~ 0
+Text GLabel 20050 1450 1    39   BiDi ~ 0
 LED_SCL_ROW0
 $Comp
-L power:GNDPWR #PWR0101
+L power:GNDPWR #PWR0105
 U 1 1 61B1080E
-P 12100 1950
-F 0 "#PWR0101" H 12100 1750 50  0001 C CNN
-F 1 "GNDPWR" H 12104 1796 50  0000 C CNN
-F 2 "" H 12100 1900 50  0001 C CNN
-F 3 "" H 12100 1900 50  0001 C CNN
-	1    12100 1950
-	1    0    0    -1  
+P 21350 1450
+F 0 "#PWR0105" H 21350 1250 50  0001 C CNN
+F 1 "GNDPWR" H 21354 1296 50  0000 C CNN
+F 2 "" H 21350 1400 50  0001 C CNN
+F 3 "" H 21350 1400 50  0001 C CNN
+	1    21350 1450
+	-1   0    0    1   
 $EndComp
-Text GLabel 11800 1950 3    39   Input ~ 0
+Text GLabel 21550 1450 1    39   Input ~ 0
 MAIN_VBUS
-Text GLabel 14400 1950 3    39   BiDi ~ 0
-LED_SDA_STATUS0
-Text GLabel 14500 1950 3    39   BiDi ~ 0
-LED_SCL_STATUS0
 $Comp
-L power:GNDPWR #PWR0102
+L power:GNDPWR #PWR0115
 U 1 1 61B808C8
-P 14600 1950
-F 0 "#PWR0102" H 14600 1750 50  0001 C CNN
-F 1 "GNDPWR" H 14604 1796 50  0000 C CNN
-F 2 "" H 14600 1900 50  0001 C CNN
-F 3 "" H 14600 1900 50  0001 C CNN
-	1    14600 1950
-	1    0    0    -1  
+P 21450 1450
+F 0 "#PWR0115" H 21450 1250 50  0001 C CNN
+F 1 "GNDPWR" H 21454 1296 50  0000 C CNN
+F 2 "" H 21450 1400 50  0001 C CNN
+F 3 "" H 21450 1400 50  0001 C CNN
+	1    21450 1450
+	-1   0    0    1   
 $EndComp
-Text GLabel 14300 1950 3    39   Input ~ 0
+Text GLabel 21650 1450 1    39   Input ~ 0
 MAIN_VBUS
+Text GLabel 21750 1450 1    39   BiDi ~ 0
+LED_SDA_STATUS0
+Text GLabel 21850 1450 1    39   BiDi ~ 0
+LED_SCL_STATUS0
 $EndSCHEMATC

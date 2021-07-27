@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.9)-1"
     },
-    "CreationDate":  "2021-05-20T21:26:36+10:00"
+    "CreationDate":  "2021-07-27T18:32:56+10:00"
   },
   "GeneralSpecs":
   {
@@ -32,16 +32,13 @@
       "PadToPad":  0.200,
       "PadToTrack":  0.200,
       "TrackToTrack":  0.200,
-      "MinLineWidth":  0.508,
-      "TrackToRegion":  0.508,
-      "RegionToRegion":  0.508
+      "MinLineWidth":  0.381
     },
     {
       "Layers": "Inner",
       "PadToPad":  0.200,
       "PadToTrack":  0.200,
       "TrackToTrack":  0.200,
-      "MinLineWidth":  1.016,
       "TrackToRegion":  0.508,
       "RegionToRegion":  0.508
     }
@@ -54,12 +51,12 @@
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "RedPyKeeb_MCU-PWRGND.gbr",
+      "Path":  "RedPyKeeb_MCU-PWR.gbr",
       "FileFunction":  "Copper,L2,Inr",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "RedPyKeeb_MCU-MISC.gbr",
+      "Path":  "RedPyKeeb_MCU-GND.gbr",
       "FileFunction":  "Copper,L3,Inr",
       "FilePolarity":  "Positive"
     },
@@ -139,7 +136,7 @@
     },
     {
       "Type":  "Copper",
-      "Notes":  "Layer PWRGND"
+      "Notes":  "Layer PWR"
     },
     {
       "Type":  "Dielectric",
@@ -148,7 +145,7 @@
     },
     {
       "Type":  "Copper",
-      "Notes":  "Layer MISC"
+      "Notes":  "Layer GND"
     },
     {
       "Type":  "Dielectric",

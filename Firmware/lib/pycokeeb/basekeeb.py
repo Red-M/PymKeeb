@@ -115,6 +115,7 @@ class BaseKeeb():
 
     def setup_led_strings(self):
         allowed_brightness = self.led_brightness()
+        print(allowed_brightness)
         for i in range(0,len(self.led_spi)):
             self.led_spi[i].brightness = allowed_brightness
 

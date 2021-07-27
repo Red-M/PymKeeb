@@ -14,11 +14,11 @@ class PycoKeeb(KeyMap):
         self.leds_enabled = True
         self.screen_enabled = False
         self.i2c_baud = 950000
-        self.spi_baud = 10000000
+        self.spi_baud = 9000000
         self.led_spi_baud = 10000000
         self.screen_spi_baud = 24000000
         self.key_refresh = 2000
-        self.led_refresh = 15
+        self.led_refresh = 5
         self.screen_refresh = 15
         self.type_array = type([])
         print("RedPycoKeeb")
@@ -40,12 +40,12 @@ class PycoKeeb(KeyMap):
             if item not in keys:
                 release_keys.append(item)
         if len(keys)>0:
-            pass
-            # print("Pressed: ", keys)
+            # pass
+            print("Pressed: ", keys)
             # self.update_hid(keys)
         if len(release_keys)>0:
-            pass
-            # print("Released: ", release_keys)
+            # pass
+            print("Released: ", release_keys)
             # self.update_hid(release_keys,True)
         self.last_loopstep_keys = keys
 
@@ -58,9 +58,9 @@ class PycoKeeb(KeyMap):
 
     async def co_led_management(self):
         # print('leds')
-        self.starttimer()
+        # self.starttimer()
         await self.leds.main()
-        self.endtimer()
+        # self.endtimer()
         # await tasko.sleep(1/self.led_refresh)
 
     async def co_screen_management(self):
