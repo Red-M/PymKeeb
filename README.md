@@ -1,11 +1,7 @@
-# RedPycoKeeb
+# PymKeeb
 ## What is this?
 I'm getting fed up with the options for keyboards and there isn't anything that I want 100%, everything is a compromise between form factor, customizability and availability.
 So I'm making my own keyboard.
-
-## Whats with the name?
-I was originally going to do with a raspberry pico but we'll see if it comes out on top.
-I'm not great with names and my other projects show but meh, maybe I'll give it a better name later.
 
 ## Design choices
 I don't want to limit end users on customizing their boards or choosing what they want, so I'll be maximumizing that as much as possible while also giving the option for changing things like the size and layout in forks or derivatives.
