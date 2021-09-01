@@ -16,6 +16,80 @@ from adafruit_hid.consumer_control import ConsumerControl
 from adafruit_hid.consumer_control_code import ConsumerControlCode
 from pycokeeb.keytypes import KeyTypes,meta_key_enum
 
+class HybridKeyboard(Keyboard):
+    def __init__(self, devices):
+        for device in devices:
+            if device.usage == 6 and device.usage_page == 1:
+                try:
+                    device.send_report(b'\0' * 24)
+                except ValueError:
+                    print("found device but could not send report")
+                    for length in range(256):
+                        try:
+                            device.send_report(b'\0' * length)
+                            print("sent", length)
+                        except ValueError:
+                            print("fail", length)
+                    continue
+                self._keyboard_device = device
+                break
+        else:
+            raise ValueError("Could not find an HID keyboard device.")
+
+        # report[0] modifiers
+        # report[2:8] boot keyboard
+        # report[16:24] regular key presses bitmask
+        self.report = bytearray(24)
+
+        self.report_modifier = memoryview(self.report)[0:1]
+        self.report_keys = memoryview(self.report)[2:8]
+        self.report_bitmap = memoryview(self.report)[8:]
+
+    def _add_keycode_to_report(self, keycode):
+        modifier = Keycode.modifier_bit(keycode)
+        print (f"{keycode:02x} {modifier:02x}")
+        if modifier:
+            # Set bit for this modifier.
+            self.report_modifier[0] |= modifier
+        else:
+            for i in range(len(self.report_keys)):
+                pressed = self.report_keys[i]
+                if pressed == 0: # found an empty slot
+                    self.report_keys[i] = keycode
+                    break
+                elif pressed == keycode: # already pressed(!)
+                    break
+            else:
+                # "Expire" the oldest key by moving others down
+                for i in range(5):
+                    self.report_keys[i] = self.report_keys[i+1]
+                # Add the new key
+                self.report_keys[5] = keycode
+            self.report_bitmap[keycode >> 3] |= 1 << (keycode & 0x7)
+
+    def _remove_keycode_from_report(self, keycode):
+        modifier = Keycode.modifier_bit(keycode)
+        if modifier:
+            # Set bit for this modifier.
+            self.report_modifier[0] &= ~modifier
+        else:
+            j = 0
+            for i in range(len(self.report_keys)):
+                pressed = self.report_keys[i]
+                if pressed == 0 or pressed == keycode:
+                    continue # Remove this entry
+                self.report_keys[j] = self.report_keys[i]
+                j += 1
+            # Clear any remaining slots
+            while j < len(self.report_keys):
+                self.report_keys[j] = 0
+                j += 1
+            self.report_bitmap[keycode >> 3] &= ~(1 << (keycode & 0x7))
+
+    def release_all(self):
+        for i in range(len(self.report)):
+            self.report[i] = 0
+        self._keyboard_device.send_report(self.report)
 
 class BaseKeeb():
 
@@ -75,25 +149,14 @@ class BaseKeeb():
         return(ST7789(display_bus,width=320,height=240,rotation=270))
 
     def setup_hid_devices(self):
-        self.kbd = [
-            Keyboard(usb_hid.devices),
-            Keyboard(usb_hid.devices),
-            Keyboard(usb_hid.devices),
-            Keyboard(usb_hid.devices),
-            Keyboard(usb_hid.devices),
-            Keyboard(usb_hid.devices)
-        ]
+        self.kbd = HybridKeyboard(usb_hid.devices)
         self.cc = ConsumerControl(usb_hid.devices)
 
-    def pick_hid(self,cc=False): # This doesn't send releases to the correct hid device, we might also be asking to press more keys than the hid has left
+    def pick_hid(self,cc=False):
         if cc==True:
             return(self.cc)
         elif cc==False:
-            return(self.kbd[0])
-            # for hid in self.kbd:
-                # for item in hid.report_keys:
-                    # if item==0:
-                        # return(hid)
+            return(self.kbd)
 
 
     def update_hid(self,key_data,release=False):
@@ -109,9 +172,9 @@ class BaseKeeb():
                 self.cc.release()
         if key_type==KeyTypes.KEY:
             if release==False:
-                self.pick_hid().press(*keycodes)
+                self.kbd.press(*keycodes)
             if release==True:
-                self.pick_hid().release(*keycodes)
+                self.kbd.release(*keycodes)
 
     def setup_led_strings(self):
         allowed_brightness = self.led_brightness()
