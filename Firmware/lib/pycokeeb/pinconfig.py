@@ -19,37 +19,69 @@ class PinConfig(BaseKeeb):
 
     def pin_setup(self):
         if self.key_matrix_enabled==True:
-            self.row_pins = [
-                self._dpin(board.D0), #Rows 0 to 6
+            # self.row_pins = [ #Rows 0 to 6
+                # self._dpin(board.D0),
+                # self._dpin(board.D1),
+                # self._dpin(board.D2),
+                # self._dpin(board.D3),
+                # self._dpin(board.D4),
+                # self._dpin(board.D5),
+                # self._dpin(board.D6)
+            # ]
+            # self.col_pins = [ #Cols 0 to 20
+                # self._dpin(board.D7),
+                # self._dpin(board.D8),
+                # self._dpin(board.D9),
+                # self._dpin(board.D10),
+                # self._dpin(board.D12),
+                # self._dpin(board.D26),
+                # self._dpin(board.D27),
+                # self._dpin(board.D28),
+                # self._dpin(board.D29),
+                # self._dpin(board.D30),
+                # self._dpin(board.D31),
+                # self._dpin(board.D32),
+                # self._dpin(board.D23),
+                # self._dpin(board.D22),
+                # self._dpin(board.D21),
+                # self._dpin(board.D20),
+                # self._dpin(board.D19),
+                # self._dpin(board.D18),
+                # self._dpin(board.D15),
+                # self._dpin(board.D16),
+                # self._dpin(board.D17)
+            # ]
+            self.row_pins = [ #Rows 0 to 6
                 self._dpin(board.D1),
-                self._dpin(board.D2),
+                self._dpin(board.D0),
                 self._dpin(board.D3),
-                self._dpin(board.D4),
+                self._dpin(board.D2),
                 self._dpin(board.D5),
-                self._dpin(board.D6)
+                self._dpin(board.D4),
+                self._dpin(board.D7)
             ]
-            self.col_pins = [
-                self._dpin(board.D7), #Cols 0 to 20
-                self._dpin(board.D8),
+            self.col_pins = [ #Cols 0 to 20
+                self._dpin(board.D6),
                 self._dpin(board.D9),
-                self._dpin(board.D10),
+                self._dpin(board.D8),
                 self._dpin(board.D12),
-                self._dpin(board.D26),
+                self._dpin(board.D10),
                 self._dpin(board.D27),
-                self._dpin(board.D28),
+                self._dpin(board.D26),
                 self._dpin(board.D29),
-                self._dpin(board.D30),
+                self._dpin(board.D28),
                 self._dpin(board.D31),
-                self._dpin(board.D32),
+                self._dpin(board.D30),
                 self._dpin(board.D23),
-                self._dpin(board.D22),
+                self._dpin(board.D32),
                 self._dpin(board.D21),
-                self._dpin(board.D20),
+                self._dpin(board.D22),
                 self._dpin(board.D19),
-                self._dpin(board.D18),
+                self._dpin(board.D20),
                 self._dpin(board.D15),
-                self._dpin(board.D16),
-                self._dpin(board.D17)
+                self._dpin(board.D18),
+                self._dpin(board.D17),
+                self._dpin(board.D16)
             ]
         self.row_len = len(self.row_pins)
         self.col_len = len(self.col_pins)
@@ -57,8 +89,8 @@ class PinConfig(BaseKeeb):
         self.col_range = range(self.col_len)
         if self.leds_enabled==True:
             self.led_spi = [
-                self._led_spi(board.D24,board.D25,4),
-                self._led_spi(board.D13,board.D11,110)
+                self._led_spi(board.D25,board.D24,4),
+                self._led_spi(board.D11,board.D13,110)
             ]
         if self.screen_enabled==True:
             self.screen_spi = self._screen_spi(board.D37,board.D36,board.D35,board.D34,board.D33)

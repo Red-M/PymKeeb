@@ -15,10 +15,10 @@ class PycoKeeb(KeyMap):
         self.screen_enabled = False
         self.i2c_baud = 950000
         self.spi_baud = 9000000
-        self.led_spi_baud = 10000000
+        self.led_spi_baud = 8000000
         self.screen_spi_baud = 24000000
         self.key_refresh = 2000
-        self.led_refresh = 5
+        self.led_refresh = 15
         self.screen_refresh = 15
         self.type_array = type([])
         print("RedPycoKeeb")
@@ -41,12 +41,12 @@ class PycoKeeb(KeyMap):
                 release_keys.append(item)
         if len(keys)>0:
             # pass
-            print("Pressed: ", keys)
-            # self.update_hid(keys)
+            # print("Pressed: ", keys)
+            self.update_hid(keys)
         if len(release_keys)>0:
             # pass
-            print("Released: ", release_keys)
-            # self.update_hid(release_keys,True)
+            # print("Released: ", release_keys)
+            self.update_hid(release_keys,True)
         self.last_loopstep_keys = keys
 
     async def co_check_keys(self):

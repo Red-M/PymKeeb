@@ -1,0 +1,8 @@
+Reference, Quantity, Value, Footprint, Datasheet, Digikey Part No, Mouser No, element14 code
+C1 C2 ,2,"0805B101K100CT","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","","","791-0805B101K100CT","1856401"
+J0 ,1,"Conn_01x04","Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal","","1528-2751-ND","485-3955",""
+J1 ,1,"Conn_02x20_Top_Bottom","Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical","~","","649-95278-102-40LF",""
+J2 ,1,"Conn_01x04","Connector_JST:JST_EH_S7B-EH_1x07_P2.50mm_Horizontal","","1528-2751-ND","485-3955",""
+R1 ,1,"ERJ-6RED2003V","Resistors_SMD:R_0805_HandSoldering","~","","667-ERJ-6RED2003V",""
+U0 ,1,"Teensy4.1","Custom_pico:Teensy41","","","474-DEV-16771",""
+U1 ,1,"TXS0104ED","Package_SO:SOIC-14_3.9x8.7mm_P1.27mm","https://www.ti.com/lit/ds/symlink/txs0104e.pdf","296-34699-5-ND","595-TXS0104ED","TXS0104ED"

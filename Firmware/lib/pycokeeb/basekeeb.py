@@ -10,7 +10,7 @@ import displayio
 from adafruit_st7789 import ST7789
 
 import usb_hid
-from adafruit_hid.keyboard import Keyboard
+from adafruit_hid.keyboard import Keyboard, find_device
 from adafruit_hid.keycode import Keycode
 from adafruit_hid.consumer_control import ConsumerControl
 from adafruit_hid.consumer_control_code import ConsumerControlCode
@@ -34,7 +34,7 @@ class HybridKeyboard(Keyboard):
                 self._keyboard_device = device
                 break
         else:
-            raise ValueError("Could not find an HID keyboard device.")
+            raise ValueError("Could not find a HID keyboard device.")
 
         # report[0] modifiers
         # report[2:8] boot keyboard
@@ -47,7 +47,7 @@ class HybridKeyboard(Keyboard):
 
     def _add_keycode_to_report(self, keycode):
         modifier = Keycode.modifier_bit(keycode)
-        print (f"{keycode:02x} {modifier:02x}")
+        # print (f"{keycode:02x} {modifier:02x}")
         if modifier:
             # Set bit for this modifier.
             self.report_modifier[0] |= modifier
@@ -123,6 +123,7 @@ class BaseKeeb():
                 pin = self.col_pins[col]
                 if pin.value==False:
                     key_res = self.keymap[row][col]
+                    # print(str(row)+','+str(col))
                     if key_res==None:
                         continue
                     if isinstance(key_res,self.type_array):
@@ -136,6 +137,7 @@ class BaseKeeb():
         return(keys)
 
     def _led_spi(self,cl,da,dots=1):
+        # dotstar_string = adafruit_dotstar.DotStar(cl,da,dots,brightness=0,auto_write=False)
         dotstar_string = adafruit_dotstar.DotStar(cl,da,dots,brightness=0,baudrate=self.led_spi_baud,auto_write=False)
         # dotstar_string = adafruit_dotstar.DotStar(cl,da,dots,brightness=0,baudrate=self.led_spi_baud,auto_write=True)
         return(dotstar_string)
@@ -149,7 +151,23 @@ class BaseKeeb():
         return(ST7789(display_bus,width=320,height=240,rotation=270))
 
     def setup_hid_devices(self):
-        self.kbd = HybridKeyboard(usb_hid.devices)
+        keyboard_types = {
+            8: Keyboard,
+            24: HybridKeyboard
+        }
+
+        keyboard_device = find_device(usb_hid.devices,usage_page=0x1,usage=0x6)
+        for (report_length,constructor) in keyboard_types.items():
+            try:
+                keyboard_device.send_report(bytearray(report_length))
+            except:
+                continue
+            else:
+                kbd = constructor([keyboard_device])
+                break
+        else:
+            raise(ValueError("Could not find matching keyboard device"))
+        self.kbd = kbd
         self.cc = ConsumerControl(usb_hid.devices)
 
     def pick_hid(self,cc=False):
