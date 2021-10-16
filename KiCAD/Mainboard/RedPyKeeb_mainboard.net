@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source S:\git\RedPycoKeeb\KiCAD\Mainboard\RedPyKeeb_mainboard.sch)
-    (date "27/06/2021 12:42:43 AM")
-    (tool "Eeschema (5.1.9)-1")
+    (source S:\git\RedPymKeeb\KiCAD\Mainboard\RedPyKeeb_mainboard.sch)
+    (date "17/10/2021 12:37:57 AM")
+    (tool "Eeschema (5.1.10)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -1756,8 +1756,10 @@
       (tstamp 604BE051))
     (comp (ref J1)
       (value Conn_02x20_Top_Bottom)
-      (footprint Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical_SMD)
+      (footprint Custom_pico:PinHeader_2x20_P2.54mm_Vertical_SMD_doublesided)
       (datasheet ~)
+      (fields
+        (field (name "Mouser No") 200-SSM120LMDVBE))
       (libsource (lib conn) (part Conn_02x20_Top_Bottom) (description "Generic connector, double row, 02x20, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 609288FA))
@@ -3010,7 +3012,7 @@
     (library (logical conn)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/conn.lib"))
     (library (logical keyboard_parts)
-      (uri S:\git\RedPycoKeeb\KiCAD\Mainboard/../Libraries/kicad_lib_tmk/keyboard_parts.lib)))
+      (uri S:\git\RedPymKeeb\KiCAD\Mainboard/../Libraries/kicad_lib_tmk/keyboard_parts.lib)))
   (nets
     (net (code 1) (name "Net-(D6,0-Pad2)")
       (node (ref D6,0) (pin 2))

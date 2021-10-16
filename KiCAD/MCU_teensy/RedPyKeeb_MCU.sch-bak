@@ -31,7 +31,7 @@ Text GLabel 7300 2650 2    39   BiDi ~ 0
 KEY_COL16
 Text GLabel 7300 2550 2    39   BiDi ~ 0
 KEY_COL15
-Text GLabel 7300 3050 2    39   BiDi ~ 0
+Text GLabel 7300 2850 2    39   BiDi ~ 0
 KEY_COL18
 Text GLabel 7300 2750 2    39   BiDi ~ 0
 KEY_COL17
@@ -85,7 +85,7 @@ F 3 "" H 7300 2000 50  0001 C CNN
 $EndComp
 Text Notes 1900 1450 0    39   ~ 0
 0805B104K100CT for capacitors\n100nF
-Text GLabel 7300 2850 2    39   BiDi ~ 0
+Text GLabel 7300 3050 2    39   BiDi ~ 0
 KEY_COL20
 Text GLabel 5100 3350 0    39   Output ~ 0
 33_REF

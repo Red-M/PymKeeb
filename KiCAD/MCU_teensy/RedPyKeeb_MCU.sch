@@ -31,7 +31,7 @@ Text GLabel 7300 2650 2    39   BiDi ~ 0
 KEY_COL16
 Text GLabel 7300 2550 2    39   BiDi ~ 0
 KEY_COL15
-Text GLabel 7300 3050 2    39   BiDi ~ 0
+Text GLabel 7300 2850 2    39   BiDi ~ 0
 KEY_COL18
 Text GLabel 7300 2750 2    39   BiDi ~ 0
 KEY_COL17
@@ -85,7 +85,7 @@ F 3 "" H 7300 2000 50  0001 C CNN
 $EndComp
 Text Notes 1900 1450 0    39   ~ 0
 0805B104K100CT for capacitors\n100nF
-Text GLabel 7300 2850 2    39   BiDi ~ 0
+Text GLabel 7300 3050 2    39   BiDi ~ 0
 KEY_COL20
 Text GLabel 5100 3350 0    39   Output ~ 0
 33_REF
@@ -129,7 +129,7 @@ U 1 1 609288FA
 P 9200 1550
 F 0 "J1" V 9417 1496 50  0000 C CNN
 F 1 "Conn_02x20_Top_Bottom" V 9326 1496 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical_SMD" H 9200 1550 50  0001 C CNN
+F 2 "Custom_pico:PinHeader_2x20_P2.54mm_Vertical_SMD_doublesided" H 9200 1550 50  0001 C CNN
 F 3 "~" H 9200 1550 50  0001 C CNN
 F 4 "649-95278-102-40LF" H 9200 1550 50  0001 C CNN "Mouser No"
 F 5 "95278-102-40LF" H 9200 1550 50  0001 C CNN "Mfr No"

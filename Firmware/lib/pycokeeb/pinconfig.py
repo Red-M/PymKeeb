@@ -47,9 +47,9 @@ class PinConfig(BaseKeeb):
                 # self._dpin(board.D20),
                 # self._dpin(board.D19),
                 # self._dpin(board.D18),
-                # self._dpin(board.D15),
+                # self._dpin(board.D17),
                 # self._dpin(board.D16),
-                # self._dpin(board.D17)
+                # self._dpin(board.D15)
             # ]
             self.row_pins = [ #Rows 0 to 6
                 self._dpin(board.D1),
