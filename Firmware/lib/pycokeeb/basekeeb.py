@@ -1,8 +1,8 @@
 import board
 import time
 import busio
+import adafruit_pixelbuf
 import adafruit_dotstar
-import tasko
 from digitalio import DigitalInOut, Direction, Pull
 from adafruit_bus_device.i2c_device import I2CDevice
 from adafruit_bus_device.spi_device import SPIDevice
@@ -48,7 +48,9 @@ class BaseKeeb():
                 pin = self.col_pins[col]
                 time.sleep(0.0000000001) # This tiny sleep is the only debouncing the board should need.
                 if pin.value==False:
-                    key_res = self.keymap[row][col]
+                    # key_res = self.keymap[layer][row][col]
+                    key_res = self.keymap[0][row][col]
+                    # print(str(row)+','+str(col))
                     if key_res==None:
                         continue
                     if isinstance(key_res,self.type_array):

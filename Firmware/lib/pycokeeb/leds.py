@@ -1,6 +1,6 @@
 import time
 import random
-import tasko
+import asyncio
 from adafruit_hid.keyboard import Keyboard
 
 class LEDs():
@@ -20,20 +20,23 @@ class LEDs():
         for dot in range(self.dotstring_keys.n):
             self.dotstring_keys[dot] = (255, 0, 0)
         self.dotstring_keys.show()
+        for dot in range(self.dotstring_status.n):
+            self.dotstring_status[dot] = (255, 0, 0)
+        self.dotstring_status.show()
         # self.dotstring_status.auto_write = True
 
     def random_color(self):
         return(random.randrange(0, 255),random.randrange(0, 255),random.randrange(0, 255))
 
     async def main(self):
-        for status_light in self.status_keys:
-            status_key = self.status_keys[status_light]
-            if self.keeb.kbd.led_on(status_key)==True:
-                self.dotstring_status[status_light] = (255, 0, 0)
-            else:
-                self.dotstring_status[status_light] = (0, 0, 0)
-        self.dotstring_status.show()
-        await tasko.sleep(1/self.keeb.led_refresh)
+        # for status_light in self.status_keys:
+            # status_key = self.status_keys[status_light]
+            # if self.keeb.kbd.led_on(status_key)==True:
+                # self.dotstring_status[status_light] = (255, 0, 0)
+            # else:
+                # self.dotstring_status[status_light] = (0, 0, 0)
+        # self.dotstring_status.show()
+        await asyncio.sleep(1/self.keeb.led_refresh)
 
         # for dot in range(self.dotstring_keys.n):
             # self.dotstring_keys[dot] = self.random_color()

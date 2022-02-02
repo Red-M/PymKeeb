@@ -1,5 +1,5 @@
 import random
-import tasko
+import asyncio
 import terminalio
 import displayio
 from adafruit_display_text import label
@@ -25,4 +25,4 @@ class Screen():
 
     async def main(self):
         self.reset_screen()
-        await tasko.sleep(1/self.keeb.screen_refresh)
+        await asyncio.sleep(1/self.keeb.screen_refresh)

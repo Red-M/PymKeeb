@@ -12,4 +12,5 @@
   (lib (name MCU_RaspberryPi_and_Boards)(type KiCad)(uri ${KIPRJMOD}/../Libraries/RP_Silicon_KiCad/KiCadLibraries/MCU_RaspberryPi_and_Boards.pretty)(options "")(descr ""))
   (lib (name CrumpPrints)(type KiCad)(uri ${KIPRJMOD}/../Libraries/CrumpPrints.pretty)(options "")(descr ""))
   (lib (name teensy.pretty)(type KiCad)(uri ${KIPRJMOD}/../Libraries/teensy.pretty)(options "")(descr ""))
+  (lib (name Red_M.pretty)(type KiCad)(uri ${KIPRJMOD}/../Libraries/Red_M.pretty)(options "")(descr ""))
 )
